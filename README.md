@@ -16,6 +16,19 @@ convertissent.
 
 ---
 
+## Community
+
+Join the Scale Academy community to access courses, templates, 
+and AI prompts to become a world-class Creative Strategist.
+
+| Language | Community |
+|---|---|
+| 🇫🇷 Français | [Scale Academy — FR](https://www.skool.com/scale-academy-6184) |
+| 🇬🇧 English | *Coming soon* |
+| 🇪🇸 Español | *Coming soon* |
+
+---
+
 ## How Skills Work
 ```
 brand-guidelines (prerequisite — read by all skills first)
