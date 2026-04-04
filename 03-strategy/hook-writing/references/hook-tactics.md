@@ -1,4 +1,4 @@
-# Hook Tactics — 35 Types de Hooks
+# Hook Tactics — 42 Types de Hooks
 
 ## Structure d'une Fiche Tactic
 
@@ -328,14 +328,97 @@ Projette le prospect dans un futur précis après avoir utilisé le produit.
 
 ---
 
-## Index Rapide par Trigger
+### T36 — Belief (Croyance partagée)
+Nomme une croyance que le persona tient pour vraie — et la valide avant de la leverager.
+**Awareness :** Unaware / Problem Aware
+**Trigger :** TR2 Identity, TR6 Contrarian (selon la direction)
+**Template :** "Tu crois que [croyance]. Tu as raison — et voilà ce que ça révèle."
+**Exemple :** "Tu crois que travailler plus dur est la clé. Tu as raison sur un point — voilà lequel."
+**Distinction vs T05 Contrarian :** Belief valide d'abord, Contrarian contredit d'emblée.
+
+---
+
+### T37 — Explainer (Explication claire)
+Annonce une explication simple d'un concept complexe ou mal compris.
+**Awareness :** Problem Aware / Solution Aware
+**Trigger :** TR4 Curiosity Gap
+**Template :** "Laisse-moi t'expliquer [concept] en [temps / étapes courtes]."
+**Exemple :** "Laisse-moi t'expliquer pourquoi ton ROAS est trompeur — en 30 secondes."
+**Distinction vs T12 How-To :** Explainer clarifie un concept, How-To guide une action.
+
+---
+
+### T38 — If-Then (Condition)
+Pose une condition que le prospect remplit probablement — si vrai, la suite le concerne.
+**Awareness :** Tous niveaux
+**Trigger :** TR2 Identity, TR4 Curiosity Gap
+**Template :** "Si tu [condition précise], alors [conséquence / info pertinente]."
+**Exemple :** "Si tu dépenses plus de 1 000€/mois en pub sans système de test, alors cette vidéo te concerne."
+**Force :** Auto-sélection très précise — seuls ceux qui remplissent la condition continuent.
+
+---
+
+### T39 — Price Anchor (Ancre de prix)
+Établit une valeur élevée avant de révéler le prix réel — rend le coût paraître faible par comparaison.
+**Awareness :** Product Aware / Most Aware
+**Trigger :** TR8 Urgency, biais d'ancrage
+**Template :** "Ce que les agences facturent [montant élevé] pour faire — tu peux le faire seul(e)."
+**Exemple :** "Les agences Meta facturent 3 000€/mois pour ce que ce système fait automatiquement."
+**Usage :** BOF uniquement. Ne pas utiliser en TOF — le persona ne sait pas encore ce que ça vaut.
+
+---
+
+### T40 — Reasons Why (Raisons de croire)
+Donne plusieurs raisons concrètes qui justifient une action ou une croyance.
+**Awareness :** Solution Aware / Product Aware
+**Trigger :** TR5 Social Proof, TR4 Curiosity Gap
+**Template :** "[X] raisons pour lesquelles [résultat / décision] — et la [#] va te surprendre."
+**Exemple :** "3 raisons pour lesquelles les meilleures pubs de 2025 ne ressemblent à aucune pub — et la 3e va changer ta façon de briefe."
+**Force :** Le numéro crée l'anticipation. "Et la X va te surprendre" amplifie le curiosity gap.
+
+---
+
+### T41 — Relatability (Identification)
+Décrit une situation banale et précise que le persona vit régulièrement — reconnaissance instantanée.
+**Awareness :** Unaware / Problem Aware
+**Trigger :** TR2 Identity, TR3 Pain Agitation (doux)
+**Template :** "Tu connais ce moment où [situation précise et quotidienne] ?"
+**Exemple :** "Tu connais ce moment où tu relances ton tableau de bord Meta et les chiffres n'ont pas bougé ?"
+**Distinction vs T09 Empathy :** Relatability décrit une situation externe observable, Empathy nomme l'émotion interne.
+
+---
+
+### T42 — Reverse Psychology (Psychologie inverse)
+Dit au prospect de ne PAS faire quelque chose — ce qui le pousse précisément à vouloir le faire.
+**Awareness :** Tous niveaux
+**Trigger :** TR1 Pattern Interrupt, curiosité
+**Template :** "N'ouvre pas ce post si tu ne veux pas [résultat désirable]."
+**Exemple :** "Ne regarde pas cette vidéo si tu es satisfait(e) de tes résultats publicitaires actuels."
+**Usage :** À utiliser avec parcimonie — perd son effet si trop répété. Très fort en premier test d'un compte.
+
+---
+
+## Index Rapide par Trigger Psychologique (TR1–TR8)
 
 | Trigger | Tactics |
 |---|---|
-| Curiosité | T06, T12, T16, T22, T32 |
-| Aversion à la perte | T11, T14, T17, T29, T30 |
-| Identité | T07, T13, T10 |
-| Preuve / Crédibilité | T02, T25, T27 |
-| Empathie / Proximité | T09, T18, T33 |
-| Pattern interrupt | T04, T05, T15, T24 |
-| Aspiration | T01, T31, T35 |
+| TR1 Pattern Interrupt | T04, T05, T15, T24, T42 |
+| TR2 Identity Call-Out | T07, T10, T13, T36, T38, T41 |
+| TR3 Pain Agitation | T08, T17, T20, T30, T41 |
+| TR4 Curiosity Gap | T06, T12, T22, T32, T37, T38, T40 |
+| TR5 Social Proof | T02, T25, T27, T40 |
+| TR6 Contrarian | T04, T05, T15, T36 |
+| TR7 Aspiration | T01, T31, T35, T19 |
+| TR8 Urgency | T10, T11, T23, T29, T39 |
+
+## Quick Reference — Tactic par Objectif
+
+| Objectif | Tactics recommandées |
+|---|---|
+| Arrêter le scroll (TOF froid) | T24 Shocking, T04 Challenge, T01 Aspirational, T42 Reverse Psychology |
+| Faire se reconnaître | T07 Demographic, T41 Relatability, T13 Identity, T38 If-Then |
+| Agiter la douleur | T17 Pain Agitation, T20 Problem-First, T30 Warning, T14 Mistake |
+| Créer la curiosité | T06 Curiosity Gap, T22 Revelation, T15 Myth-Busting, T37 Explainer |
+| Prouver la crédibilité | T02 Authority, T25 Social Proof, T27 Transformation, T40 Reasons Why |
+| Lever une objection | T23 Risk Reversal, T34 Comparison, T33 Confession, T36 Belief |
+| Convertir (BOF) | T29 Urgency, T11 FOMO, T39 Price Anchor, T35 Future Pacing |

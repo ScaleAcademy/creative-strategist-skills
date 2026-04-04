@@ -26,18 +26,45 @@ Sans ces inputs, le brief sera basé sur des hypothèses — à labeler claireme
 
 ---
 
-## Phase 1 : Définir le Contexte Stratégique
+## Phase 1 : Cartographier Pain × Persona
+
+Avant de choisir un angle, construire la matrice douleur × persona.
+
+**Principe many-to-many :** Une même douleur peut résonner pour plusieurs personas différents. Un même persona peut avoir plusieurs douleurs. Chaque combinaison pain × persona est un brief potentiellement distinct.
+
+### Étape 1A — Lister les douleurs disponibles
+À partir des Buckets 1 & 3 du review-audit et du Layer 2 du persona :
+- Douleur 1 : [description courte]
+- Douleur 2 : [description courte]
+- Douleur 3 : [description courte]
+
+### Étape 1B — Lister les personas disponibles
+Un ou plusieurs personas issus de l'audience-research :
+- Persona A : [Prénom fictif] — Awareness [#]
+- Persona B : [Prénom fictif] — Awareness [#]
+
+### Étape 1C — Choisir la combinaison du brief
+Sélectionner la combinaison pain × persona la plus prioritaire pour ce brief.
+
+> **Ce brief cible :** [Persona X] souffrant de [Douleur Y] au niveau d'awareness [Z].
+
+Cette phrase est l'ancre stratégique du brief. Tout le reste en découle.
+
+---
+
+## Phase 2 : Définir le Contexte Stratégique
 
 Synthétiser depuis les documents disponibles :
 
 1. **Persona ciblé** — Qui ? Quel layer dominant ?
-2. **Awareness stage** — Où en est l'audience par rapport au problème et au produit ?
-3. **Objectif de la creative** — Que doit-elle produire comme action ?
-4. **Phase funnel** — TOF / MOF / BOF / Re-engage
+2. **Douleur adressée** — Quelle douleur spécifique ce brief traite-t-il ?
+3. **Awareness stage** — Où en est ce persona par rapport au problème et au produit ?
+4. **Objectif de la creative** — Que doit-elle produire comme action ?
+5. **Phase funnel** — TOF / MOF / BOF / Re-engage
 
 ---
 
-## Phase 2 : Sélectionner l'Angle
+## Phase 3 : Sélectionner l'Angle
 
 Choisir parmi les 4 catégories d'angles.
 
@@ -54,7 +81,7 @@ Pour le cadre complet : voir [references/ad-angles.md](references/ad-angles.md)
 
 ---
 
-## Phase 3 : Choisir la Mécanique Créative
+## Phase 4 : Choisir la Mécanique Créative
 
 Sélectionner la mécanique qui correspond à l'angle et à l'émotion dominante.
 
@@ -62,10 +89,15 @@ Pour le cadre des 8 mécaniques : voir [references/creative-mechanics.md](../hoo
 
 ---
 
-## Phase 4 : Définir le Format et les Specs
+## Phase 5 : Définir le Format et les Specs
+
+Choisir le format visuel en cohérence avec la mécanique et l'awareness stage.
+
+Pour la bibliothèque complète : voir [references/visual-formats.md](references/visual-formats.md)
 
 | Décision | Options |
 |---|---|
+| Format visuel | F01–F45 (voir visual-formats.md) |
 | Medium | Vidéo / Statique / Carousel |
 | Durée (si vidéo) | 15s / 30s / 60s / 90s+ |
 | Ratio | 9:16 (Stories/Reels) / 4:5 (Feed) / 1:1 (Multi) |
@@ -74,14 +106,18 @@ Pour le cadre des 8 mécaniques : voir [references/creative-mechanics.md](../hoo
 
 ---
 
-## Phase 5 : Écrire le Brief
+## Phase 6 : Écrire le Brief
 
 ```markdown
 # Creative Brief — [Marque] — [Date]
 *Statut : Draft / Validé*
 
+## Ancre Stratégique
+> "[Persona X] souffrant de [Douleur Y] au niveau d'awareness [Z]."
+
 ## Contexte
 - Persona : [Prénom fictif] — [Awareness stage]
+- Douleur adressée : [Douleur spécifique issue du pain × persona mapping]
 - Objectif : [Acquisition / Lead / Awareness / Retargeting]
 - Phase funnel : [TOF / MOF / BOF]
 - KPI primaire : [CPA / CPL / CTR / ROAS cible]
@@ -103,10 +139,11 @@ Pour le cadre des 8 mécaniques : voir [references/creative-mechanics.md](../hoo
 
 ## Hook Direction
 [Direction de la première ligne / première seconde — ne pas écrire le hook ici]
+Trigger dominant : [TR1–TR8]
 Tactic recommandée : [T01–T35]
-Trigger psychologique : [biais ou désir LF]
 
 ## Format
+- Format visuel : [F##] — [Nom du format]
 - Medium : [Vidéo / Statique / Carousel]
 - Durée : [Xs]
 - Ratio : [9:16 / 4:5 / 1:1]

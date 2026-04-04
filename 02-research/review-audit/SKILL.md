@@ -71,9 +71,25 @@ Ce qui avait failli les empêcher d'acheter.
 Comment leur vie a changé après.
 > Signal : "maintenant", "depuis que", "je n'aurais jamais cru", "ça a tout changé"
 
-### Bucket 5 — Phrases Ad-Ready
+### Bucket 5 — Phrases Ad-Ready ⭐
 Formulations directement utilisables dans un hook ou une accroche — sans modification ou presque.
-> Critère : se lit comme quelque chose qu'un humain dirait à un ami, pas comme du marketing.
+
+**Critères de qualification pour le Bucket 5 :**
+Une phrase mérite le Bucket 5 si elle répond à au moins 3 de ces 5 critères :
+- [ ] Se lit comme quelque chose qu'un humain dirait à un ami (pas du marketing)
+- [ ] Contient une émotion nommée ou fortement implicite
+- [ ] Est spécifique à une situation concrète (pas générique)
+- [ ] Crée une curiosité ou une tension naturelle
+- [ ] Utilise la langue exacte du persona — aucun mot marketé
+
+**Règle de placement :** Les phrases qui remplissent ces critères vont UNIQUEMENT en Bucket 5, pas dispersées dans les autres buckets. Elles peuvent être extraites de n'importe quel bucket source (1, 2, 3 ou 4).
+
+**Exemples de phrases Bucket 5 :**
+- ✅ "J'en pouvais plus de me lever le matin en me demandant à quoi ça sert."
+- ✅ "C'est la première fois que je me sens pas jugée pour ce que je mange."
+- ✅ "J'avais tellement honte d'en parler à mon médecin."
+- ❌ "Le produit est excellent et je le recommande à tous." → Bucket 3 ou discard
+- ❌ "Livraison rapide, très satisfait." → Score 1, discard
 
 ---
 
