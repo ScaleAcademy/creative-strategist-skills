@@ -6,84 +6,146 @@
 Built by [Scale Academy](https://scale-academy.fr) — the francophone 
 training platform for Creative Strategists.
 
----
+**Scale Academy** forme les Creative Strategists francophones au 
+métier de demain : comprendre pourquoi une creative fonctionne, 
+construire des hypothèses solides, produire des publicités qui 
+convertissent.
 
-## How Skills Work Together
-
-Skills reference each other and build on shared context.
-**brand-guidelines** is the foundation — every skill checks it first.
-
-                    ┌─────────────────────────────────┐
-                    │         brand-guidelines         │
-                    │  (read by all other skills first)│
-                    └────────────────┬────────────────┘
-                                     │
-     ┌──────────────┬────────────────┼────────────────┬──────────────┐
-     ▼              ▼                ▼                ▼              ▼
-┌──────────┐ ┌──────────┐  ┌──────────────┐  ┌──────────┐  ┌──────────────┐
-│  Audit   │ │ Research │  │   Strategy   │  │Production│  │  Analysis    │
-├──────────┤ ├──────────┤  ├──────────────┤  ├──────────┤  ├──────────────┤
-│brand-    │ │market-   │  │creative-     │  │static-   │  │ad-analysis   │
-│guidelines│ │research  │  │brief         │  │production│  │account-audit │
-│brand-    │ │audience- │  │message-      │  │video-    │  │strategy-gap  │
-│health    │ │research  │  │sequencing    │  │production│  │              │
-│brand-    │ │review-   │  │hook-writing  │  │ai-video- │  │              │
-│alignment │ │audit     │  │              │  │production│  │              │
-│          │ │customer- │  │              │  │campaign- │  │              │
-│          │ │reality   │  │              │  │setup     │  │              │
-└────┬─────┘ └────┬─────┘  └──────┬───────┘  └────┬─────┘  └──────┬───────┘
-     │            │               │               │               │
-     └────────────┴───────┬───────┴───────────────┴───────────────┘
-                          │
-        Skills cross-reference each other:
-          brand-guidelines → all skills (prerequisite)
-          review-audit → hook-writing, creative-brief
-          audience-research → creative-brief, hook-writing
-          customer-reality → creative-brief, hook-writing
-          creative-brief ↔ hook-writing ↔ message-sequencing
-          campaign-setup → ad-analysis → strategy-gap
+3 pillars: **Psychologique** (Schwartz) · **Créatif** (Da Vinci) · 
+**Analyse** (Hopkins)
 
 ---
 
-## Workflow
+## How Skills Work
+```
+brand-guidelines (prerequisite — read by all skills first)
+         │
+         ├── 01-audit
+         ├── 02-research  
+         ├── 03-strategy
+         ├── 04-production
+         └── 05-analysis
+```
 
-Audit → Research → Strategy → Production → Analysis
-
-Each phase feeds the next. No brief without research.
-No campaign without a validated brief.
+Skills cross-reference each other:
+- `review-audit` → `hook-writing`, `creative-brief`
+- `audience-research` → `creative-brief`, `hook-writing`
+- `creative-brief` ↔ `hook-writing` ↔ `message-sequencing`
+- `campaign-setup` → `ad-analysis` → `strategy-gap`
 
 ---
 
-## Available Skills
+## 01 — Audit
 
-| Phase | Skill | Description |
+**Skills**
+| Skill | Input | Output |
 |---|---|---|
-| 01-audit | brand-guidelines | Brand intake + context document |
-| 01-audit | brand-health | Performance baseline from ad account |
-| 01-audit | brand-alignment | Business objectives + constraints |
-| 02-research | market-research | Competitive landscape + sophistication |
-| 02-research | audience-research | Persona Deep Dive — 3 layers |
-| 02-research | review-audit | Verbatim mining from customer reviews |
-| 02-research | customer-reality | Micro-moments + emotional mapping |
-| 03-strategy | creative-brief | Complete brief — angle, hook, specs |
-| 03-strategy | message-sequencing | Full-funnel sequence plan |
-| 03-strategy | hook-writing | Psychologically-driven hooks |
-| 04-production | static-production | Nano Banana prompts + designer briefs |
-| 04-production | video-production | Technical brief for human editors |
-| 04-production | ai-video-production | VEO3 + Kling scene prompts |
-| 04-production | campaign-setup | Meta campaign structure + nomenclature |
-| 05-analysis | ad-analysis | Creative deconstruction + next tests |
-| 05-analysis | account-audit | Full account performance review |
-| 05-analysis | strategy-gap | Missing angles, personas, stages |
+| `brand-guidelines` | URL + entretien client | brand-context.md |
+| `brand-health` | Accès dashboard ads | Rapport baseline KPIs |
+| `brand-alignment` | Conversation founder | Objectifs réels + contraintes |
+
+**References**
+- `checklist.md` — Brand guidelines checklist
+- `brand-health.md` — Benchmarks Meta Ads
+- `brand-alignment.md` — Growth stage → creative implication
+
+---
+
+## 02 — Research
+
+**Skills**
+| Skill | Input | Output |
+|---|---|---|
+| `market-research` | Marché + concurrents | Sophistication + positioning gaps |
+| `audience-research` | Données client | Persona Deep Dive Layer 1/2/3 |
+| `review-audit` | Verbatims bruts | Bibliothèque 30+ verbatims par thème |
+| `customer-reality` | Persona + verbatims | Micro-moments + emotional mapping |
+
+**References**
+- `sophistication.md` — 5 niveaux Schwartz
+- `positioning.md` — Cartographie concurrents, white spaces
+- `competitors.md` — Sources + méthode de recherche
+- `awareness-levels.md` — Unaware → Most Aware + implications créatives
+- `life-force-8.md` — 8 désirs innés (Whitman)
+- `persona-layers.md` — Layer 1 / 2 / 3
+- `generational-insights.md` — Contexte générationnel
+- `content-consumption.md` — Plateformes + registre par canal
+- `marketing-psychology.md` — Biais cognitifs appliqués
+- `sources.md` — Amazon / Reddit / Meta comments / surveys
+- `micro-moments.md` — Situations déclenchantes
+- `emotional-mapping.md` — Q1 émotion / Q2 privée-sociale / Q3 aiguë-chronique
+
+---
+
+## 03 — Strategy
+
+**Skills**
+| Skill | Input | Output |
+|---|---|---|
+| `creative-brief` | Persona + awareness + objectif | Brief créatif complet |
+| `message-sequencing` | Brief + awareness de départ | Plan 4–5 touchpoints × awareness × CTA |
+| `hook-writing` | Brief + persona + biais | 10 hooks calibrés par awareness stage |
+
+**References**
+- `ad-angles.md` — Matrice C1/C2/C3/C4
+- `creative-mechanics.md` — 8 mechanics (Implied Answer, Reframe, Trojan Horse…)
+- `psych-biases.md` — Biais (FOMO, perte, preuve sociale…)
+- `persuasion-principles.md` — 7 principes Cialdini
+- `emotional-drivers.md` — LF8 + FROM → TO
+- `ad-formulas.md` — PAS / BAB / FAB / OCR
+- `visual-formats.md` — 45+ formats (Yapper, VSL, Before/After…)
+- `styles-library.md` — S101 → S403 (lien Canva)
+- `hook-tactics.md` — 35+ types de hooks
+- `hook-voice-patterns.md` — Swipe file — structures natives du feed
+- `copy-frameworks.md` — Formules headlines + CTA
+- `sequencing-plan.md` — TOF / MOF / BOF / Re-engage
+
+---
+
+## 04 — Production
+
+**Skills**
+| Skill | Input | Output |
+|---|---|---|
+| `static-production` | Brief validé | Prompt Nano Banana + brief designer |
+| `video-production` | Brief validé | Brief technique séquencé pour monteur |
+| `ai-video-production` | Brief + images référence | Prompts VEO3 / Kling scène par scène |
+| `campaign-setup` | Créas validées | Structure campagne Meta prête à lancer |
+
+**References**
+- `templates.md` — Library formats statiques (S101–S105)
+- `styles.md` — Styles visuels par S-code
+- `hook-structure.md` — Hook visuel / audio / texte / first frame
+- `pacing.md` — Rythme, transitions, sous-titres animés
+- `sounds.md` — Styles musicaux par format + sources
+- `scene-structure.md` — Durée, angle caméra, motion, lighting
+- `character-bible.md` — SCOTT (robot AutoTrades)
+- `nomenclature.md` — Convention nommage campaigns / ad sets / ads
+- `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > cible…
+- `campaign-structure.md` — P1 test / P2 retarget / P3 scale / P4 re-engage
+
+---
+
+## 05 — Analysis
+
+**Skills**
+| Skill | Input | Output |
+|---|---|---|
+| `ad-analysis` | Créa + métriques | Déconstruction + hypothèses + 3 tests |
+| `account-audit` | Accès compte Meta + période | Rapport macro — top performers + gaps |
+| `strategy-gap` | Données campagne actuelle | Angles manquants + personas non couverts |
+
+**References**
+- `kpi-benchmarks.md` — Hook Rate / CTR / CPA par plateforme
+- `pattern-library.md` — Patterns gagnants (document vivant)
+- `analysis-framework.md` — Métriques clés, comment lire les données
+- `gap-matrix.md` — Awareness non couverts / angles non testés
 
 ---
 
 ## Installation
 ```bash
-# Clone the repo
 git clone https://github.com/ScaleAcademy/creative-strategist-skills.git
-
-# Copy skills into your project
 cp -r creative-strategist-skills/ .agents/skills/
 ```
 
