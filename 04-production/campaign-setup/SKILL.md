@@ -1,12 +1,12 @@
 ---
 name: campaign-setup
-description: "Structures the Meta campaign for validated creatives: naming convention, campaign/ad set/ad architecture, budget allocation, and kill rules. Use after creative production is complete and assets are ready to upload. Trigger on: 'structure la campagne', 'setup Meta', 'nomenclature', 'comment organiser les campagnes'. Produces a ready-to-launch campaign structure."
+description: "Structures paid social campaigns (Meta, TikTok, Google, Snapchat, Pinterest, LinkedIn): naming convention, campaign/ad set/ad architecture, audience setup, budget allocation, and kill rules. Use after creative production is complete and assets are ready to upload. Trigger on: 'structure la campagne', 'setup Meta / TikTok / Google', 'nomenclature', 'comment organiser les campagnes', 'paramètres de la régie'. Produces a ready-to-launch campaign structure."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   status: beta
-  tags: [production, meta-ads, campaign, setup, nomenclature]
-  inputs: [creatives validées prêtes à uploader, objectif campagne, budget]
-  outputs: [structure campagne Meta + nomenclature + kill rules]
+  tags: [production, paid-social, campaign, setup, nomenclature, meta, tiktok, google, snapchat, pinterest, linkedin]
+  inputs: [creatives validées prêtes à uploader, objectif campagne, budget, plateforme cible]
+  outputs: [structure campagne + nomenclature + kill rules pour la plateforme choisie]
   depends-on: [creative-brief, static-production, video-production]
 ---
 
@@ -126,6 +126,16 @@ Ad Sets :
 ```
 
 ---
+
+## Références Plateformes
+
+- [meta-ads-parameters.md](references/meta-ads-parameters.md) — Objectifs, audiences, enchères, placements, pixel Meta
+- [tiktok-ads-parameters.md](references/tiktok-ads-parameters.md) — Structure TikTok Ads, Spark Ads, ciblage, enchères
+- [google-ads-parameters.md](references/google-ads-parameters.md) — YouTube Ads, Performance Max, Display, Google Ads
+- [snapchat-ads-parameters.md](references/snapchat-ads-parameters.md) — Snap Ads, audiences, formats, specs
+- [pinterest-ads-parameters.md](references/pinterest-ads-parameters.md) — Pinterest Ads, ciblage mots-clés, formats visuels
+- [linkedin-ads-parameters.md](references/linkedin-ads-parameters.md) — LinkedIn Ads B2B, Lead Gen Forms, ciblage pro
+- [ad-formats-specs.md](references/ad-formats-specs.md) — Specs cross-plateforme image / vidéo / texte / safe zones
 
 ## Related Skills
 
