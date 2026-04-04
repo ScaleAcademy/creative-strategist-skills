@@ -4,9 +4,24 @@ description: "Runs a structured brand intake interview then researches the brand
 metadata:
   version: 1.0.0
   status: stable
+  tags: [audit, brand, foundation, prerequisite]
+  inputs: [URL de la marque, entretien client]
+  outputs: [brand-context-[brandname].md]
+  depends-on: []
 ---
 
 # Brand Guidelines
+
+## Before Starting
+
+Aucun prérequis — ce skill est le point d'entrée de toute stratégie créative.
+
+Confirme avant de commencer :
+- [ ] Tu as accès à l'URL de la marque
+- [ ] Tu peux échanger avec le client ou un brief est disponible
+- [ ] Aucun `brand-context.md` n'existe déjà dans le projet (si oui, le charger plutôt que le recréer)
+
+---
 
 This skill does two things in sequence:
 1. **Interviews** the user to collect seed information about the brand

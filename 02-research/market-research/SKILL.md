@@ -4,9 +4,25 @@ description: "Maps the competitive landscape and market sophistication level for
 metadata:
   version: 1.0.0
   status: stable
+  tags: [research, competitors, sophistication, positioning]
+  inputs: [brand-context.md, catégorie produit]
+  outputs: [rapport marché — niveau sophistication, carte concurrents, white spaces, implications créatives]
+  depends-on: [brand-guidelines]
 ---
 
 # Market Research
+
+## Before Starting
+
+Confirme avant de commencer :
+- [ ] `brand-context.md` disponible (`brand-guidelines` doit avoir été exécuté)
+- [ ] Catégorie produit clairement définie (ex : "suppléments magnésium" pas juste "santé")
+- [ ] Accès à Meta Ad Library (facebook.com/ads/library) disponible
+- [ ] Au moins 3 concurrents identifiés ou à identifier
+
+Plus la catégorie est précise, plus l'analyse de sophistication est fiable.
+
+---
 
 This skill maps the competitive landscape and market sophistication before any creative strategy begins.
 

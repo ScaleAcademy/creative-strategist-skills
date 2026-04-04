@@ -4,9 +4,24 @@ description: "Aligns creative strategy with the brand's real business objectives
 metadata:
   version: 1.0.0
   status: beta
+  tags: [audit, strategy, objectives, constraints]
+  inputs: [conversation avec founder ou media buyer]
+  outputs: [rapport d'alignement — objectifs réels, stage de croissance, capacité production]
+  depends-on: [brand-guidelines]
 ---
 
 # Brand Alignment
+
+## Before Starting
+
+Confirme avant de commencer :
+- [ ] Accès à une conversation avec le founder, CMO, ou media buyer (pas un intermédiaire)
+- [ ] `brand-context.md` disponible ou `brand-guidelines` lancé en parallèle
+- [ ] Contexte business minimum connu : secteur, produit principal, budget approximatif
+
+Si le décideur n'est pas disponible : ce skill perd sa valeur — ne pas le remplacer par des hypothèses.
+
+---
 
 This skill surfaces the real objectives and constraints before creative work begins.
 

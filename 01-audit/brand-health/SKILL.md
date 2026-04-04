@@ -4,9 +4,25 @@ description: "Establishes a performance baseline from existing ad account data. 
 metadata:
   version: 1.0.0
   status: beta
+  tags: [audit, performance, baseline, meta-ads]
+  inputs: [accès dashboard Meta Ads, période minimum 30 jours]
+  outputs: [rapport baseline KPIs — top/bottom performers, gaps stratégiques]
+  depends-on: [brand-guidelines]
 ---
 
 # Brand Health
+
+## Before Starting
+
+Confirme avant de commencer :
+- [ ] Accès au dashboard Meta Ads (Business Manager ou Ads Manager)
+- [ ] Période définie — minimum 30 jours, recommandé 90 jours
+- [ ] `brand-context.md` disponible (sinon lancer `brand-guidelines` d'abord)
+- [ ] KPI principal connu : optimisation sur leads, purchases, ou ROAS ?
+
+Si l'accès dashboard n'est pas disponible : demander un export CSV des données de campagne.
+
+---
 
 This skill produces a baseline performance report before any new creative strategy is deployed.
 
