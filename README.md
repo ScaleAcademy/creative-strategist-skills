@@ -3,16 +3,15 @@
 > A systematic skill library for Creative Strategists building 
 > high-performance paid social campaigns.
 
-Built by [Scale Academy](https://scale-academy.fr) — the francophone 
-training platform for Creative Strategists.
+Built by [Scale Academy](https://scale-academy.fr) — the training 
+platform for Creative Strategists.
 
-**Scale Academy** forme les Creative Strategists francophones au 
-métier de demain : comprendre pourquoi une creative fonctionne, 
-construire des hypothèses solides, produire des publicités qui 
-convertissent.
+**Scale Academy** trains Creative Strategists in the profession of tomorrow: 
+understanding why a creative works, building solid hypotheses, producing 
+ads that convert.
 
-3 pillars: **Psychologique** (Schwartz) · **Créatif** (Da Vinci) · 
-**Analyse** (Hopkins)
+3 pillars: **Psychological** (Schwartz) · **Creative** (Da Vinci) · 
+**Analysis** (Hopkins)
 
 ---
 
@@ -41,6 +40,7 @@ brand-guidelines (prerequisite — read by all skills first)
 ```
 
 Skills cross-reference each other:
+- `brand-guidelines` → `brand-research` → `brand-specs` → `static-production`
 - `review-audit` → `hook-writing`, `creative-brief`
 - `audience-research` → `creative-brief`, `hook-writing`
 - `creative-brief` ↔ `hook-writing` ↔ `message-sequencing`
@@ -53,13 +53,17 @@ Skills cross-reference each other:
 **Skills**
 | Skill | Input | Output |
 |---|---|---|
-| `brand-guidelines` | URL + entretien client | brand-context.md |
-| `brand-health` | Accès dashboard ads | Rapport baseline KPIs |
-| `brand-alignment` | Conversation founder | Objectifs réels + contraintes |
+| `brand-guidelines` | URL + client interview | brand-context.md |
+| `brand-research` | Brand URL + name + hero product | brand-research-brief.json |
+| `brand-specs` | brand-research-brief.json | brand-spec-card.png + visual-style-card.png |
+| `brand-health` | Ads dashboard access | Baseline KPI report |
+| `brand-alignment` | Founder conversation | Real objectives + constraints |
 
 **References**
 - `checklist.md` — Brand guidelines checklist
-- `brand-health.md` — Benchmarks Meta Ads
+- `brand-spec-card-prompt.md` — HTML prompt for Brand Spec Card
+- `visual-style-card-prompt.md` — HTML prompt for Visual Style Card
+- `brand-health.md` — Meta Ads benchmarks
 - `brand-alignment.md` — Growth stage → creative implication
 
 ---
@@ -69,24 +73,24 @@ Skills cross-reference each other:
 **Skills**
 | Skill | Input | Output |
 |---|---|---|
-| `market-research` | Marché + concurrents | Sophistication + positioning gaps |
-| `audience-research` | Données client | Persona Deep Dive Layer 1/2/3 |
-| `review-audit` | Verbatims bruts | Bibliothèque 30+ verbatims par thème |
+| `market-research` | Market + competitors | Sophistication + positioning gaps |
+| `audience-research` | Client data | Persona Deep Dive Layer 1/2/3 |
+| `review-audit` | Raw verbatims | Library of 30+ verbatims by theme |
 | `customer-reality` | Persona + verbatims | Micro-moments + emotional mapping |
 
 **References**
-- `sophistication.md` — 5 niveaux Schwartz
-- `positioning.md` — Cartographie concurrents, white spaces
-- `competitors.md` — Sources + méthode de recherche
-- `awareness-levels.md` — Unaware → Most Aware + implications créatives
-- `life-force-8.md` — 8 désirs innés (Whitman)
+- `sophistication.md` — 5 Schwartz levels
+- `positioning.md` — Competitor map, white spaces
+- `competitors.md` — Sources + research method
+- `awareness-levels.md` — Unaware → Most Aware + creative implications
+- `life-force-8.md` — 8 innate desires (Whitman)
 - `persona-layers.md` — Layer 1 / 2 / 3
-- `generational-insights.md` — Contexte générationnel
-- `content-consumption.md` — Plateformes + registre par canal
-- `marketing-psychology.md` — Biais cognitifs appliqués
+- `generational-insights.md` — Generational context
+- `content-consumption.md` — Platforms + register by channel
+- `marketing-psychology.md` — Applied cognitive biases
 - `sources.md` — Amazon / Reddit / Meta comments / surveys
-- `micro-moments.md` — Situations déclenchantes
-- `emotional-mapping.md` — Q1 émotion / Q2 privée-sociale / Q3 aiguë-chronique
+- `micro-moments.md` — Trigger situations
+- `emotional-mapping.md` — Q1 emotion / Q2 private-social / Q3 acute-chronic
 
 ---
 
@@ -95,22 +99,22 @@ Skills cross-reference each other:
 **Skills**
 | Skill | Input | Output |
 |---|---|---|
-| `creative-brief` | Persona + awareness + objectif | Brief créatif complet |
-| `message-sequencing` | Brief + awareness de départ | Plan 4–5 touchpoints × awareness × CTA |
-| `hook-writing` | Brief + persona + biais | 10 hooks calibrés par awareness stage |
+| `creative-brief` | Persona + awareness + objective | Complete creative brief |
+| `message-sequencing` | Brief + starting awareness | 4–5 touchpoint plan × awareness × CTA |
+| `hook-writing` | Brief + persona + biases | 10 hooks calibrated by awareness stage |
 
 **References**
-- `ad-angles.md` — Matrice C1/C2/C3/C4
+- `ad-angles.md` — C1/C2/C3/C4 matrix
 - `creative-mechanics.md` — 8 mechanics (Implied Answer, Reframe, Trojan Horse…)
-- `psych-biases.md` — Biais (FOMO, perte, preuve sociale…)
-- `persuasion-principles.md` — 7 principes Cialdini
+- `psych-biases.md` — Biases (FOMO, loss, social proof…)
+- `persuasion-principles.md` — 7 Cialdini principles
 - `emotional-drivers.md` — LF8 + FROM → TO
 - `ad-formulas.md` — PAS / BAB / FAB / OCR
 - `visual-formats.md` — 45+ formats (Yapper, VSL, Before/After…)
-- `styles-library.md` — S101 → S403 (lien Canva)
-- `hook-tactics.md` — 35+ types de hooks
-- `hook-voice-patterns.md` — Swipe file — structures natives du feed
-- `copy-frameworks.md` — Formules headlines + CTA
+- `styles-library.md` — S101 → S403 (Canva link)
+- `hook-tactics.md` — 42 hook types
+- `hook-voice-patterns.md` — Swipe file — native feed structures
+- `copy-frameworks.md` — Headline + CTA formulas
 - `sequencing-plan.md` — TOF / MOF / BOF / Re-engage
 
 ---
@@ -120,21 +124,21 @@ Skills cross-reference each other:
 **Skills**
 | Skill | Input | Output |
 |---|---|---|
-| `static-production` | Brief validé | Prompt Nano Banana + brief designer |
-| `video-production` | Brief validé | Brief technique séquencé pour monteur |
-| `ai-video-production` | Brief + images référence | Prompts VEO3 / Kling scène par scène |
-| `campaign-setup` | Créas validées | Structure campagne Meta prête à lancer |
+| `static-production` | Validated brief | Nano Banana prompt + designer brief |
+| `video-production` | Validated brief | Sequenced technical brief for editor |
+| `ai-video-production` | Brief + reference images | VEO3 / Kling scene-by-scene prompts |
+| `campaign-setup` | Validated creatives | Ready-to-launch Meta campaign structure |
 
 **References**
-- `templates.md` — Library formats statiques (S101–S105)
-- `styles.md` — Styles visuels par S-code
-- `hook-structure.md` — Hook visuel / audio / texte / first frame
-- `pacing.md` — Rythme, transitions, sous-titres animés
-- `sounds.md` — Styles musicaux par format + sources
-- `scene-structure.md` — Durée, angle caméra, motion, lighting
-- `character-bible.md` — SCOTT (robot AutoTrades)
-- `nomenclature.md` — Convention nommage campaigns / ad sets / ads
-- `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > cible…
+- `templates.md` — Static format library (S101–S105)
+- `styles.md` — Visual styles by S-code
+- `hook-structure.md` — Visual / audio / text / first frame hook
+- `pacing.md` — Rhythm, transitions, animated subtitles
+- `sounds.md` — Music styles by format + sources
+- `scene-structure.md` — Duration, camera angle, motion, lighting
+- `character-bible.md` — SCOTT (AutoTrades robot)
+- `naming-convention.md` — Campaign / ad set / ad naming convention
+- `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > target…
 - `campaign-structure.md` — P1 test / P2 retarget / P3 scale / P4 re-engage
 
 ---
@@ -144,15 +148,15 @@ Skills cross-reference each other:
 **Skills**
 | Skill | Input | Output |
 |---|---|---|
-| `ad-analysis` | Créa + métriques | Déconstruction + hypothèses + 3 tests |
-| `account-audit` | Accès compte Meta + période | Rapport macro — top performers + gaps |
-| `strategy-gap` | Données campagne actuelle | Angles manquants + personas non couverts |
+| `ad-analysis` | Creative + metrics | Deconstruction + hypotheses + 3 tests |
+| `account-audit` | Meta account access + period | Macro report — top performers + gaps |
+| `strategy-gap` | Current campaign data | Missing angles + uncovered personas |
 
 **References**
-- `kpi-benchmarks.md` — Hook Rate / CTR / CPA par plateforme
-- `pattern-library.md` — Patterns gagnants (document vivant)
-- `analysis-framework.md` — Métriques clés, comment lire les données
-- `gap-matrix.md` — Awareness non couverts / angles non testés
+- `kpi-benchmarks.md` — Hook Rate / CTR / CPA by platform
+- `pattern-library.md` — Winning patterns (living document)
+- `analysis-framework.md` — Key metrics, how to read the data
+- `gap-matrix.md` — Uncovered awareness / untested angles
 
 ---
 
