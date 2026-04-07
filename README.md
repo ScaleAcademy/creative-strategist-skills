@@ -153,7 +153,6 @@ Skills cross-reference each other:
 | `static-production` | Validated brief | Nano Banana prompt + designer brief |
 | `video-production` | Validated brief | Sequenced technical brief for editor |
 | `ai-video-production` | Brief + reference images | VEO3 / Kling scene-by-scene prompts |
-| `campaign-setup` | Validated creatives | Ready-to-launch Meta campaign structure |
 
 **References**
 - `templates.md` — Static format library (S101–S105)
@@ -163,9 +162,6 @@ Skills cross-reference each other:
 - `sounds.md` — Music styles by format + sources
 - `scene-structure.md` — Duration, camera angle, motion, lighting
 - `character-bible.md` — SCOTT (AutoTrades robot)
-- `naming-convention.md` — Campaign / ad set / ad naming convention
-- `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > target…
-- `campaign-structure.md` — P1 test / P2 retarget / P3 scale / P4 re-engage
 
 **Agents de validation**
 | Agent | Validates | Min score |
@@ -183,12 +179,16 @@ Skills cross-reference each other:
 | `ad-analysis` | Creative + metrics | Deconstruction + hypotheses + 3 tests |
 | `account-audit` | Meta account access + period | Macro report — top performers + gaps |
 | `strategy-gap` | Current campaign data | Missing angles + uncovered personas |
+| `campaign-setup` | Validated creatives | Ready-to-launch Meta campaign structure |
 
 **References**
 - `kpi-benchmarks.md` — Hook Rate / CTR / CPA by platform
 - `pattern-library.md` — Winning patterns (living document)
 - `analysis-framework.md` — Key metrics, how to read the data
 - `gap-matrix.md` — Uncovered awareness / untested angles
+- `naming-convention.md` — Campaign / ad set / ad naming convention
+- `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > target…
+- `campaign-structure.md` — P1 test / P2 retarget / P3 scale / P4 re-engage
 
 **Agents de validation**
 | Agent | Validates | Min score |
