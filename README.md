@@ -48,6 +48,14 @@ Skills cross-reference each other:
 
 ---
 
+## 00 — System
+
+| File | Usage |
+|---|---|
+| `create-agent` | Generate a validation agent for any workflow step |
+
+---
+
 ## 01 — Audit
 
 **Skills**
@@ -65,6 +73,12 @@ Skills cross-reference each other:
 - `visual-style-card-prompt.md` — HTML prompt for Visual Style Card
 - `brand-health.md` — Meta Ads benchmarks
 - `brand-alignment.md` — Growth stage → creative implication
+
+**Agents de validation**
+| Agent | Validates | Min score |
+|---|---|---|
+| `agent-brand-research.md` | brand-research-brief.json completeness | 90/100 |
+| `agent-brand-specs.md` | Spec Card + Style Card quality | 90/100 |
 
 ---
 
@@ -92,6 +106,12 @@ Skills cross-reference each other:
 - `micro-moments.md` — Trigger situations
 - `emotional-mapping.md` — Q1 emotion / Q2 private-social / Q3 acute-chronic
 
+**Agents de validation**
+| Agent | Validates | Min score |
+|---|---|---|
+| `agent-audience-research.md` | Persona Deep Dive Layer 1/2/3 | 90/100 |
+| `agent-review-audit.md` | Verbatim library (30+ quotes) | 90/100 |
+
 ---
 
 ## 03 — Strategy
@@ -117,6 +137,12 @@ Skills cross-reference each other:
 - `copy-frameworks.md` — Headline + CTA formulas
 - `sequencing-plan.md` — TOF / MOF / BOF / Re-engage
 
+**Agents de validation**
+| Agent | Validates | Min score |
+|---|---|---|
+| `agent-creative-brief.md` | Creative brief coherence + readiness | 90/100 |
+| `agent-hook-writing.md` | Hook calibration + scroll-stop power | 90/100 |
+
 ---
 
 ## 04 — Production
@@ -141,6 +167,12 @@ Skills cross-reference each other:
 - `kill-rules.md` — CPC > 2.50€ / CTR < 1.5% / CPA > target…
 - `campaign-structure.md` — P1 test / P2 retarget / P3 scale / P4 re-engage
 
+**Agents de validation**
+| Agent | Validates | Min score |
+|---|---|---|
+| `agent-static-production.md` | Nano Banana prompt before generation | 90/100 |
+| `agent-copy-editor.md` | Final copy — grammar + compliance (pass/fail) | 90/100 |
+
 ---
 
 ## 05 — Analysis
@@ -157,6 +189,11 @@ Skills cross-reference each other:
 - `pattern-library.md` — Winning patterns (living document)
 - `analysis-framework.md` — Key metrics, how to read the data
 - `gap-matrix.md` — Uncovered awareness / untested angles
+
+**Agents de validation**
+| Agent | Validates | Min score |
+|---|---|---|
+| `agent-ad-analysis.md` | Creative deconstruction + test design | 90/100 |
 
 ---
 
