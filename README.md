@@ -151,6 +151,7 @@ Skills cross-reference each other:
 | Skill | Input | Output |
 |---|---|---|
 | `static-production` | Validated brief | Nano Banana prompt + designer brief |
+| `animate-statics` | Winning static + spec cards | 3-4s animated GIF/MP4 (manual or MCP) |
 | `video-production` | Validated brief | Sequenced technical brief for editor |
 | `ai-video-production` | Brief + reference images | VEO3 / Kling scene-by-scene prompts |
 
