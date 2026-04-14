@@ -1,424 +1,399 @@
-# Hook Tactics — 42 Types de Hooks
+# Hook Tactics — 42 Hook Types
 
-## Structure d'une Fiche Tactic
+## Structure of a Tactic Entry
 
-Chaque tactic inclut :
-- **Définition** : ce que le hook fait cognitif/émotionnellement
-- **Awareness idéal** : à quel niveau de conscience l'utiliser
-- **Trigger psychologique** : quel mécanisme il active
-- **Template** : structure à remplir
-- **Exemple FR** : adapté au paid social francophone
+Each tactic includes:
+- **Definition**: what the hook does cognitively/emotionally
+- **Ideal awareness**: at which awareness level to use it
+- **Psychological trigger**: which mechanism it activates
+- **Template**: structure to fill in
+- **Example**: adapted for paid social
 
 ---
 
-## Les 35 Tactics
+## The 42 Tactics
 
 ### T01 — Aspirational
-Projette le prospect dans la vie qu'il veut.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Désir, aspiration (LF6, LF8)
-**Template :** "Imagine [situation désirée précise]."
-**Exemple :** "Imagine te lever le lundi matin avec l'envie d'aller travailler."
+Projects the prospect into the life they want.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Desire, aspiration (LF6, LF8)
+**Template:** "Imagine [precise desired situation]."
+**Example:** "Imagine waking up Monday morning actually wanting to go to work."
 
 ---
 
 ### T02 — Authority
-Établit la crédibilité avant l'argument.
-**Awareness :** Solution Aware / Product Aware
-**Trigger :** Autorité
-**Template :** "[Credential] — voilà ce que j'ai appris sur [sujet]."
-**Exemple :** "Après avoir accompagné 300 e-commerces en France, voilà ce qui fait vraiment la différence."
+Establishes credibility before the argument.
+**Awareness:** Solution Aware / Product Aware
+**Trigger:** Authority
+**Template:** "[Credential] — here's what I've learned about [topic]."
+**Example:** "After working with 300 e-commerce brands, here's what actually makes the difference."
 
 ---
 
 ### T03 — Bold Claim
-Affirme quelque chose de fort, précis, presque incroyable — mais vrai.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Curiosité + scepticisme
-**Template :** "[Résultat précis] en [temps précis] — sans [sacrifice courant]."
-**Exemple :** "12kg perdus en 90 jours — sans supprimer les glucides."
+Makes a strong, precise, almost unbelievable claim — but true.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Curiosity + skepticism
+**Template:** "[Precise result] in [precise time] — without [common sacrifice]."
+**Example:** "12kg lost in 90 days — without cutting carbs."
 
 ---
 
-### T04 — Challenge (Défi)
-Défie une croyance ou une habitude.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Pattern interrupt, ego
-**Template :** "Si tu penses que [croyance commune], tu te trompes peut-être."
-**Exemple :** "Si tu penses que bosser plus = gagner plus, ce post va te déranger."
+### T04 — Challenge
+Challenges a belief or a habit.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Pattern interrupt, ego
+**Template:** "If you think [common belief], you might be wrong."
+**Example:** "If you think working more = earning more, this post will bother you."
 
 ---
 
-### T05 — Contrarian (Point de vue opposé)
-Prend le contre-pied de la sagesse conventionnelle.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Pattern interrupt, curiosité
-**Template :** "Tout le monde dit [conseil courant]. Voilà pourquoi c'est une erreur."
-**Exemple :** "Tout le monde dit de se lever à 5h. C'est peut-être la pire chose que tu puisses faire."
+### T05 — Contrarian
+Takes the opposite stance from conventional wisdom.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Pattern interrupt, curiosity
+**Template:** "Everyone says [common advice]. Here's why that's a mistake."
+**Example:** "Everyone says wake up at 5am. It might be the worst thing you can do."
 
 ---
 
-### T06 — Curiosity Gap (Fossé de curiosité)
-Crée une tension entre ce que le prospect sait et ce qu'il ne sait pas encore.
-**Awareness :** Tous niveaux
-**Trigger :** Curiosité, boucle ouverte
-**Template :** "La vraie raison pour laquelle [problème courant] — et ce n'est pas ce que tu penses."
-**Exemple :** "La vraie raison pour laquelle tes pubs ne convertissent pas — ça n'a rien à voir avec le budget."
+### T06 — Curiosity Gap
+Creates tension between what the prospect knows and what they don't know yet.
+**Awareness:** All levels
+**Trigger:** Curiosity, open loop
+**Template:** "The real reason why [common problem] — and it's not what you think."
+**Example:** "The real reason your ads aren't converting — it has nothing to do with budget."
 
 ---
 
-### T07 — Demographic Callout (Appel démographique)
-Cible explicitement un segment d'audience pour créer l'auto-sélection.
-**Awareness :** Tous niveaux
-**Trigger :** Identité, appartenance
-**Template :** "Si tu es [profil spécifique], ce post est pour toi."
-**Exemple :** "Si tu gères une boutique Shopify entre 50k et 500k€/an, lis ça."
+### T07 — Demographic Callout
+Explicitly targets an audience segment to create self-selection.
+**Awareness:** All levels
+**Trigger:** Identity, belonging
+**Template:** "If you're [specific profile], this post is for you."
+**Example:** "If you run a Shopify store between €50k and €500k/year, read this."
 
 ---
 
-### T08 — Direct Address (Interpellation directe)
-Parle directement au prospect, sans filtre.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** Présence, urgence
-**Template :** "Tu [fait observable sur la cible] — et tu [conséquence]."
-**Exemple :** "Tu passes 3h par jour sur Instagram et tu n'as toujours pas de stratégie. Voilà le problème."
+### T08 — Direct Address
+Speaks directly to the prospect, no filter.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** Presence, urgency
+**Template:** "You [observable fact about the target] — and you [consequence]."
+**Example:** "You spend 3 hours a day on Instagram and you still have no strategy. That's the problem."
 
 ---
 
-### T09 — Empathy Hook (Empathie)
-Démontre que tu comprends exactement ce que le prospect ressent.
-**Awareness :** Problem Aware
-**Trigger :** Proximité, validation émotionnelle
-**Template :** "Je sais ce que c'est de [situation douloureuse précise]."
-**Exemple :** "Je sais ce que c'est de sortir une pub, attendre les résultats, et voir... rien."
+### T09 — Empathy Hook
+Demonstrates that you understand exactly what the prospect feels.
+**Awareness:** Problem Aware
+**Trigger:** Proximity, emotional validation
+**Template:** "I know what it's like to [precise painful situation]."
+**Example:** "I know what it's like to launch an ad, wait for results, and see... nothing."
 
 ---
 
-### T10 — Exclusivity (Exclusivité)
-Crée un sentiment d'accès privilégié.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** FOMO, statut
-**Template :** "Ce que [groupe restreint] fait et que personne d'autre ne fait encore."
-**Exemple :** "Ce que les top Creative Strategists font en janvier — avant tout le monde."
+### T10 — Exclusivity
+Creates a feeling of privileged access.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** FOMO, status
+**Template:** "What [small group] does that nobody else is doing yet."
+**Example:** "What top Creative Strategists do in January — before everyone else."
 
 ---
 
 ### T11 — FOMO
-Rend le coût de l'inaction visible et douloureux.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** Aversion à la perte
-**Template :** "Pendant que tu attends, [compétiteurs] font [X]."
-**Exemple :** "Pendant que tu hésites, tes concurrents testent déjà des UGC IA."
+Makes the cost of inaction visible and painful.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** Loss aversion
+**Template:** "While you're waiting, [competitors] are doing [X]."
+**Example:** "While you hesitate, your competitors are already testing AI UGC."
 
 ---
 
 ### T12 — How-To
-Promet une méthode concrète et applicable.
-**Awareness :** Solution Aware / Problem Aware
-**Trigger :** Utilité immédiate, curiosité
-**Template :** "Comment [résultat désiré] en [étapes simples]."
-**Exemple :** "Comment écrire un hook qui arrête le scroll en moins de 3 secondes."
+Promises a concrete and actionable method.
+**Awareness:** Solution Aware / Problem Aware
+**Trigger:** Immediate utility, curiosity
+**Template:** "How to [desired result] in [simple steps]."
+**Example:** "How to write a hook that stops the scroll in under 3 seconds."
 
 ---
 
 ### T13 — Identity Hook
-Ancre dans l'identité plutôt que dans le problème.
-**Awareness :** Unaware / Most Aware (sophistication élevée)
-**Trigger :** Identité, appartenance, LF8
-**Template :** "Les gens qui [font X] ont tous ça en commun."
-**Exemple :** "Les fondateurs qui scalent sans s'épuiser ont tous cette habitude."
+Anchors in identity rather than the problem.
+**Awareness:** Unaware / Most Aware (high sophistication)
+**Trigger:** Identity, belonging, LF8
+**Template:** "People who [do X] all have this in common."
+**Example:** "Founders who scale without burning out all have this habit."
 
 ---
 
-### T14 — Mistake (Erreur courante)
-Nomme une erreur que la cible fait probablement sans le savoir.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Aversion à la perte, curiosité
-**Template :** "L'erreur que font 90% des [profil] — et qui sabote leurs résultats."
-**Exemple :** "L'erreur que font 90% des media buyers débutants sur Meta."
+### T14 — Mistake
+Names a mistake the target is probably making without knowing it.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Loss aversion, curiosity
+**Template:** "The mistake 90% of [profile] make — that sabotages their results."
+**Example:** "The mistake 90% of beginner media buyers make on Meta."
 
 ---
 
 ### T15 — Myth-Busting
-Détruit une croyance largement répandue avec une vérité surprenante.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Pattern interrupt, contrarian
-**Template :** "[Croyance courante] — mythe ou réalité ? Voilà la vérité."
-**Exemple :** "Plus tu dépenses en pub, plus tu gagnes ? Mythe. Voilà pourquoi."
+Destroys a widely held belief with a surprising truth.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Pattern interrupt, contrarian
+**Template:** "[Common belief] — myth or reality? Here's the truth."
+**Example:** "The more you spend on ads, the more you earn? Myth. Here's why."
 
 ---
 
-### T16 — Number Hook (Chiffre précis)
-Ancre avec un chiffre précis et mémorable.
-**Awareness :** Tous niveaux
-**Trigger :** Crédibilité, curiosité
-**Template :** "[Chiffre précis] [unité] [résultat] — voilà comment."
-**Exemple :** "47 secondes. C'est le temps qu'il faut pour perdre l'attention de ton prospect."
+### T16 — Number Hook
+Anchors with a precise and memorable number.
+**Awareness:** All levels
+**Trigger:** Credibility, curiosity
+**Template:** "[Precise number] [unit] [result] — here's how."
+**Example:** "47 seconds. That's how long you have before your prospect's attention is gone."
 
 ---
 
 ### T17 — Pain Agitation
-Amplifie la douleur jusqu'à ce qu'elle devienne insupportable de l'ignorer.
-**Awareness :** Problem Aware
-**Trigger :** Aversion à la perte, inconfort
-**Template :** "Tu [symptôme]. Tu [conséquence]. Et si tu ne changes rien, [projection]."
-**Exemple :** "Tu publies tous les jours. Tu obtiens peu de résultats. Dans 6 mois, même compte, même frustration."
+Amplifies the pain until it becomes impossible to ignore.
+**Awareness:** Problem Aware
+**Trigger:** Loss aversion, discomfort
+**Template:** "You [symptom]. You [consequence]. And if you change nothing, [projection]."
+**Example:** "You post every day. You get little results. In 6 months, same account, same frustration."
 
 ---
 
-### T18 — Personal Story (Histoire personnelle)
-Commence par une micro-histoire vraie et identifiable.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Empathie, proximité, confiance
-**Template :** "Il y a [temps], j'étais exactement là où tu es. Voilà ce qui a tout changé."
-**Exemple :** "Il y a 2 ans, je brûlais 3 000€/mois de budget pub avec zéro résultat mesurable."
+### T18 — Personal Story
+Starts with a true and relatable micro-story.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Empathy, proximity, trust
+**Template:** "[Time] ago, I was exactly where you are. Here's what changed everything."
+**Example:** "2 years ago, I was burning €3,000/month in ad budget with zero measurable results."
 
 ---
 
-### T19 — Prediction (Prédiction)
-Prédit ce qui va arriver si le prospect agit — ou n'agit pas.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Peur + espoir
-**Template :** "Dans [temps], [X% des gens dans ta situation] vont [résultat]."
-**Exemple :** "Dans 12 mois, les marques qui n'ont pas de système de test créatif auront 3x plus de mal à scaler."
+### T19 — Prediction
+Predicts what will happen if the prospect acts — or doesn't act.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Fear + hope
+**Template:** "In [time], [X% of people in your situation] will [result]."
+**Example:** "In 12 months, brands with no creative testing system will have 3x harder time scaling."
 
 ---
 
 ### T20 — Problem-First
-Nomme le problème immédiatement, sans introduction.
-**Awareness :** Problem Aware
-**Trigger :** Reconnaissance, validation
-**Template :** "[Problème précis] ? C'est le signe que [diagnostic]."
-**Exemple :** "Tu passes 2 heures sur un brief pour une pub que personne ne regarde 3 secondes ?"
+Names the problem immediately, no introduction.
+**Awareness:** Problem Aware
+**Trigger:** Recognition, validation
+**Template:** "[Precise problem]? That's a sign that [diagnosis]."
+**Example:** "You spend 2 hours on a brief for an ad nobody watches for 3 seconds?"
 
 ---
 
-### T21 — Question (Simple)
-Pose une question à laquelle le prospect ne peut que répondre oui.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** Engagement, curiosité
-**Template :** "Tu [symptôme] ?"
-**Exemple :** "Tu passes des heures à créer du contenu — et ton audience ne grossit pas ?"
+### T21 — Simple Question
+Asks a question the prospect can only answer yes to.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** Engagement, curiosity
+**Template:** "Do you [symptom]?"
+**Example:** "You spend hours creating content — and your audience isn't growing?"
 
 ---
 
-### T22 — Revelation (Révélation)
-Révèle quelque chose de caché ou de peu connu.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Curiosité, exclusivité
-**Template :** "Ce que [industrie / experts] ne veulent pas que tu saches sur [sujet]."
-**Exemple :** "Ce que les agences Meta ne te disent jamais sur le budget de test."
+### T22 — Revelation
+Reveals something hidden or little known.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Curiosity, exclusivity
+**Template:** "What [industry / experts] don't want you to know about [topic]."
+**Example:** "What Meta agencies never tell you about test budget."
 
 ---
 
 ### T23 — Risk Reversal
-Élimine le risque perçu en le prenant à sa charge.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** Sécurité, aversion à la perte
-**Template :** "Si [produit] ne [résultat] pas, [garantie]."
-**Exemple :** "Si tu ne vois pas de résultat en 30 jours, on te rembourse intégralement."
+Eliminates perceived risk by taking it on.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** Security, loss aversion
+**Template:** "If [product] doesn't [result], [guarantee]."
+**Example:** "If you don't see results in 30 days, we'll refund you in full."
 
 ---
 
 ### T24 — Shocking Statement
-Commence par une affirmation qui déstabilise.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Pattern interrupt
-**Template :** "[Affirmation choquante mais vraie]."
-**Exemple :** "La majorité des publicités Meta ne sont vues que par des gens qui ne sont pas ta cible."
+Opens with a destabilizing statement.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Pattern interrupt
+**Template:** "[Shocking but true statement]."
+**Example:** "The majority of Meta ads are only seen by people who aren't your target."
 
 ---
 
-### T25 — Social Proof (Résultat chiffré)
-Ancre dans un résultat réel et vérifiable.
-**Awareness :** Solution Aware / Product Aware
-**Trigger :** Preuve sociale, crédibilité
-**Template :** "[Chiffre] [profil similaires] ont déjà [résultat]."
-**Exemple :** "2 400 Creative Strategists francophones ont déjà utilisé ce framework."
+### T25 — Social Proof
+Anchors in a real, verifiable result.
+**Awareness:** Solution Aware / Product Aware
+**Trigger:** Social proof, credibility
+**Template:** "[Number] [similar profiles] have already [result]."
+**Example:** "2,400 Creative Strategists have already used this framework."
 
 ---
 
 ### T26 — Storytelling Hook
-Commence une histoire au milieu de l'action — in medias res.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Empathie, curiosité narrative
-**Template :** "C'était [date/situation]. Je venais de [événement]. Et je réalisais que [insight]."
-**Exemple :** "C'était un mercredi matin. Mon client venait de couper son budget de 60%. Et je réalisais que je n'avais aucun argument."
+Starts a story in the middle of the action — in medias res.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Empathy, narrative curiosity
+**Template:** "It was [date/situation]. I had just [event]. And I realized [insight]."
+**Example:** "It was a Wednesday morning. My client had just cut their budget by 60%. And I realized I had no argument."
 
 ---
 
 ### T27 — Transformation
-Montre le avant/après de façon concrète et mesurable.
-**Awareness :** Solution Aware / Product Aware
-**Trigger :** Aspiration, preuve
-**Template :** "De [situation avant] à [situation après] en [temps]."
-**Exemple :** "De 0 à 47k€/mois de CA en 8 mois — sans lever de fonds."
+Shows the before/after concretely and measurably.
+**Awareness:** Solution Aware / Product Aware
+**Trigger:** Aspiration, proof
+**Template:** "From [situation before] to [situation after] in [time]."
+**Example:** "From €0 to €47k/month revenue in 8 months — without raising funding."
 
 ---
 
 ### T28 — Trend Hook
-Ancre dans un mouvement ou une tendance en cours.
-**Awareness :** Tous niveaux
-**Trigger :** FOMO, pertinence
-**Template :** "[Tendance] est en train de changer [industrie]. Voilà ce que ça signifie pour [cible]."
-**Exemple :** "L'IA créative est en train de tuer les agences traditionnelles. Ce que ça signifie pour toi."
+Anchors in a current movement or trend.
+**Awareness:** All levels
+**Trigger:** FOMO, relevance
+**Template:** "[Trend] is changing [industry]. Here's what that means for [target]."
+**Example:** "AI creative is killing traditional agencies. What that means for you."
 
 ---
 
 ### T29 — Urgency / Stakes
-Rend l'inaction coûteuse et immédiate.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** Urgence, aversion à la perte
-**Template :** "Il reste [X] [places / jours / unités]. Après ça, [conséquence]."
-**Exemple :** "Il reste 6 places pour la cohorte d'avril. La prochaine ouverture est en septembre."
+Makes inaction costly and immediate.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** Urgency, loss aversion
+**Template:** "[X] [spots / days / units] left. After that, [consequence]."
+**Example:** "6 spots left for the April cohort. Next opening is in September."
 
 ---
 
-### T30 — Warning (Avertissement)
-Alerte sur un danger imminent que la cible ignore.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Peur, protection
-**Template :** "Attention : si tu [comportement courant], tu risques [conséquence]."
-**Exemple :** "Attention : si tu lances encore une campagne sans stratégie créative, tu brûles ton budget pour rien."
+### T30 — Warning
+Alerts about an imminent danger the target is ignoring.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Fear, protection
+**Template:** "Warning: if you [common behavior], you risk [consequence]."
+**Example:** "Warning: if you launch another campaign without a creative strategy, you're burning your budget for nothing."
 
 ---
 
 ### T31 — What If
-Ouvre une porte vers une réalité alternative meilleure.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Curiosité, espoir
-**Template :** "Et si [problème courant] n'était pas une fatalité ?"
-**Exemple :** "Et si tu pouvais sortir 3 pubs par semaine sans passer ta vie à les créer ?"
+Opens a door toward a better alternative reality.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Curiosity, hope
+**Template:** "What if [common problem] wasn't inevitable?"
+**Example:** "What if you could ship 3 ads per week without spending your life creating them?"
 
 ---
 
 ### T32 — Behind The Scenes
-Montre le processus caché derrière un résultat.
-**Awareness :** Solution Aware / Product Aware
-**Trigger :** Curiosité, exclusivité
-**Template :** "Voilà exactement comment [résultat impressionnant] se passe en coulisses."
-**Exemple :** "Voilà exactement comment on structure une semaine de test créatif pour un client Meta à 50k€/mois."
+Shows the hidden process behind a result.
+**Awareness:** Solution Aware / Product Aware
+**Trigger:** Curiosity, exclusivity
+**Template:** "Here's exactly how [impressive result] happens behind the scenes."
+**Example:** "Here's exactly how we structure a creative testing week for a €50k/month Meta client."
 
 ---
 
 ### T33 — Confession
-Admet une erreur passée ou une vérité inconfortable.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** Authenticité, confiance, proximité
-**Template :** "Je dois être honnête : pendant longtemps, j'ai cru que [erreur]. J'avais tort."
-**Exemple :** "Je dois être honnête : pendant 2 ans, j'ai donné de mauvais conseils à mes clients sur le budget Meta."
+Admits a past mistake or uncomfortable truth.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** Authenticity, trust, proximity
+**Template:** "I have to be honest: for a long time, I believed [mistake]. I was wrong."
+**Example:** "I have to be honest: for 2 years, I gave my clients bad advice about Meta budget."
 
 ---
 
-### T34 — Comparison (Sans nommer)
-Compare implicitement à une alternative inférieure.
-**Awareness :** Solution Aware
-**Trigger :** Logique, différenciation
-**Template :** "Contrairement à [approche courante non nommée], [notre approche] fait [différence]."
-**Exemple :** "Contrairement aux formations qui te donnent des templates, on t'apprend à penser."
+### T34 — Comparison (Without naming)
+Implicitly compares to an inferior alternative.
+**Awareness:** Solution Aware
+**Trigger:** Logic, differentiation
+**Template:** "Unlike [unnamed common approach], [our approach] does [difference]."
+**Example:** "Unlike programs that give you templates, we teach you to think."
 
 ---
 
 ### T35 — Future Pacing
-Projette le prospect dans un futur précis après avoir utilisé le produit.
-**Awareness :** Product Aware
-**Trigger :** Aspiration, espoir
-**Template :** "Dans [X semaines], voilà à quoi ressemble ta journée avec [produit]."
-**Exemple :** "Dans 60 jours, voilà à quoi ressemble ton compte Meta Ads avec ce système."
+Projects the prospect into a precise future after using the product.
+**Awareness:** Product Aware
+**Trigger:** Aspiration, hope
+**Template:** "In [X weeks], here's what your day looks like with [product]."
+**Example:** "In 60 days, here's what your Meta Ads account looks like with this system."
 
 ---
 
-### T36 — Belief (Croyance partagée)
-Nomme une croyance que le persona tient pour vraie — et la valide avant de la leverager.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** TR2 Identity, TR6 Contrarian (selon la direction)
-**Template :** "Tu crois que [croyance]. Tu as raison — et voilà ce que ça révèle."
-**Exemple :** "Tu crois que travailler plus dur est la clé. Tu as raison sur un point — voilà lequel."
-**Distinction vs T05 Contrarian :** Belief valide d'abord, Contrarian contredit d'emblée.
+### T36 — Belief (Shared belief)
+Names a belief the persona holds to be true — and validates it before leveraging it.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** TR2 Identity, TR6 Contrarian (depending on direction)
+**Template:** "You believe [belief]. You're right — and here's what that reveals."
+**Example:** "You believe working harder is the key. You're right on one point — here's which one."
+**Distinction vs T05 Contrarian:** Belief validates first, Contrarian contradicts immediately.
 
 ---
 
-### T37 — Explainer (Explication claire)
-Annonce une explication simple d'un concept complexe ou mal compris.
-**Awareness :** Problem Aware / Solution Aware
-**Trigger :** TR4 Curiosity Gap
-**Template :** "Laisse-moi t'expliquer [concept] en [temps / étapes courtes]."
-**Exemple :** "Laisse-moi t'expliquer pourquoi ton ROAS est trompeur — en 30 secondes."
-**Distinction vs T12 How-To :** Explainer clarifie un concept, How-To guide une action.
+### T37 — Explainer
+Announces a simple explanation of a complex or misunderstood concept.
+**Awareness:** Problem Aware / Solution Aware
+**Trigger:** TR4 Curiosity Gap
+**Template:** "Let me explain [concept] in [time / short steps]."
+**Example:** "Let me explain why your ROAS is misleading — in 30 seconds."
+**Distinction vs T12 How-To:** Explainer clarifies a concept, How-To guides an action.
 
 ---
 
 ### T38 — If-Then (Condition)
-Pose une condition que le prospect remplit probablement — si vrai, la suite le concerne.
-**Awareness :** Tous niveaux
-**Trigger :** TR2 Identity, TR4 Curiosity Gap
-**Template :** "Si tu [condition précise], alors [conséquence / info pertinente]."
-**Exemple :** "Si tu dépenses plus de 1 000€/mois en pub sans système de test, alors cette vidéo te concerne."
-**Force :** Auto-sélection très précise — seuls ceux qui remplissent la condition continuent.
+Sets a condition the prospect probably meets — if true, the rest concerns them.
+**Awareness:** All levels
+**Trigger:** TR2 Identity, TR4 Curiosity Gap
+**Template:** "If you [precise condition], then [consequence / relevant info]."
+**Example:** "If you spend more than €1,000/month on ads without a testing system, then this video concerns you."
+**Strength:** Very precise self-selection — only those who meet the condition continue.
 
 ---
 
-### T39 — Price Anchor (Ancre de prix)
-Établit une valeur élevée avant de révéler le prix réel — rend le coût paraître faible par comparaison.
-**Awareness :** Product Aware / Most Aware
-**Trigger :** TR8 Urgency, biais d'ancrage
-**Template :** "Ce que les agences facturent [montant élevé] pour faire — tu peux le faire seul(e)."
-**Exemple :** "Les agences Meta facturent 3 000€/mois pour ce que ce système fait automatiquement."
-**Usage :** BOF uniquement. Ne pas utiliser en TOF — le persona ne sait pas encore ce que ça vaut.
+### T39 — Price Anchor
+Establishes a high value before revealing the real price — makes the cost seem low by comparison.
+**Awareness:** Product Aware / Most Aware
+**Trigger:** TR8 Urgency, anchoring bias
+**Template:** "What agencies charge [high amount] to do — you can do it yourself."
+**Example:** "Meta agencies charge €3,000/month for what this system does automatically."
+**Usage:** BOF only. Do not use in TOF — the persona doesn't yet know what it's worth.
 
 ---
 
-### T40 — Reasons Why (Raisons de croire)
-Donne plusieurs raisons concrètes qui justifient une action ou une croyance.
-**Awareness :** Solution Aware / Product Aware
-**Trigger :** TR5 Social Proof, TR4 Curiosity Gap
-**Template :** "[X] raisons pour lesquelles [résultat / décision] — et la [#] va te surprendre."
-**Exemple :** "3 raisons pour lesquelles les meilleures pubs de 2025 ne ressemblent à aucune pub — et la 3e va changer ta façon de briefe."
-**Force :** Le numéro crée l'anticipation. "Et la X va te surprendre" amplifie le curiosity gap.
+### T40 — Reasons Why
+Gives several concrete reasons that justify an action or belief.
+**Awareness:** Solution Aware / Product Aware
+**Trigger:** TR5 Social Proof, TR4 Curiosity Gap
+**Template:** "[X] reasons why [result / decision] — and the [#] will surprise you."
+**Example:** "3 reasons why the best ads of 2025 look like no ad — and the 3rd will change how you brief."
+**Strength:** The number creates anticipation. "And the X will surprise you" amplifies the curiosity gap.
 
 ---
 
 ### T41 — Relatability (Identification)
-Décrit une situation banale et précise que le persona vit régulièrement — reconnaissance instantanée.
-**Awareness :** Unaware / Problem Aware
-**Trigger :** TR2 Identity, TR3 Pain Agitation (doux)
-**Template :** "Tu connais ce moment où [situation précise et quotidienne] ?"
-**Exemple :** "Tu connais ce moment où tu relances ton tableau de bord Meta et les chiffres n'ont pas bougé ?"
-**Distinction vs T09 Empathy :** Relatability décrit une situation externe observable, Empathy nomme l'émotion interne.
+Describes a mundane and precise situation the persona experiences regularly — instant recognition.
+**Awareness:** Unaware / Problem Aware
+**Trigger:** TR2 Identity, TR3 Pain Agitation (soft)
+**Template:** "You know that moment when [precise, everyday situation]?"
+**Example:** "You know that moment when you refresh your Meta dashboard and the numbers haven't moved?"
+**Distinction vs T09 Empathy:** Relatability describes an external observable situation, Empathy names the internal emotion.
 
 ---
 
-### T42 — Reverse Psychology (Psychologie inverse)
-Dit au prospect de ne PAS faire quelque chose — ce qui le pousse précisément à vouloir le faire.
-**Awareness :** Tous niveaux
-**Trigger :** TR1 Pattern Interrupt, curiosité
-**Template :** "N'ouvre pas ce post si tu ne veux pas [résultat désirable]."
-**Exemple :** "Ne regarde pas cette vidéo si tu es satisfait(e) de tes résultats publicitaires actuels."
-**Usage :** À utiliser avec parcimonie — perd son effet si trop répété. Très fort en premier test d'un compte.
+### T42 — Reverse Psychology
+Tells the prospect NOT to do something — which pushes them to want to do precisely that.
+**Awareness:** All levels
+**Trigger:** TR1 Pattern Interrupt, curiosity
+**Template:** "Don't open this post if you don't want [desirable result]."
+**Example:** "Don't watch this video if you're satisfied with your current ad results."
+**Usage:** Use sparingly — loses its effect if overused. Very strong as a first test on an account.
 
 ---
-
-## Index Rapide par Trigger Psychologique (TR1–TR8)
-
-| Trigger | Tactics |
-|---|---|
-| TR1 Pattern Interrupt | T04, T05, T15, T24, T42 |
-| TR2 Identity Call-Out | T07, T10, T13, T36, T38, T41 |
-| TR3 Pain Agitation | T08, T17, T20, T30, T41 |
-| TR4 Curiosity Gap | T06, T12, T22, T32, T37, T38, T40 |
-| TR5 Social Proof | T02, T25, T27, T40 |
-| TR6 Contrarian | T04, T05, T15, T36 |
-| TR7 Aspiration | T01, T31, T35, T19 |
-| TR8 Urgency | T10, T11, T23, T29, T39 |
-
-## Quick Reference — Tactic par Objectif
-
-| Objectif | Tactics recommandées |
-|---|---|
-| Arrêter le scroll (TOF froid) | T24 Shocking, T04 Challenge, T01 Aspirational, T42 Reverse Psychology |
-| Faire se reconnaître | T07 Demographic, T41 Relatability, T13 Identity, T38 If-Then |
-| Agiter la douleur | T17 Pain Agitation, T20 Problem-First, T30 Warning, T14 Mistake |
-| Créer la curiosité | T06 Curiosity Gap, T22 Revelation, T15 Myth-Busting, T37 Explainer |
-| Prouver la crédibilité | T02 Authority, T25 Social Proof, T27 Transformation, T40 Reasons Why |
-| Lever une objection | T23 Risk Reversal, T34 Comparison, T33 Confession, T36 Belief |
-| Convertir (BOF) | T29 Urgency, T11 FOMO, T39 Price Anchor, T35 Future Pacing |

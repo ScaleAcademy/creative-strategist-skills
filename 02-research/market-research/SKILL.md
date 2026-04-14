@@ -5,8 +5,8 @@ metadata:
   version: 1.0.0
   status: stable
   tags: [research, competitors, sophistication, positioning]
-  inputs: [brand-context.md, catégorie produit]
-  outputs: [rapport marché — niveau sophistication, carte concurrents, white spaces, implications créatives]
+  inputs: [brand-context.md, product category]
+  outputs: [market report — sophistication level, competitor map, white spaces, creative implications]
   depends-on: [brand-guidelines]
 ---
 
@@ -14,13 +14,13 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] `brand-context.md` disponible (`brand-guidelines` doit avoir été exécuté)
-- [ ] Catégorie produit clairement définie (ex : "suppléments magnésium" pas juste "santé")
-- [ ] Accès à Meta Ad Library (facebook.com/ads/library) disponible
-- [ ] Au moins 3 concurrents identifiés ou à identifier
+Confirm before starting:
+- [ ] `brand-context.md` available (`brand-guidelines` must have been run)
+- [ ] Product category clearly defined (e.g. "magnesium supplements" not just "health")
+- [ ] Access to Meta Ad Library (facebook.com/ads/library) available
+- [ ] At least 3 competitors identified or to be identified
 
-Plus la catégorie est précise, plus l'analyse de sophistication est fiable.
+The more precise the category, the more reliable the sophistication analysis.
 
 ---
 

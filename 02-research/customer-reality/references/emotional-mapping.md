@@ -1,100 +1,100 @@
-# Emotional Mapping — Cartographie Émotionnelle
+# Emotional Mapping
 
-## Pourquoi Mapper les Émotions
+## Why Map Emotions
 
-Un hook qui touche la bonne émotion stoppe le scroll.
-Un hook qui touche la mauvaise émotion passe inaperçu — même si le produit est excellent.
+A hook that touches the right emotion stops the scroll.
+A hook that touches the wrong emotion goes unnoticed — even if the product is excellent.
 
-L'emotional mapping permet de cibler l'émotion exacte qui est active au moment où le prospect voit ta pub.
+Emotional mapping lets you target the exact emotion that is active at the moment the prospect sees your ad.
 
 ---
 
-## Les 3 Questions Clés
+## The 3 Key Questions
 
-### Q1 — Quelle est l'émotion dominante ?
+### Q1 — What is the dominant emotion?
 
-| Émotion | Signal dans les verbatims | Angle créatif |
+| Emotion | Signal in verbatims | Creative angle |
 |---|---|---|
-| Frustration | "J'en ai marre de...", "j'ai tout essayé" | Valider + offrir la sortie |
-| Peur | "J'ai peur que...", "et si..." | Rassurer + preuve |
-| Honte | "Je n'ose pas en parler", "les gens pensent que..." | Normaliser + communauté |
-| Espoir | "J'aimerais tellement...", "je rêve de..." | Aspiration + vision |
-| Colère | "C'est scandaleux", "pourquoi personne ne dit que..." | Contrarian + allié |
-| Confusion | "Je ne comprends pas pourquoi", "tout le monde dit X mais..." | Clarifier + éduquer |
+| Frustration | "I'm fed up with...", "I tried everything" | Validate + offer the exit |
+| Fear | "I'm afraid that...", "what if..." | Reassure + proof |
+| Shame | "I don't dare talk about it", "people think that..." | Normalize + community |
+| Hope | "I would love so much...", "I dream of..." | Aspiration + vision |
+| Anger | "It's outrageous", "why does nobody say that..." | Contrarian + ally |
+| Confusion | "I don't understand why", "everyone says X but..." | Clarify + educate |
 
 ---
 
-### Q2 — La douleur est-elle privée ou sociale ?
+### Q2 — Is the pain private or social?
 
-**Douleur privée :** La personne souffre en silence. Elle ne le dit pas à son entourage.
-→ Ton : intime, confidentiel. "Ce que tu vis en ce moment..."
-→ Format : texte on-screen, monologue face caméra, confession.
+**Private pain:** The person suffers in silence. They don't tell those around them.
+→ Tone: intimate, confidential. "What you're going through right now..."
+→ Format: on-screen text, face-to-camera monologue, confession.
 
-**Douleur sociale :** La personne est jugée par les autres (ou le perçoit ainsi).
-→ Ton : de soutien, non-jugeant. "Tu n'es pas seul(e)."
-→ Format : témoignage, preuve sociale, communauté.
+**Social pain:** The person is judged by others (or perceives it that way).
+→ Tone: supportive, non-judgmental. "You're not alone."
+→ Format: testimonial, social proof, community.
 
-**Comment identifier :** Dans les reviews et verbatims, note si la personne parle d'elle seule ou des regards des autres.
-
----
-
-### Q3 — La douleur est-elle aiguë ou chronique ?
-
-**Douleur aiguë :** Déclenchée par un événement récent. Elle est intense mais transitoire.
-→ Micro-moment clair : "ce matin quand...", "la semaine dernière..."
-→ Hook : ancrer dans le moment précis.
-→ Urgence naturelle — la fenêtre d'action est courte.
-
-**Douleur chronique :** Présente depuis longtemps. Normalisée, presque acceptée.
-→ Verbatim signal : "depuis toujours", "j'ai appris à vivre avec"
-→ Hook : révéler que ce n'est pas une fatalité. "Tu n'as pas à continuer à..."
-→ Effort créatif : réveiller une douleur endormie demande plus de force.
+**How to identify:** In reviews and verbatims, note whether the person talks about themselves alone or about others' perceptions.
 
 ---
 
-## Matrice Émotionnelle
+### Q3 — Is the pain acute or chronic?
+
+**Acute pain:** Triggered by a recent event. Intense but transient.
+→ Clear micro-moment: "this morning when...", "last week..."
+→ Hook: anchor in the precise moment.
+→ Natural urgency — the action window is short.
+
+**Chronic pain:** Present for a long time. Normalized, almost accepted.
+→ Verbatim signal: "always", "I've learned to live with it"
+→ Hook: reveal that it's not inevitable. "You don't have to keep..."
+→ Creative effort: awakening a dormant pain requires more force.
+
+---
+
+## Emotional Matrix
 
 ```
-                    PRIVÉE
+                    PRIVATE
                       │
-         Honte ───────┼────── Frustration silencieuse
-         Peur          │         Confusion
+         Shame ───────┼────── Silent frustration
+         Fear         │       Confusion
                       │
-CHRONIQUE ────────────┼──────────────────── AIGUË
+CHRONIC ──────────────┼──────────────────── ACUTE
                       │
-         Confusion ───┼────── Colère
-         résignée     │      Peur panique
+         Resigned ────┼────── Anger
+         confusion    │       Panic fear
                       │
-                   SOCIALE
+                    SOCIAL
 ```
 
 ---
 
-## Application Créative
+## Creative Application
 
-| Quadrant | Ton | Format | CTA |
+| Quadrant | Tone | Format | CTA |
 |---|---|---|---|
-| Privée + Chronique | Intime, doux, sans jugement | Texte ou voix off calme | "Découvrir" |
-| Privée + Aiguë | Direct, reconnaissant | Face caméra, confessionnel | "Voir maintenant" |
-| Sociale + Chronique | Communauté, appartenance | Testimonial, "tu n'es pas seul" | "Rejoindre" |
-| Sociale + Aiguë | Urgence + soutien | Avant/après, chiffres rapides | "Agir maintenant" |
+| Private + Chronic | Intimate, gentle, non-judgmental | Text or calm voiceover | "Discover" |
+| Private + Acute | Direct, recognizing | Face-to-camera, confessional | "Watch now" |
+| Social + Chronic | Community, belonging | Testimonial, "you're not alone" | "Join" |
+| Social + Acute | Urgency + support | Before/after, quick numbers | "Act now" |
 
 ---
 
-## Template de Mapping
+## Mapping Template
 
 ```
-## Emotional Map — [Persona] — [Produit]
+## Emotional Map — [Persona] — [Product]
 
-Émotion dominante :
-Douleur privée ou sociale :
-Douleur aiguë ou chronique :
+Dominant emotion:
+Private or social pain:
+Acute or chronic pain:
 
-Verbatim le plus représentatif :
-"[citation exacte]"
+Most representative verbatim:
+"[exact quote]"
 
-Implication créative :
-→ Ton :
-→ Format recommandé :
-→ Hook direction :
+Creative implication:
+→ Tone:
+→ Recommended format:
+→ Hook direction:
 ```

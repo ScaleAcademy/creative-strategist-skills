@@ -1,93 +1,93 @@
-# Sources Verbatims — Où Miner la Voix du Client
+# Verbatim Sources — Where to Mine the Voice of the Customer
 
-## Principe
+## Principle
 
-Le meilleur copywriting n'est pas inventé — il est extrait.
-Les clients décrivent leur douleur, leur transformation, et leurs objections avec des mots que tu n'aurais jamais trouvés seul.
-Ces mots, placés dans un hook ou une accroche, déclenchent la reconnaissance immédiate : "C'est exactement ce que je ressens."
+The best copywriting is not invented — it is extracted.
+Customers describe their pain, transformation, and objections with words you would never have found on your own.
+These words, placed in a hook or headline, trigger immediate recognition: "That's exactly what I feel."
 
 ---
 
-## Sources Primaires (Haute Valeur)
+## Primary Sources (High Value)
 
-### 1. Avis Produit — Amazon.fr / Amazon (anglais)
-**Pourquoi :** Les avis longs (4-5 étoiles, 200+ mots) sont des mines de verbatims Layer 3.
-**Quoi chercher :**
-- Paragraphe d'avant (la douleur avant achat)
-- Paragraphe de transformation ("depuis que j'utilise...")
-- Formulation émotionnelle ("j'étais tellement frustrée de...")
-**Technique :** Filtrer par "le plus utile" + lire les 4 étoiles (plus honnêtes que les 5).
+### 1. Product Reviews — Amazon / Amazon.com
+**Why:** Long reviews (4-5 stars, 200+ words) are Layer 3 verbatim goldmines.
+**What to look for:**
+- Before paragraph (the pain before purchase)
+- Transformation paragraph ("since I've been using...")
+- Emotional formulation ("I was so frustrated about...")
+**Technique:** Filter by "most helpful" + read the 4-star reviews (more honest than 5-star).
 
 ### 2. Trustpilot
-**Pourquoi :** Spécifique aux marques FR, souvent plus négatif → révèle les vrais freins.
-**Quoi chercher :**
-- Objections avant achat mentionnées dans les avis positifs
-- Mots récurrents dans les avis 4-5 étoiles
-- Les avis 3 étoiles : satisfaction partielle = tension non résolue = angle créatif.
+**Why:** Brand-specific, often more negative → reveals real barriers.
+**What to look for:**
+- Pre-purchase objections mentioned in positive reviews
+- Recurring words in 4-5 star reviews
+- 3-star reviews: partial satisfaction = unresolved tension = creative angle.
 
-### 3. Commentaires Meta Ads (Facebook / Instagram)
-**Pourquoi :** Les gens répondent aux pubs avec leur vraie réaction non filtrée.
-**Quoi chercher :**
-- Questions récurrentes = objections non traitées dans la pub
-- Commentaires positifs = ce qui a résonné
-- Tags d'amis = audience naturelle
-**Technique :** Regarder les pubs qui tournent depuis longtemps dans Meta Ad Library → aller sur leur page → voir les commentaires.
+### 3. Meta Ads Comments (Facebook / Instagram)
+**Why:** People respond to ads with their real, unfiltered reaction.
+**What to look for:**
+- Recurring questions = objections not addressed in the ad
+- Positive comments = what resonated
+- Friend tags = natural audience
+**Technique:** Look at long-running ads in Meta Ad Library → go to their page → see comments.
 
-### 4. Reddit (r/france, subreddits niche)
-**Pourquoi :** Conversations non commerciales, langage authentique, recommandations entre pairs.
-**Quoi chercher :**
-- Threads "Quelqu'un a essayé X ?" → objections naturelles
-- Threads de recommandations → what people actually say when they like something
-- Formulations : "honnêtement", "franchement", "le seul truc que j'ai trouvé qui marche vraiment"
-**Technique :** Chercher `site:reddit.com [catégorie produit]` sur Google.
+### 4. Reddit (niche subreddits)
+**Why:** Non-commercial conversations, authentic language, peer-to-peer recommendations.
+**What to look for:**
+- "Has anyone tried X?" threads → natural objections
+- Recommendation threads → what people actually say when they like something
+- Formulations: "honestly", "seriously", "the only thing I found that actually works"
+**Technique:** Search `site:reddit.com [product category]` on Google.
 
 ---
 
-## Sources Secondaires (Signal Moyen)
+## Secondary Sources (Medium Signal)
 
 ### 5. Google Reviews
-**Utilité :** Bon pour les produits locaux ou services physiques. Signal moins fort pour e-com pur.
+**Usefulness:** Good for local products or physical services. Weaker signal for pure e-com.
 
-### 6. Commentaires YouTube (chaînes concurrentes ou de niche)
-**Utilité :** Questions non répondues par le contenu = angles éducatifs. Frustrations exprimées = douleurs.
+### 6. YouTube Comments (competitor or niche channels)
+**Usefulness:** Unanswered questions in content = educational angles. Expressed frustrations = pain points.
 
-### 7. Forums spécialisés (forum.doctissimo.fr, forums fitness, forums trading...)
-**Utilité :** Conversations longues, problèmes détaillés, langue vernaculaire spécifique à la niche.
+### 7. Specialized Forums (fitness forums, finance forums, etc.)
+**Usefulness:** Long conversations, detailed problems, niche-specific vernacular language.
 
 ### 8. TikTok + Reels Comments
-**Utilité :** Réactions au format court = très émotionnelles, très brutes. Bonne source pour le registre de langage de la cible.
+**Usefulness:** Reactions to short-form content = very emotional, very raw. Good source for target language register.
 
 ---
 
-## Sources Internes (Si Accès Disponible)
+## Internal Sources (If Access Available)
 
-### 9. Interviews clients post-achat
-**Format :** 5 questions ouvertes. Enregistrer. Transcrire. Extraire les mots exacts.
-**Questions clés :**
-- Décris la situation juste avant d'acheter.
-- Qu'est-ce qui t'a poussé à chercher une solution ce jour-là ?
-- Quelle était ta principale hésitation ?
-- Qu'est-ce qui t'a finalement convaincu ?
-- Que dirais-tu à quelqu'un qui hésite encore ?
+### 9. Post-purchase customer interviews
+**Format:** 5 open questions. Record. Transcribe. Extract exact words.
+**Key questions:**
+- Describe the situation just before you bought.
+- What pushed you to look for a solution that day?
+- What was your main hesitation?
+- What finally convinced you?
+- What would you say to someone still hesitating?
 
-### 10. Support client / SAV
-**Utilité :** Les questions récurrentes = objections non traitées dans les pubs. Les plaintes = promesses non tenues (à corriger dans la stratégie).
-
----
-
-## Protocole de Mining
-
-1. **Collecte brute :** Copie-colle tout dans un doc sans filtrer.
-2. **Score 1-5 :** 5 = long, émotionnel, spécifique. 1 = court, générique. Analyse uniquement les 4-5.
-3. **Clustering :** Regroupe par thème (douleur avant / transformation / objection / phrase ad-ready).
-4. **Extraction des pépites :** Isole les formulations exactes qui seraient des hooks directs.
+### 10. Customer support / After-sales service
+**Usefulness:** Recurring questions = objections not addressed in ads. Complaints = promises not kept (to fix in strategy).
 
 ---
 
-## Signaux d'un Bon Verbatim
+## Mining Protocol
 
-- Contient une émotion nommée ("j'étais épuisée", "je n'en pouvais plus")
-- Décrit une situation concrète ("le dimanche soir quand...")
-- Utilise un langage familier et non marketé
-- Mentionne une transformation avant/après avec des détails spécifiques
-- Nomme un concurrent ou une alternative ("j'avais essayé X mais...")
+1. **Raw collection:** Copy-paste everything into a doc without filtering.
+2. **Score 1-5:** 5 = long, emotional, specific. 1 = short, generic. Analyze only 4-5.
+3. **Clustering:** Group by theme (pain before / transformation / objection / ad-ready phrase).
+4. **Extract the gems:** Isolate exact formulations that would be direct hooks.
+
+---
+
+## Signals of a Good Verbatim
+
+- Contains a named emotion ("I was exhausted", "I couldn't take it anymore")
+- Describes a concrete situation ("on Sunday evenings when...")
+- Uses familiar, non-marketing language
+- Mentions a before/after transformation with specific details
+- Names a competitor or alternative ("I had tried X but...")

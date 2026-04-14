@@ -5,7 +5,7 @@ metadata:
   version: 1.0.0
   status: stable
   tags: [audit, brand, foundation, prerequisite]
-  inputs: [URL de la marque, entretien client]
+  inputs: [brand URL, client interview]
   outputs: [brand-context-[brandname].md]
   depends-on: []
 ---
@@ -14,12 +14,12 @@ metadata:
 
 ## Before Starting
 
-Aucun prérequis — ce skill est le point d'entrée de toute stratégie créative.
+No prerequisites — this skill is the entry point for all creative strategy.
 
-Confirme avant de commencer :
-- [ ] Tu as accès à l'URL de la marque
-- [ ] Tu peux échanger avec le client ou un brief est disponible
-- [ ] Aucun `brand-context.md` n'existe déjà dans le projet (si oui, le charger plutôt que le recréer)
+Confirm before starting:
+- [ ] You have access to the brand URL
+- [ ] You can speak with the client or a brief is available
+- [ ] No `brand-context.md` already exists in the project (if it does, load it rather than recreating it)
 
 ---
 

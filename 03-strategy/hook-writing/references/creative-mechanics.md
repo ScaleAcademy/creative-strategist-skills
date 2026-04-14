@@ -1,97 +1,97 @@
-# Creative Mechanics — 8 Patterns Structurels
+# Creative Mechanics — 8 Structural Patterns
 
-## Définition
+## Definition
 
-Une mécanique créative est le mécanisme cognitif ou émotionnel à l'intérieur d'une publicité.
-Ce n'est pas le hook (ce que tu dis en premier).
-Ce n'est pas le format (vidéo, statique, UGC).
-C'est **comment la publicité fait arriver le spectateur à une vérité** — le chemin mental qu'elle lui fait emprunter.
+A creative mechanic is the cognitive or emotional mechanism inside an ad.
+It's not the hook (what you say first).
+It's not the format (video, static, UGC).
+It's **how the ad gets the viewer to a truth** — the mental path it makes them take.
 
-Deux ads avec le même hook et le même format peuvent avoir des mechanics totalement différentes.
-
----
-
-## Les 8 Mechanics
-
-### M1 — Implied Answer (Réponse Implicite)
-**Mécanisme :** Une question est posée visuellement ou verbalement. La réponse émerge sans être dite — le spectateur l'infère lui-même.
-**Pourquoi ça marche :** Ce qu'on conclut soi-même est plus convaincant que ce qu'on nous dit.
-**Format idéal :** Visuel fort + question en texte overlay.
-**Exemple :** Montrer quelqu'un d'épuisé au bureau, puis montrer la même personne en pleine forme. Question : "Qu'est-ce qui a changé ?" Le produit apparaît à la fin.
+Two ads with the same hook and the same format can have completely different mechanics.
 
 ---
 
-### M2 — Social Witness (Témoin Social)
-**Mécanisme :** Un tiers (proche, collègue, inconnu) remarque le changement et le nomme. La transformation est validée par quelqu'un d'autre.
-**Pourquoi ça marche :** La preuve externe est plus crédible que l'auto-promotion.
-**Format idéal :** Dialogue, conversation filmée, screenshot de message.
-**Exemple :** "Ma sœur m'a dit : 'T'as changé quelque chose ? Tu rayonnes.' Je lui ai tout expliqué."
+## The 8 Mechanics
+
+### M1 — Implied Answer
+**Mechanism:** A question is posed visually or verbally. The answer emerges without being stated — the viewer infers it themselves.
+**Why it works:** What we conclude ourselves is more convincing than what we're told.
+**Ideal format:** Strong visual + question in text overlay.
+**Example:** Show someone exhausted at the office, then the same person full of energy. Question: "What changed?" The product appears at the end.
 
 ---
 
-### M3 — Overheard Conversation (Conversation Captée)
-**Mécanisme :** La pub ressemble à une conversation privée qu'on est en train d'observer — thread SMS, DM, commentaire, échange vocal.
-**Pourquoi ça marche :** Contourne le filtre "c'est une pub". Crée un sentiment d'accès à quelque chose de vrai.
-**Format idéal :** Screen recording de conversation, voice memo, commentaires screenshot.
-**Exemple :** Screen d'un échange WhatsApp entre deux amis parlant d'un produit sans le savoir.
+### M2 — Social Witness
+**Mechanism:** A third party (friend, colleague, stranger) notices the change and names it. The transformation is validated by someone else.
+**Why it works:** External proof is more credible than self-promotion.
+**Ideal format:** Dialogue, filmed conversation, screenshot of a message.
+**Example:** "My sister told me: 'Did you change something? You're glowing.' I explained everything to her."
 
 ---
 
-### M4 — Reframe (Renversement de Cadre)
-**Mécanisme :** La pub valide d'abord la croyance existante du spectateur — puis retourne complètement la perspective.
-**Pourquoi ça marche :** Valider d'abord = crédibilité. Renverser ensuite = impact maximal car inattendu.
-**Structure :** Setup (valide la croyance) → Pivot ("mais en fait...") → Nouveau cadre.
-**Exemple :** "Tu penses que manger moins te fera maigrir. En fait, c'est l'inverse qui est vrai pour 80% des gens."
+### M3 — Overheard Conversation
+**Mechanism:** The ad looks like a private conversation you're observing — SMS thread, DM, comment, voice memo.
+**Why it works:** Bypasses the "this is an ad" filter. Creates a sense of access to something real.
+**Ideal format:** Screen recording of a conversation, voice memo, comment screenshot.
+**Example:** Screen of a WhatsApp exchange between two friends talking about a product unknowingly.
 
 ---
 
-### M5 — Borrowed Enemy (Ennemi Emprunté)
-**Mécanisme :** La pub décrit un concurrent ou une alternative inférieure sans le nommer — et le spectateur fait lui-même l'association.
-**Pourquoi ça marche :** Différenciation sans attaque directe. Respecte les règles publicitaires. Crée une tension.
-**Format idéal :** Comparatif implicite, "contrairement à d'autres méthodes", avant/après d'une méthode qui échoue.
-**Exemple :** "La plupart des programmes te demandent de tout changer du jour au lendemain. Nous, on t'explique pourquoi c'est la raison pour laquelle tu as échoué avant."
+### M4 — Reframe
+**Mechanism:** The ad first validates the viewer's existing belief — then completely reverses the perspective.
+**Why it works:** Validate first = credibility. Reverse then = maximum impact because unexpected.
+**Structure:** Setup (validates the belief) → Pivot ("but actually...") → New frame.
+**Example:** "You think eating less will make you lose weight. Actually, the opposite is true for 80% of people."
 
 ---
 
-### M6 — Trojan Horse (Cheval de Troie)
-**Mécanisme :** La pub commence comme du contenu (info, divertissement, éducation) et le produit n'apparaît qu'à la fin — ou de manière subtile.
-**Pourquoi ça marche :** L'audience regarde sans défense. Le message passe avant que le filtre "pub" s'active.
-**Format idéal :** Vidéo éducative, tuto, "hack" de vie, avant/après naturaliste.
-**Exemple :** Une vidéo qui explique "3 choses que personne ne te dit sur le sommeil" — le produit apparaît comme une solution naturelle à la fin.
+### M5 — Borrowed Enemy
+**Mechanism:** The ad describes a competitor or inferior alternative without naming it — and the viewer makes the association themselves.
+**Why it works:** Differentiation without direct attack. Respects advertising rules. Creates tension.
+**Ideal format:** Implicit comparison, "unlike other methods", before/after of a failing method.
+**Example:** "Most programs ask you to change everything overnight. We explain why that's the reason you failed before."
 
 ---
 
-### M7 — Contrast Without Comment (Contraste Sans Commentaire)
-**Mécanisme :** Deux réalités sont présentées côte à côte. Aucune voix off ne juge, ne commente, ne tire de conclusion. Le spectateur fait le travail.
-**Pourquoi ça marche :** Respecte l'intelligence du spectateur. Conclusions auto-générées = plus persuasives.
-**Format idéal :** Split screen, before/after sans texte, deux témoignages opposés.
-**Exemple :** Gauche : routine matinale chaotique, stressée, sans énergie. Droite : même personne, calme, efficace, souriante. Pas de narration.
+### M6 — Trojan Horse
+**Mechanism:** The ad starts as content (info, entertainment, education) and the product only appears at the end — or subtly.
+**Why it works:** The audience watches without defenses. The message gets through before the "ad" filter activates.
+**Ideal format:** Educational video, tutorial, life hack, naturalistic before/after.
+**Example:** A video explaining "3 things nobody tells you about sleep" — the product appears as a natural solution at the end.
+
+---
+
+### M7 — Contrast Without Comment
+**Mechanism:** Two realities are presented side by side. No voiceover judges, comments, or draws a conclusion. The viewer does the work.
+**Why it works:** Respects the viewer's intelligence. Self-generated conclusions = more persuasive.
+**Ideal format:** Split screen, before/after without text, two opposing testimonials.
+**Example:** Left: chaotic morning routine, stressed, no energy. Right: same person, calm, efficient, smiling. No narration.
 
 ---
 
 ### M8 — This and a... (Juxtaposition)
-**Mécanisme :** Le produit est associé à quelque chose d'aspirationnel ou d'inattendu. La juxtaposition crée une signification nouvelle.
-**Pourquoi ça marche :** Transfert d'image. Le produit "hérite" du prestige ou du désir lié à l'autre élément.
-**Format idéal :** Visuel produit + contexte premium, "le café des gens qui...", lifestyle association.
-**Exemple :** "Le carnet des fondateurs qui ont levé 10M€." (Le carnet en lui-même est banal — le contexte le transforme.)
+**Mechanism:** The product is associated with something aspirational or unexpected. The juxtaposition creates new meaning.
+**Why it works:** Image transfer. The product "inherits" the prestige or desire linked to the other element.
+**Ideal format:** Product visual + premium context, "the coffee of people who...", lifestyle association.
+**Example:** "The notebook of founders who raised €10M." (The notebook itself is mundane — the context transforms it.)
 
 ---
 
-## Sélection de la Mécanique
+## Mechanic Selection
 
-| Objectif | Mécanique recommandée |
+| Objective | Recommended mechanic |
 |---|---|
-| Construire la crédibilité | M2 Social Witness, M3 Overheard |
-| Contourner les objections | M4 Reframe, M5 Borrowed Enemy |
-| Passer sous le radar | M6 Trojan Horse, M3 Overheard |
-| Laisser le spectateur conclure | M1 Implied Answer, M7 Contrast |
-| Créer du désir aspirationnel | M8 This and a..., M2 Social Witness |
+| Build credibility | M2 Social Witness, M3 Overheard |
+| Bypass objections | M4 Reframe, M5 Borrowed Enemy |
+| Fly under the radar | M6 Trojan Horse, M3 Overheard |
+| Let the viewer conclude | M1 Implied Answer, M7 Contrast |
+| Create aspirational desire | M8 This and a..., M2 Social Witness |
 
 ---
 
-## Règle d'Application
+## Application Rules
 
-1. Choisis la mécanique AVANT d'écrire le script ou le brief.
-2. Une creative = une mécanique. Pas deux.
-3. La mécanique se décide en fonction du niveau d'awareness et de la douleur dominante.
-4. Tester des mechanics différentes sur le même angle > tester des angles différents avec la même mécanique.
+1. Choose the mechanic BEFORE writing the script or brief.
+2. One creative = one mechanic. Not two.
+3. The mechanic is decided based on awareness level and dominant pain.
+4. Testing different mechanics on the same angle > testing different angles with the same mechanic.

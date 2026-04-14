@@ -1,12 +1,12 @@
 ---
 name: strategy-gap
-description: "Identifies missing angles, untested personas, uncovered awareness stages, and format gaps in the current creative strategy. Use after account-audit or when performance plateaus. Trigger on: 'qu'est-ce qu'on ne teste pas', 'angles manquants', 'gap stratégique', 'on tourne en rond'. Produces a prioritized gap report with sprint recommendations."
+description: "Identifies missing angles, untested personas, uncovered awareness stages, and format gaps in the current creative strategy. Use after account-audit or when performance plateaus. Trigger on: 'what are we not testing', 'missing angles', 'strategic gap', 'going in circles'. Produces a prioritized gap report with sprint recommendations."
 metadata:
   version: 1.0.0
   status: stable
   tags: [analysis, strategy, gaps, testing, planning]
-  inputs: [données campagne actuelle, account-audit report ou ad-analysis reports]
-  outputs: [gap report — top 3 gaps priorisés + recommandation sprint]
+  inputs: [current campaign data, account-audit report or ad-analysis reports]
+  outputs: [gap report — top 3 prioritized gaps + sprint recommendation]
   depends-on: [account-audit]
 ---
 
@@ -14,104 +14,104 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Au minimum un `account-audit` récent disponible, ou plusieurs `ad-analysis` individuels
-- [ ] Historique de test disponible (quels angles / formats / personas ont déjà été testés)
-- [ ] `brand-context.md` disponible pour contexte
-- [ ] Objectif business du prochain sprint défini
+Confirm before starting:
+- [ ] At least one recent `account-audit` available, or multiple individual `ad-analysis` reports
+- [ ] Test history available (which angles / formats / personas have already been tested)
+- [ ] `brand-context.md` available for context
+- [ ] Next sprint business objective defined
 
-Ce skill ne crée pas de nouveaux angles depuis rien — il identifie ce qui manque dans ce qui existe.
+This skill doesn't create new angles from scratch — it identifies what's missing from what exists.
 
-Pour la grille complète : voir [references/gap-matrix.md](references/gap-matrix.md)
-
----
-
-## Phase 1 : Cartographier l'Existant
-
-Construire un inventaire de ce qui a été testé :
-
-**Awareness gaps :**
-Quels niveaux d'awareness ont des creatives actives ? Lesquels n'en ont pas ?
-
-**Angle gaps :**
-Quels angles C1/C2/C3/C4 ont été testés ? Lesquels sont absents ?
-
-**Persona gaps :**
-Combien de personas distincts ont été adressés directement ? Lesquels sont ignorés ?
-
-**Format gaps :**
-Quels formats ont été testés ? Quels formats n'ont jamais été lancés ?
-
-**Mechanic gaps :**
-Quelles mécaniques créatives (M1–M8) sont présentes dans le compte ? Lesquelles sont absentes ?
+For the complete grid: see [references/gap-matrix.md](references/gap-matrix.md)
 
 ---
 
-## Phase 2 : Qualifier les Gaps
+## Phase 1: Map What Exists
 
-Pour chaque gap identifié, évaluer :
+Build an inventory of what has been tested:
 
-| Critère | Score 1–3 |
+**Awareness gaps:**
+Which awareness levels have active creatives? Which don't?
+
+**Angle gaps:**
+Which C1/C2/C3/C4 angles have been tested? Which are absent?
+
+**Persona gaps:**
+How many distinct personas have been directly addressed? Which are ignored?
+
+**Format gaps:**
+Which formats have been tested? Which formats have never been launched?
+
+**Mechanic gaps:**
+Which creative mechanics (M1–M8) are present in the account? Which are absent?
+
+---
+
+## Phase 2: Qualify the Gaps
+
+For each identified gap, evaluate:
+
+| Criterion | Score 1–3 |
 |---|---|
-| Volume d'audience potentiel touché | |
-| Facilité de production du test | |
-| Signal préliminaire justifiant le test | |
-| Alignement avec objectif sprint | |
+| Potential audience volume reached | |
+| Ease of producing the test | |
+| Preliminary signal justifying the test | |
+| Alignment with sprint objective | |
 
-Score > 9 = priorité haute.
+Score > 9 = high priority.
 
 ---
 
-## Phase 3 : Formuler les Recommandations de Sprint
+## Phase 3: Formulate Sprint Recommendations
 
-Convertir les top 3 gaps en recommendations concrètes :
-- Description du gap
-- Hypothèse de ce que combler ce gap pourrait produire
-- Creative spécifique à produire pour tester
-- Priorité (Haute / Moyenne)
+Convert the top 3 gaps into concrete recommendations:
+- Gap description
+- Hypothesis of what filling this gap could produce
+- Specific creative to produce to test
+- Priority (High / Medium)
 
 ---
 
 ## Output Format
 
 ```markdown
-# Strategy Gap Report — [Marque] — [Date]
+# Strategy Gap Report — [Brand] — [Date]
 
-## Inventaire — Ce qui a Été Testé
-| Dimension | Testé | Non testé |
+## Inventory — What Has Been Tested
+| Dimension | Tested | Not tested |
 |---|---|---|
 | Awareness | | |
 | Angles | | |
 | Personas | | |
 | Formats | | |
-| Mécaniques | | |
+| Mechanics | | |
 
-## Top 3 Gaps Identifiés
+## Top 3 Identified Gaps
 
-### Gap 1 — [Titre]
-**Dimension :** [Awareness / Angle / Persona / Format / Mécanique]
-**Description :** [Ce qui manque]
-**Hypothèse :** [Ce que combler ce gap pourrait produire]
-**Test recommandé :** [1 creative précise à produire]
-**Score :** [X/12] — Priorité : Haute
+### Gap 1 — [Title]
+**Dimension:** [Awareness / Angle / Persona / Format / Mechanic]
+**Description:** [What's missing]
+**Hypothesis:** [What filling this gap could produce]
+**Recommended test:** [1 specific creative to produce]
+**Score:** [X/12] — Priority: High
 
 ### Gap 2
-[Même structure]
+[Same structure]
 
 ### Gap 3
-[Même structure]
+[Same structure]
 
-## Recommandation Sprint
-→ [X] briefs à lancer ce sprint pour couvrir les gaps prioritaires
-→ Budget de test recommandé : [X€]
-→ Briefs à créer : voir `03-strategy/creative-brief`
+## Sprint Recommendation
+→ [X] briefs to launch this sprint to cover the priority gaps
+→ Recommended test budget: [X€]
+→ Briefs to create: see `03-strategy/creative-brief`
 ```
 
 ---
 
 ## Related Skills
 
-- `05-analysis/account-audit` — source principale des données
-- `05-analysis/ad-analysis` — pour approfondir chaque gap avec des données individuelles
-- `03-strategy/creative-brief` — pour briefe les tests recommandés
-- `03-strategy/message-sequencing` — si le gap concerne une phase funnel entière
+- `05-analysis/account-audit` — primary data source
+- `05-analysis/ad-analysis` — to dig deeper into each gap with individual data
+- `03-strategy/creative-brief` — to brief the recommended tests
+- `03-strategy/message-sequencing` — if the gap concerns an entire funnel phase

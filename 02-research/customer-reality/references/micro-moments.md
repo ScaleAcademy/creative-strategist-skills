@@ -1,99 +1,99 @@
-# Micro-Moments — Situations Déclenchantes
+# Micro-Moments — Triggering Situations
 
-## Définition
+## Definition
 
-Un micro-moment est la situation précise — le lieu, l'heure, l'événement — qui a poussé le prospect à chercher une solution.
+A micro-moment is the precise situation — the place, the time, the event — that pushed the prospect to look for a solution.
 
-Ce n'est pas "j'avais un problème de sommeil".
-C'est "c'était un dimanche soir, je regardais le plafond à 2h du matin en sachant que j'avais une réunion importante le lendemain."
+It's not "I had a sleep problem."
+It's "It was a Sunday night, I was staring at the ceiling at 2am knowing I had an important meeting the next day."
 
-La différence entre les deux : le premier est un segment. Le deuxième est un hook.
-
----
-
-## Pourquoi les Micro-Moments Comptent
-
-Le cerveau traite les situations concrètes avant les abstractions.
-Quand tu décris exactement la situation que le prospect vit, son cerveau dit "c'est moi".
-Ce moment de reconnaissance crée une connexion émotionnelle instantanée — avant même qu'il sache ce que tu vends.
+The difference between the two: the first is a segment. The second is a hook.
 
 ---
 
-## Les 4 Types de Micro-Moments
+## Why Micro-Moments Matter
 
-### Type 1 — Le Moment Limite ("La Goutte d'Eau")
-Un événement spécifique a tout changé. La douleur existait depuis longtemps, mais quelque chose a déclenché l'action.
-
-**Signaux verbatims :** "Le jour où...", "quand j'ai réalisé que...", "j'en pouvais plus après..."
-**Hook :** Ancre dans l'événement déclencheur.
-**Exemple :** "Le jour où j'ai refusé une invitation parce que j'avais honte de mon corps, j'ai décidé que c'était terminé."
+The brain processes concrete situations before abstractions.
+When you describe exactly the situation the prospect is living, their brain says "that's me."
+This moment of recognition creates an instant emotional connection — before they even know what you're selling.
 
 ---
 
-### Type 2 — Le Moment Récurrent (La Boucle)
-La douleur revient régulièrement, à un moment précis et prévisible.
+## The 4 Types of Micro-Moments
 
-**Signaux verbatims :** "Chaque fois que...", "tous les lundis matin...", "à chaque fin de mois..."
-**Hook :** Nommer la boucle. Le prospect se reconnaît immédiatement.
-**Exemple :** "Chaque dimanche soir, cette même angoisse pour la semaine qui arrive."
+### Type 1 — The Breaking Point ("The Last Straw")
+A specific event changed everything. The pain existed for a long time, but something triggered action.
 
----
-
-### Type 3 — Le Moment de Comparaison (L'Écart)
-Le prospect voit quelqu'un d'autre réussir là où il échoue. L'écart crée la douleur.
-
-**Signaux verbatims :** "J'ai vu que X arrivait à...", "tout le monde autour de moi..."
-**Hook :** Montrer l'écart sans juger.
-**Exemple :** "Mon collègue avec le même salaire que moi vient d'acheter un appartement. Je ne comprends pas comment."
+**Verbatim signals:** "The day...", "when I realized that...", "I couldn't take it anymore after..."
+**Hook:** Anchor in the triggering event.
+**Example:** "The day I turned down an invitation because I was ashamed of my body, I decided it was over."
 
 ---
 
-### Type 4 — Le Moment d'Anticipation (La Peur Projetée)
-La douleur n'est pas encore là, mais le prospect la voit arriver.
+### Type 2 — The Recurring Moment (The Loop)
+The pain comes back regularly, at a precise and predictable moment.
 
-**Signaux verbatims :** "J'ai peur que si je ne fais rien...", "dans 5 ans si ça continue..."
-**Hook :** Rendre la projection concrète et tangible.
-**Exemple :** "Si tu continues à n'avoir aucun système, dans 3 ans tu seras au même endroit — mais avec 3 ans de retard."
-
----
-
-## Comment Identifier les Micro-Moments
-
-**Questions à poser en interview :**
-- Décris-moi la journée où tu as décidé de chercher une solution.
-- Qu'est-ce que tu faisais exactement quand tu as réalisé que tu avais un problème ?
-- Il s'est passé quoi juste avant que tu achètes ?
-- Est-ce qu'il y avait un moment régulier où tu ressentais cette douleur ?
-
-**Dans les reviews :**
-- Chercher les indicateurs temporels : "le soir", "le matin", "après X", "depuis que Y"
-- Chercher les contextes spécifiques : "au bureau", "avec mes enfants", "en regardant mon compte"
+**Verbatim signals:** "Every time...", "every Monday morning...", "at the end of every month..."
+**Hook:** Name the loop. The prospect recognizes themselves immediately.
+**Example:** "Every Sunday evening, that same anxiety about the week ahead."
 
 ---
 
-## Template Micro-Moment
+### Type 3 — The Comparison Moment (The Gap)
+The prospect sees someone else succeeding where they are failing. The gap creates the pain.
+
+**Verbatim signals:** "I saw that X was managing to...", "everyone around me..."
+**Hook:** Show the gap without judging.
+**Example:** "My colleague with the same salary as me just bought an apartment. I don't understand how."
+
+---
+
+### Type 4 — The Anticipation Moment (The Projected Fear)
+The pain isn't here yet, but the prospect can see it coming.
+
+**Verbatim signals:** "I'm afraid that if I do nothing...", "in 5 years if this continues..."
+**Hook:** Make the projection concrete and tangible.
+**Example:** "If you keep having no system, in 3 years you'll be in the same place — but 3 years behind."
+
+---
+
+## How to Identify Micro-Moments
+
+**Questions to ask in interviews:**
+- Describe the day you decided to look for a solution.
+- What were you doing exactly when you realized you had a problem?
+- What happened just before you bought?
+- Was there a recurring moment when you felt this pain?
+
+**In reviews:**
+- Look for time indicators: "in the evening", "in the morning", "after X", "since Y"
+- Look for specific contexts: "at the office", "with my kids", "looking at my account"
+
+---
+
+## Micro-Moment Template
 
 ```
-## Micro-Moment — [Persona] — [Produit]
+## Micro-Moment — [Persona] — [Product]
 
-Type : [ ] Limite  [ ] Récurrent  [ ] Comparaison  [ ] Anticipation
+Type: [ ] Breaking point  [ ] Recurring  [ ] Comparison  [ ] Anticipation
 
-Description de la situation :
-[Heure / lieu / contexte spécifique]
+Situation description:
+[Time / place / specific context]
 
-Émotion ressentie à ce moment :
+Emotion felt at that moment:
 
-Verbatim associé :
-"[citation exacte]"
+Associated verbatim:
+"[exact quote]"
 
-Hook dérivé :
-"[Hook qui ancre dans ce micro-moment]"
+Derived hook:
+"[Hook that anchors in this micro-moment]"
 ```
 
 ---
 
-## Règle d'Or
+## Golden Rule
 
-Plus le micro-moment est spécifique, plus le hook résonne.
-"Tu n'arrives pas à dormir" → trop vague.
-"Tu regardes le plafond à 2h du matin et tu calcules combien d'heures il te reste" → c'est ça.
+The more specific the micro-moment, the more the hook resonates.
+"You can't sleep" → too vague.
+"You're staring at the ceiling at 2am calculating how many hours you have left" → that's it.

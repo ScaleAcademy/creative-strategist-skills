@@ -5,8 +5,8 @@ metadata:
   version: 1.0.0
   status: beta
   tags: [audit, strategy, objectives, constraints]
-  inputs: [conversation avec founder ou media buyer]
-  outputs: [rapport d'alignement — objectifs réels, stage de croissance, capacité production]
+  inputs: [conversation with founder or media buyer]
+  outputs: [alignment report — real objectives, growth stage, production capacity]
   depends-on: [brand-guidelines]
 ---
 
@@ -14,12 +14,12 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Accès à une conversation avec le founder, CMO, ou media buyer (pas un intermédiaire)
-- [ ] `brand-context.md` disponible ou `brand-guidelines` lancé en parallèle
-- [ ] Contexte business minimum connu : secteur, produit principal, budget approximatif
+Confirm before starting:
+- [ ] Access to a conversation with the founder, CMO, or media buyer (not an intermediary)
+- [ ] `brand-context.md` available or `brand-guidelines` launched in parallel
+- [ ] Minimum business context known: sector, primary product, approximate budget
 
-Si le décideur n'est pas disponible : ce skill perd sa valeur — ne pas le remplacer par des hypothèses.
+If the decision-maker is not available: this skill loses its value — do not replace with hypotheses.
 
 ---
 

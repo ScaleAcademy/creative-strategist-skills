@@ -1,78 +1,78 @@
 # Awareness Levels — Eugene Schwartz
 
-## Les 5 Niveaux
+## The 5 Levels
 
-### Niveau 1 — Unaware (Non-conscient)
-Le prospect ne sait pas qu'il a un problème.
-Il vit avec la douleur mais ne la nomme pas encore.
+### Level 1 — Unaware
+The prospect doesn't know they have a problem.
+They live with the pain but haven't named it yet.
 
-**Angle créatif :** Ne pas parler du produit. Parler de la situation, de la vie qu'il mène. Faire nommer la douleur avant d'offrir la solution.
-**Hook type :** "Si tu fais X, tu connais probablement Y sans le savoir."
-**Effort de conversion :** Très élevé — long funnel obligatoire.
-
----
-
-### Niveau 2 — Problem Aware (Conscient du problème)
-Le prospect sait qu'il a un problème. Il cherche peut-être des infos, pas encore une solution.
-
-**Angle créatif :** Valider la douleur, l'amplifier, montrer que ce n'est pas une fatalité.
-**Hook type :** "Pourquoi tu n'arrives pas à [résultat], même en faisant tout bien."
-**Effort de conversion :** Élevé — éduquer avant de vendre.
+**Creative angle:** Don't talk about the product. Talk about the situation, the life they're living. Get them to name the pain before offering the solution.
+**Hook type:** "If you do X, you probably know Y without realizing it."
+**Conversion effort:** Very high — long funnel required.
 
 ---
 
-### Niveau 3 — Solution Aware (Conscient des solutions)
-Le prospect connaît les types de solutions qui existent, pas encore ton produit.
+### Level 2 — Problem Aware
+The prospect knows they have a problem. They may be looking for information, not yet a solution.
 
-**Angle créatif :** Différencier ta solution des alternatives. Montrer pourquoi ton approche est supérieure.
-**Hook type :** "J'ai essayé [solution courante]. Voilà pourquoi ça n'a pas marché — et ce qui a changé."
-**Effort de conversion :** Moyen — comparer sans dénigrer, prouver le mécanisme.
-
----
-
-### Niveau 4 — Product Aware (Conscient du produit)
-Le prospect connaît ton produit. Il hésite encore à acheter.
-
-**Angle créatif :** Lever les objections, renforcer la preuve sociale, créer l'urgence.
-**Hook type :** "Ce que personne ne te dit avant d'acheter [produit]." / Témoignage avant/après.
-**Effort de conversion :** Faible-moyen — éliminer le dernier frein.
+**Creative angle:** Validate the pain, amplify it, show that it's not inevitable.
+**Hook type:** "Why you can't achieve [result], even when you're doing everything right."
+**Conversion effort:** High — educate before selling.
 
 ---
 
-### Niveau 5 — Most Aware (Prêt à acheter)
-Le prospect sait qu'il veut ton produit. Il cherche juste la bonne offre.
+### Level 3 — Solution Aware
+The prospect knows what types of solutions exist, but not your product yet.
 
-**Angle créatif :** Offre directe, urgence, exclusivité. Pas besoin d'éduquer.
-**Hook type :** "Promo 48h — [produit] à [prix]." / "Dernières places."
-**Effort de conversion :** Très faible — aller droit au but.
+**Creative angle:** Differentiate your solution from alternatives. Show why your approach is superior.
+**Hook type:** "I tried [common solution]. Here's why it didn't work — and what changed."
+**Conversion effort:** Medium — compare without attacking, prove the mechanism.
 
 ---
 
-## Implications Créatives par Phase Funnel
+### Level 4 — Product Aware
+The prospect knows your product. They're still hesitating to buy.
 
-| Awareness | Phase Funnel | Format recommandé | CTA |
+**Creative angle:** Remove objections, reinforce social proof, create urgency.
+**Hook type:** "What nobody tells you before buying [product]." / Before/after testimonial.
+**Conversion effort:** Low-medium — eliminate the last barrier.
+
+---
+
+### Level 5 — Most Aware
+The prospect knows they want your product. They're just looking for the right offer.
+
+**Creative angle:** Direct offer, urgency, exclusivity. No need to educate.
+**Hook type:** "48h promo — [product] at [price]." / "Last spots."
+**Conversion effort:** Very low — get straight to the point.
+
+---
+
+## Creative Implications by Funnel Phase
+
+| Awareness | Funnel Phase | Recommended Format | CTA |
 |---|---|---|---|
-| Unaware | TOF | Vidéo éducative, Yapper, POV | Aucun / Soft |
-| Problem Aware | TOF | UGC, Before/After problème, Storytelling | "En savoir plus" |
-| Solution Aware | MOF | Comparatif, Mécanisme, Expert explainer | "Voir comment ça marche" |
-| Product Aware | MOF/BOF | Témoignage, FAQ, Demo | "Essayer" / "Voir l'offre" |
-| Most Aware | BOF | Offre directe, Urgence, Retargeting | "Acheter" / "S'inscrire" |
+| Unaware | TOF | Educational video, Yapper, POV | None / Soft |
+| Problem Aware | TOF | UGC, Before/After problem, Storytelling | "Learn more" |
+| Solution Aware | MOF | Comparison, Mechanism, Expert explainer | "See how it works" |
+| Product Aware | MOF/BOF | Testimonial, FAQ, Demo | "Try" / "See offer" |
+| Most Aware | BOF | Direct offer, Urgency, Retargeting | "Buy" / "Sign up" |
 
 ---
 
-## Questions de Diagnostic
+## Diagnostic Questions
 
-Pour situer ton audience sur le spectre :
-1. Est-ce que ma cible sait qu'elle a ce problème — ou le vit-elle sans le nommer ?
-2. A-t-elle déjà essayé des solutions alternatives ? Lesquelles ?
-3. Connaît-elle déjà mon produit ou ma marque ?
-4. Qu'est-ce qui l'empêche encore d'acheter ?
+To locate your audience on the spectrum:
+1. Does my target know they have this problem — or are they living with it without naming it?
+2. Have they already tried alternative solutions? Which ones?
+3. Do they already know my product or brand?
+4. What's still preventing them from buying?
 
 ---
 
-## Erreur Fréquente
+## Common Mistake
 
-Parler au niveau 5 à une audience de niveau 2.
-→ La publicité ne résonne pas. L'audience ne se sent pas comprise.
+Talking at level 5 to a level 2 audience.
+→ The ad doesn't resonate. The audience doesn't feel understood.
 
-**Règle :** Rencontre l'audience là où elle en est — pas là où tu voudrais qu'elle soit.
+**Rule:** Meet the audience where they are — not where you wish they were.

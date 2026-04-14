@@ -1,12 +1,12 @@
 ---
 name: ad-analysis
-description: "Deconstructs an ad's performance data to identify why it worked or failed, extract learnings, and generate 3 test hypotheses. Use after a creative has accumulated significant spend. Trigger on: 'analyse cette pub', 'pourquoi ça marche', 'déconstruction créative', 'qu'est-ce qu'on apprend de ce résultat'. Produces a learning report and 3 actionable next test hypotheses."
+description: "Deconstructs an ad's performance data to identify why it worked or failed, extract learnings, and generate 3 test hypotheses. Use after a creative has accumulated significant spend. Trigger on: 'analyze this ad', 'why is it working', 'creative deconstruction', 'what do we learn from this result'. Produces a learning report and 3 actionable next test hypotheses."
 metadata:
   version: 1.0.0
   status: stable
   tags: [analysis, performance, creative, testing, hypotheses]
-  inputs: [données performance creative (métriques Meta), accès visuel ou description de la creative]
-  outputs: [rapport déconstruction + 3 hypothèses de test actionnables]
+  inputs: [creative performance data (Meta metrics), visual access or description of the creative]
+  outputs: [deconstruction report + 3 actionable test hypotheses]
   depends-on: [brand-health]
 ---
 
@@ -14,145 +14,145 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Données de performance disponibles : minimum Impressions, CTR, Hook Rate (si vidéo), CPA ou CPL
-- [ ] Dépense suffisante pour des données fiables (minimum 100€ dépensés, idéalement 300€+)
-- [ ] Accès visuel à la creative (lien, screenshot, ou description détaillée)
-- [ ] Brief original disponible ou contexte d'origine connu (sinon, analyser sans brief = hypothèses à labeler)
-- [ ] Période définie et audience ciblée connues
+Confirm before starting:
+- [ ] Performance data available: minimum Impressions, CTR, Hook Rate (if video), CPA or CPL
+- [ ] Sufficient spend for reliable data (minimum 100€ spent, ideally 300€+)
+- [ ] Visual access to the creative (link, screenshot, or detailed description)
+- [ ] Original brief available or origin context known (otherwise, analyze without brief = hypotheses to label)
+- [ ] Period defined and targeted audience known
 
-Pour les benchmarks de référence : voir [references/kpi-benchmarks.md](references/kpi-benchmarks.md)
+For reference benchmarks: see [references/kpi-benchmarks.md](references/kpi-benchmarks.md)
 
 ---
 
-## Phase 1 : Lire les Données
+## Phase 1: Read the Data
 
-Collecter et organiser les métriques clés :
+Collect and organize key metrics:
 
-| Métrique | Valeur | Benchmark | Status |
+| Metric | Value | Benchmark | Status |
 |---|---|---|---|
-| Hook Rate (vidéo) | | 20–30% | |
+| Hook Rate (video) | | 20–30% | |
 | Hold Rate 50% | | 20–35% | |
 | CTR (link click) | | 1–2% | |
 | CPM | | 8–15€ | |
-| CPA / CPL | | [cible] | |
-| Fréquence | | < 3 | |
-| Dépense totale | | — | |
+| CPA / CPL | | [target] | |
+| Frequency | | < 3 | |
+| Total spend | | — | |
 
-Identifier immédiatement : est-ce un winner, un learner, ou un loser ?
-- **Winner :** KPI primaire ≤ cible + volume significatif
-- **Learner :** Données insuffisantes ou KPI proche de la cible — à continuer
-- **Loser :** KPI primaire > cible × 1.5 avec dépense suffisante — à killer
+Identify immediately: is it a winner, a learner, or a loser?
+- **Winner:** Primary KPI ≤ target + significant volume
+- **Learner:** Insufficient data or KPI close to target — continue
+- **Loser:** Primary KPI > target × 1.5 with sufficient spend — kill
 
 ---
 
-## Phase 2 : Déconstruire la Creative
+## Phase 2: Deconstruct the Creative
 
-Analyser la structure de la creative sur 4 couches :
+Analyze the creative structure across 4 layers:
 
-### Hook (Première seconde / Premier frame)
-- Qu'est-ce qui a été utilisé comme amorce ?
-- Tactic identifiée (T01–T35) ?
-- Trigger psychologique ?
-- Pourquoi ça a fonctionné ou pas au regard du Hook Rate ?
+### Hook (First second / First frame)
+- What was used as the opener?
+- Tactic identified (T01–T42)?
+- Psychological trigger?
+- Why did it work or not in light of the Hook Rate?
 
-### Corps du Message
-- Quelle mécanique créative (M1–M8) ?
-- Quelle promesse centrale ?
-- Quel proof point ?
-- Objection adressée ou non ?
+### Body of the Message
+- What creative mechanic (M1–M8)?
+- What is the central promise?
+- What proof point?
+- Objection addressed or not?
 
 ### CTA
-- Clarté et alignement avec l'awareness stage ?
-- Friction du CTA adaptée au niveau d'engagement ?
+- Clarity and alignment with the awareness stage?
+- CTA friction adapted to engagement level?
 
 ### Format & Production
-- Format adapté à la plateforme et à l'audience ?
-- Qualité de production appropriée (ni trop, ni trop peu) ?
-- Ratio et durée optimaux ?
+- Format adapted to the platform and audience?
+- Appropriate production quality (not too much, not too little)?
+- Optimal ratio and duration?
 
 ---
 
-## Phase 3 : Formuler le Diagnostic
+## Phase 3: Formulate the Diagnosis
 
-Identifier la cause principale de la performance — bonne ou mauvaise.
+Identify the primary cause of performance — good or bad.
 
-**Si winner :**
-- Qu'est-ce qui a le plus contribué ? (hook / angle / mécanique / format / audience)
-- Ce résultat est-il reproductible ou contextuel (période, budget) ?
-- Qu'est-ce qu'on peut extraire comme principe pour les prochaines créas ?
+**If winner:**
+- What contributed most? (hook / angle / mechanic / format / audience)
+- Is this result reproducible or contextual (period, budget)?
+- What principle can be extracted for future creatives?
 
-**Si loser :**
-- Où s'est perdu l'audience ? (Hook Rate faible = hook / CTR faible = corps ou CTA / CPA élevé = landing page ou offre)
-- L'angle était-il juste mais l'exécution mauvaise ? Ou l'angle lui-même ne fonctionnait pas ?
-- Qu'est-ce que ce résultat révèle sur le persona ou le marché ?
+**If loser:**
+- Where did the audience drop off? (Low Hook Rate = hook / Low CTR = body or CTA / High CPA = landing page or offer)
+- Was the angle right but the execution poor? Or did the angle itself not work?
+- What does this result reveal about the persona or market?
 
 ---
 
-## Phase 4 : Générer 3 Hypothèses de Test
+## Phase 4: Generate 3 Test Hypotheses
 
-Chaque hypothèse doit être :
-- **Testable** : une seule variable changée
-- **Motivée** : basée sur un signal dans les données, pas une intuition seule
-- **Actionnable** : la prochaine creative à produire est claire
+Each hypothesis must be:
+- **Testable**: one single variable changed
+- **Motivated**: based on a signal in the data, not intuition alone
+- **Actionable**: the next creative to produce is clear
 
-**Format d'une hypothèse :**
-> "Si on [change X], alors [KPI Y] devrait [augmenter/diminuer] parce que [raison issue des données]."
+**Hypothesis format:**
+> "If we [change X], then [KPI Y] should [increase/decrease] because [reason from the data]."
 
 ---
 
 ## Output Format
 
 ```markdown
-# Ad Analysis — [Marque] — [Nom Creative] — [Date]
+# Ad Analysis — [Brand] — [Creative Name] — [Date]
 
-## Données Performance
-| Métrique | Valeur | Benchmark | Status |
-[tableau]
+## Performance Data
+| Metric | Value | Benchmark | Status |
+[table]
 
 ## Verdict
 [ ] Winner  [ ] Learner  [ ] Loser
 
-## Déconstruction
+## Deconstruction
 
 ### Hook
-Tactic : [T##] — Trigger : [biais/LF]
-Analyse : [Pourquoi ça a marché / pas marché au regard du Hook Rate]
+Tactic: [T##] — Trigger: [bias/LF]
+Analysis: [Why it worked / didn't work in light of the Hook Rate]
 
-### Corps du Message
-Mécanique : [M#] — Angle : [C#]
-Analyse : [Lecture du Hold Rate et du CTR]
+### Body of the Message
+Mechanic: [M#] — Angle: [C#]
+Analysis: [Reading of Hold Rate and CTR]
 
 ### CTA
-Analyse : [Alignement awareness / clarté / friction]
+Analysis: [Awareness alignment / clarity / friction]
 
 ### Format
-Analyse : [Format, ratio, durée — adéquation]
+Analysis: [Format, ratio, duration — adequacy]
 
-## Diagnostic Principal
-[1 phrase : ce qui explique principalement le résultat]
+## Primary Diagnosis
+[1 sentence: what mainly explains the result]
 
-## Ce qu'on Apprend
-[2–3 insights généralisables pour les prochaines créas]
+## What We Learn
+[2–3 generalizable insights for future creatives]
 
-## 3 Hypothèses de Test
+## 3 Test Hypotheses
 
-**H1 :**
-Si on [change X], alors [KPI] devrait [direction] parce que [raison].
-Creative à produire : [description courte]
+**H1:**
+If we [change X], then [KPI] should [direction] because [reason].
+Creative to produce: [short description]
 
-**H2 :**
-[Même structure]
+**H2:**
+[Same structure]
 
-**H3 :**
-[Même structure]
+**H3:**
+[Same structure]
 ```
 
 ---
 
 ## Related Skills
 
-- `01-audit/brand-health` — baseline avant analyse
-- `05-analysis/account-audit` — vue macro après plusieurs analyses individuelles
-- `05-analysis/strategy-gap` — si l'analyse révèle des angles non testés
-- `03-strategy/creative-brief` — pour briefe les hypothèses de test
+- `01-audit/brand-health` — baseline before analysis
+- `05-analysis/account-audit` — macro view after multiple individual analyses
+- `05-analysis/strategy-gap` — if the analysis reveals untested angles
+- `03-strategy/creative-brief` — to brief the test hypotheses

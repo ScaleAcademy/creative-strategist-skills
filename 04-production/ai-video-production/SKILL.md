@@ -1,12 +1,12 @@
 ---
 name: ai-video-production
-description: "Turns a validated creative brief into scene-by-scene prompts for AI video generation tools (VEO3, Kling, Runway). Use when producing video with AI tools instead of human editors. Trigger on: 'prompts VEO3', 'prompt Kling', 'génère une vidéo IA', 'AI video brief'. Produces a scene-by-scene prompt pack ready to execute in the chosen AI tool."
+description: "Turns a validated creative brief into scene-by-scene prompts for AI video generation tools (VEO3, Kling, Runway). Use when producing video with AI tools instead of human editors. Trigger on: 'VEO3 prompts', 'Kling prompt', 'generate AI video', 'AI video brief'. Produces a scene-by-scene prompt pack ready to execute in the chosen AI tool."
 metadata:
   version: 1.0.0
   status: beta
   tags: [production, ai-video, VEO3, Kling, prompts]
-  inputs: [creative-brief validé, hook sélectionné, images de référence si disponibles]
-  outputs: [pack de prompts scène par scène pour VEO3 / Kling]
+  inputs: [validated creative brief, selected hook, reference images if available]
+  outputs: [scene-by-scene prompt pack for VEO3 / Kling]
   depends-on: [creative-brief, hook-writing]
 ---
 
@@ -14,114 +14,114 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Brief créatif validé
-- [ ] Hook sélectionné
-- [ ] Outil IA défini : VEO3 (Google) ou Kling (Kuaishou) ou Runway
-- [ ] Durée cible par scène définie (recommandé : 3–8s par scène)
-- [ ] Images de référence disponibles si cohérence visuelle requise (character consistency)
-- [ ] Style visuel défini (réaliste / cinématique / UGC simulé / animé)
+Confirm before starting:
+- [ ] Validated creative brief
+- [ ] Selected hook
+- [ ] AI tool defined: VEO3 (Google) or Kling (Kuaishou) or Runway
+- [ ] Target duration per scene defined (recommended: 3–8s per scene)
+- [ ] Reference images available if visual consistency is required (character consistency)
+- [ ] Visual style defined (realistic / cinematic / simulated UGC / animated)
 
 ---
 
-## Principes de Prompting Vidéo IA
+## AI Video Prompting Principles
 
-### Structure d'un Prompt Scène
+### Scene Prompt Structure
 
 ```
-[Sujet] [Action] [Setting] [Angle caméra] [Mouvement caméra] [Éclairage] [Style] [Ambiance / Émotion] [Durée]
+[Subject] [Action] [Setting] [Camera angle] [Camera movement] [Lighting] [Style] [Mood / Emotion] [Duration]
 ```
 
-**Règles :**
-- 1 scène = 1 prompt. Ne pas combiner deux actions dans le même prompt.
-- Nommer l'action avant le contexte : "Une femme ouvre [objet]" pas "Dans une cuisine, une femme..."
-- Préciser le mouvement caméra : statique / lent zoom / tracking / handheld / drone
-- Préciser l'éclairage : naturel / golden hour / studio / low key / overcast
-- Éviter les mots abstraits : "magnifique", "incroyable" — décrire le concret
+**Rules:**
+- 1 scene = 1 prompt. Do not combine two actions in the same prompt.
+- Name the action before the context: "A woman opens [object]" not "In a kitchen, a woman..."
+- Specify camera movement: static / slow zoom / tracking / handheld / drone
+- Specify lighting: natural / golden hour / studio / low key / overcast
+- Avoid abstract words: "beautiful", "amazing" — describe what is concrete
 
-### Cohérence Visuelle Inter-Scènes
+### Visual Consistency Across Scenes
 
-Pour garder le même personnage entre les scènes :
-- Décrire physiquement le personnage à chaque prompt (âge, genre, tenue, couleur cheveux)
-- Utiliser une image de référence si l'outil le permet (Kling = image + prompt)
-- Garder le même setting / décor entre les scènes liées
-
----
-
-## Phase 1 : Découper le Brief en Scènes
-
-Reprendre la structure narrative du brief (Hook → Tension → Résolution → CTA) et la convertir en scènes de 3–8 secondes.
-
-**Nombre de scènes recommandé :**
-- 15s → 3–4 scènes
-- 30s → 5–6 scènes
-- 60s → 8–10 scènes
+To keep the same character across scenes:
+- Physically describe the character in each prompt (age, gender, outfit, hair color)
+- Use a reference image if the tool allows it (Kling = image + prompt)
+- Keep the same setting / background across linked scenes
 
 ---
 
-## Phase 2 : Écrire les Prompts
+## Phase 1: Break the Brief into Scenes
 
-Pour chaque scène :
+Take the narrative structure from the brief (Hook → Tension → Resolution → CTA) and convert it into 3–8 second scenes.
+
+**Recommended number of scenes:**
+- 15s → 3–4 scenes
+- 30s → 5–6 scenes
+- 60s → 8–10 scenes
+
+---
+
+## Phase 2: Write the Prompts
+
+For each scene:
 
 ```markdown
-**Scène [#] — [Nom / Rôle dans la structure]**
-Durée : [3–8s]
-Outil : [VEO3 / Kling / Runway]
+**Scene [#] — [Name / Role in structure]**
+Duration: [3–8s]
+Tool: [VEO3 / Kling / Runway]
 
-Prompt :
-"[Description complète selon la structure : sujet + action + setting + caméra + lumière + style + émotion]"
+Prompt:
+"[Complete description following the structure: subject + action + setting + camera + lighting + style + emotion]"
 
-Image de référence : [Oui / Non — lien si oui]
-Note de production : [Conseil spécifique à cet outil]
+Reference image: [Yes / No — link if yes]
+Production note: [Specific advice for this tool]
 ```
 
 ---
 
-## Phase 3 : Assembler et Tester
+## Phase 3: Assemble and Test
 
-Après génération de toutes les scènes :
-1. Visionner chaque scène individuellement
-2. Vérifier la cohérence visuelle (personnage, setting, style)
-3. Assembler dans l'ordre narratif
-4. Ajouter texte overlay, sous-titres, musique en post (CapCut / Premiere / DaVinci)
-5. Vérifier : la séquence tient-elle sans son ? (silent viewing test)
+After generating all scenes:
+1. Watch each scene individually
+2. Check visual consistency (character, setting, style)
+3. Assemble in narrative order
+4. Add text overlay, subtitles, music in post (CapCut / Premiere / DaVinci)
+5. Check: does the sequence hold without sound? (silent viewing test)
 
 ---
 
 ## Output Format
 
 ```markdown
-# AI Video Prompt Pack — [Marque] — [Creative ID] — [Date]
+# AI Video Prompt Pack — [Brand] — [Creative ID] — [Date]
 
-## Contexte
-Outil principal : [VEO3 / Kling / Runway]
-Durée totale : [Xs]
-Style : [Réaliste UGC / Cinématique / Animé]
-Personnage principal : [Description physique complète]
+## Context
+Primary tool: [VEO3 / Kling / Runway]
+Total duration: [Xs]
+Style: [Realistic UGC / Cinematic / Animated]
+Main character: [Complete physical description]
 
-## Scènes
+## Scenes
 
-### Scène 1 — Hook [0–3s]
-Prompt : "[Prompt complet]"
-Image réf : [Lien / Non]
+### Scene 1 — Hook [0–3s]
+Prompt: "[Full prompt]"
+Ref image: [Link / None]
 
-### Scène 2 — [Nom] [3–Xs]
-[Même structure]
+### Scene 2 — [Name] [3–Xs]
+[Same structure]
 
 [...]
 
 ## Post-Production
-- Texte overlay à ajouter : "[Hook textuel]" — [Position, police, timing]
-- Sous-titres : [Oui / Non]
-- Musique : [Style / Référence]
-- CTA final : "[Texte]" — [Timing d'apparition]
+- Text overlay to add: "[Text hook]" — [Position, font, timing]
+- Subtitles: [Yes / No]
+- Music: [Style / Reference]
+- Final CTA: "[Text]" — [Appearance timing]
 ```
 
 ---
 
 ## Related Skills
 
-- `03-strategy/creative-brief` — prérequis
-- `03-strategy/hook-writing` — hook → première scène
-- `04-production/video-production` — version brief monteur humain du même concept
-- `04-production/campaign-setup` — après production
+- `03-strategy/creative-brief` — prerequisite
+- `03-strategy/hook-writing` — hook → first scene
+- `04-production/video-production` — human editor brief version of the same concept
+- `04-production/campaign-setup` — after production

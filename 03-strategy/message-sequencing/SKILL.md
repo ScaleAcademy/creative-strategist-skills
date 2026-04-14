@@ -1,12 +1,12 @@
 ---
 name: message-sequencing
-description: "Plans a full-funnel message sequence: 4–5 touchpoints mapped to awareness stages, with angle, format, and CTA for each. Use after creative-brief when the campaign spans multiple awareness stages. Trigger on: 'plan de séquence', 'funnel créatif', 'parcours publicitaire', 'TOF MOF BOF', 'séquence de touchpoints'. Produces a sequencing plan ready to brief the production team."
+description: "Plans a full-funnel message sequence: 4–5 touchpoints mapped to awareness stages, with angle, format, and CTA for each. Use after creative-brief when the campaign spans multiple awareness stages. Trigger on: 'sequence plan', 'creative funnel', 'ad journey', 'TOF MOF BOF', 'touchpoint sequence'. Produces a sequencing plan ready to brief the production team."
 metadata:
   version: 1.0.0
   status: stable
   tags: [strategy, sequencing, funnel, planning, retargeting]
-  inputs: [creative-brief.md, awareness stage de départ du persona]
-  outputs: [sequencing-plan-[marque]-[date].md — plan 4–5 touchpoints]
+  inputs: [creative-brief.md, persona's starting awareness stage]
+  outputs: [sequencing-plan-[brand]-[date].md — 4–5 touchpoint plan]
   depends-on: [creative-brief, audience-research]
 ---
 
@@ -14,123 +14,123 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Brief créatif disponible pour au moins 1 touchpoint
-- [ ] Awareness stage de départ du persona connu
-- [ ] Budget disponible pour tester plusieurs phases (pas utile sur petit budget mono-phase)
-- [ ] Structure de campagne Meta définie ou à définir
+Confirm before starting:
+- [ ] Creative brief available for at least 1 touchpoint
+- [ ] Persona's starting awareness stage known
+- [ ] Budget available to test multiple phases (not useful on single-phase small budget)
+- [ ] Meta campaign structure defined or to be defined
 
-Ce skill n'est utile que si la marque a les moyens de déployer 3+ touchpoints. Sur un budget test < 1 000€/mois, prioriser 1 seul angle fort plutôt qu'une séquence.
+This skill is only useful if the brand has the means to deploy 3+ touchpoints. On a test budget < €1,000/month, prioritize 1 strong angle rather than a sequence.
 
 ---
 
-## Principe de Séquencement
+## Sequencing Principle
 
-L'audience se déplace sur l'échelle d'awareness au fil des touchpoints.
-Chaque touchpoint doit faire avancer le prospect d'un niveau — pas vendre à chaque étape.
+The audience moves along the awareness scale across touchpoints.
+Each touchpoint must move the prospect one level forward — not sell at every stage.
 
 ```
-Unaware → TOF : éduquer / éveiller
-Problem Aware → TOF/MOF : valider la douleur / montrer une solution existe
-Solution Aware → MOF : différencier / prouver le mécanisme
-Product Aware → MOF/BOF : lever les objections / renforcer la preuve
-Most Aware → BOF : offre directe / urgence
+Unaware → TOF: educate / awaken
+Problem Aware → TOF/MOF: validate the pain / show a solution exists
+Solution Aware → MOF: differentiate / prove the mechanism
+Product Aware → MOF/BOF: remove objections / reinforce proof
+Most Aware → BOF: direct offer / urgency
 ```
 
 ---
 
-## Phase 1 : Définir le Point d'Entrée
+## Phase 1: Define the Entry Point
 
-Identifier l'awareness stage dominant du persona à l'entrée du funnel.
-→ C'est de là que commence la séquence.
+Identify the persona's dominant awareness stage at the top of the funnel.
+→ This is where the sequence begins.
 
 ---
 
-## Phase 2 : Construire les Touchpoints
+## Phase 2: Build the Touchpoints
 
-Pour chaque étape du funnel, définir :
+For each funnel stage, define:
 
-| Champ | Contenu |
+| Field | Content |
 |---|---|
-| Awareness stage ciblé | Niveau 1–5 |
-| Objectif du touchpoint | Éveiller / Éduquer / Différencier / Lever objection / Convertir |
-| Angle créatif | C1 / C2 / C3 / C4 |
-| Format recommandé | Vidéo / Statique / Carousel |
-| Durée (si vidéo) | 15s / 30s / 60s / 90s |
-| Hook direction | Amorce émotionnelle, situationnelle, ou identitaire |
+| Target awareness stage | Level 1–5 |
+| Touchpoint objective | Awaken / Educate / Differentiate / Remove objection / Convert |
+| Creative angle | C1 / C2 / C3 / C4 |
+| Recommended format | Video / Static / Carousel |
+| Duration (if video) | 15s / 30s / 60s / 90s |
+| Hook direction | Emotional, situational, or identity opening |
 | CTA | Soft / Medium / Direct |
-| Audience Meta | Cold / Engagés / Visiteurs / Panier / Clients |
+| Meta audience | Cold / Engaged / Visitors / Cart / Customers |
 
 ---
 
-## Phase 3 : Plan de Séquence Recommandé
+## Phase 3: Recommended Sequence Plan
 
-### Structure Standard 5 Touchpoints
+### Standard 5-Touchpoint Structure
 
-**TP1 — TOF Cold : Éveiller**
-- Audience : Froide (intérêts, lookalike)
-- Awareness ciblé : Unaware ou Problem Aware
-- Objectif : Faire naître la prise de conscience
-- Angle : C1 (douleur) ou C3 (éducation)
-- CTA : "En savoir plus" / "Découvrir"
-- Format : Vidéo 30–60s ou Reel
+**TP1 — TOF Cold: Awaken**
+- Audience: Cold (broad interests or lookalike)
+- Target awareness: Unaware or Problem Aware
+- Objective: Spark awareness
+- Angle: C1 (pain) or C3 (education)
+- CTA: "Learn more" / "Discover"
+- Format: Video 30–60s or Reel
 
-**TP2 — TOF/MOF : Qualifier**
-- Audience : Engagés TP1 (vues vidéo 25%+, interactions)
-- Awareness ciblé : Problem Aware → Solution Aware
-- Objectif : Faire comprendre qu'une solution existe et qu'elle est différente
-- Angle : C3 (mécanisme) ou C2 (résultat)
-- CTA : "Voir comment ça marche"
-- Format : Vidéo 45–90s ou Carousel éducatif
+**TP2 — TOF/MOF: Qualify**
+- Audience: TP1 engaged (25%+ video views, interactions)
+- Target awareness: Problem Aware → Solution Aware
+- Objective: Show that a solution exists and it's different
+- Angle: C3 (mechanism) or C2 (result)
+- CTA: "See how it works"
+- Format: Video 45–90s or educational Carousel
 
-**TP3 — MOF : Prouver**
-- Audience : Visiteurs page produit ou engagés TP2
-- Awareness ciblé : Solution Aware → Product Aware
-- Objectif : Convaincre que ce produit est le bon choix
-- Angle : C2 (preuve sociale) ou C4 (identité)
-- CTA : "Voir les résultats" / "Rejoindre"
-- Format : Témoignage vidéo ou statique proof
+**TP3 — MOF: Prove**
+- Audience: Product page visitors or TP2 engaged
+- Target awareness: Solution Aware → Product Aware
+- Objective: Convince that this product is the right choice
+- Angle: C2 (social proof) or C4 (identity)
+- CTA: "See results" / "Join"
+- Format: Video testimonial or static proof
 
-**TP4 — BOF : Lever les Objections**
-- Audience : Visiteurs page produit sans conversion (retargeting chaud)
-- Awareness ciblé : Product Aware → Most Aware
-- Objectif : Éliminer le dernier frein à l'achat
-- Angle : C2 (garantie / risk reversal) ou C1 (coût de l'inaction)
-- CTA : "Essayer sans risque" / "Voir l'offre"
-- Format : Vidéo courte 15–30s ou statique offre
+**TP4 — BOF: Remove Objections**
+- Audience: Product page visitors without conversion (warm retargeting)
+- Target awareness: Product Aware → Most Aware
+- Objective: Eliminate the last barrier to purchase
+- Angle: C2 (guarantee / risk reversal) or C1 (cost of inaction)
+- CTA: "Try risk-free" / "See offer"
+- Format: Short video 15–30s or offer static
 
-**TP5 — Re-engage : Urgence**
-- Audience : Panier abandonné ou leads non convertis
-- Awareness ciblé : Most Aware
-- Objectif : Déclencher l'action finale
-- Angle : Offre directe + urgence
-- CTA : "Acheter maintenant" / "Rejoindre avant [date]"
-- Format : Statique offre ou vidéo < 15s
+**TP5 — Re-engage: Urgency**
+- Audience: Abandoned cart or unconverted leads
+- Target awareness: Most Aware
+- Objective: Trigger the final action
+- Angle: Direct offer + urgency
+- CTA: "Buy now" / "Join before [date]"
+- Format: Offer static or video < 15s
 
 ---
 
 ## Output Format
 
 ```markdown
-# Sequencing Plan — [Marque] — [Date]
+# Sequencing Plan — [Brand] — [Date]
 
-## Awareness de Départ : [Niveau]
-## Objectif Final : [Conversion / Lead / Inscription]
+## Starting Awareness: [Level]
+## Final Objective: [Conversion / Lead / Registration]
 
 | # | Phase | Audience | Awareness | Angle | Format | CTA |
 |---|---|---|---|---|---|---|
-| TP1 | TOF Cold | Froide | [1–2] | [C#] | [Format] | [CTA] |
-| TP2 | TOF/MOF | Engagés TP1 | [2–3] | [C#] | [Format] | [CTA] |
-| TP3 | MOF | Visiteurs | [3–4] | [C#] | [Format] | [CTA] |
+| TP1 | TOF Cold | Cold | [1–2] | [C#] | [Format] | [CTA] |
+| TP2 | TOF/MOF | TP1 Engaged | [2–3] | [C#] | [Format] | [CTA] |
+| TP3 | MOF | Visitors | [3–4] | [C#] | [Format] | [CTA] |
 | TP4 | BOF | Retargeting | [4–5] | [C#] | [Format] | [CTA] |
-| TP5 | Re-engage | Panier / Leads | [5] | Offre directe | [Format] | [CTA] |
+| TP5 | Re-engage | Cart / Leads | [5] | Direct offer | [Format] | [CTA] |
 
-## Notes de Production
-[Priorité de production, budget suggéré par phase, kill rules par touchpoint]
+## Production Notes
+[Production priority, suggested budget per phase, kill rules per touchpoint]
 
-## Briefs à Produire
-- [ ] Brief TP1 → `creative-brief` à lancer
-- [ ] Brief TP2 → `creative-brief` à lancer
+## Briefs to Produce
+- [ ] Brief TP1 → launch `creative-brief`
+- [ ] Brief TP2 → launch `creative-brief`
 - [...]
 ```
 
@@ -138,7 +138,7 @@ Pour chaque étape du funnel, définir :
 
 ## Related Skills
 
-- `03-strategy/creative-brief` — un brief par touchpoint
-- `04-production/campaign-setup` — structure campagne Meta correspondante
-- `05-analysis/ad-analysis` — analyse creative par touchpoint
-- `05-analysis/strategy-gap` — identifier les phases non couvertes
+- `03-strategy/creative-brief` — one brief per touchpoint
+- `04-production/campaign-setup` — corresponding Meta campaign structure
+- `05-analysis/ad-analysis` — creative analysis per touchpoint
+- `05-analysis/strategy-gap` — identify uncovered funnel phases

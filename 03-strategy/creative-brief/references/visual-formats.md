@@ -1,503 +1,413 @@
-# Visual Formats Library — 45+ Formats Publicitaires
+# Visual Formats Library — 45+ Ad Formats
 
-## Définition
+## Definition
 
-Un format visuel est la structure de présentation d'une creative — comment elle est construite, pas ce qu'elle dit.
-Même angle, même hook → deux formats différents produisent des résultats très différents.
+A visual format is the presentation structure of a creative — how it's built, not what it says.
+Same angle, same hook → two different formats can produce very different results.
 
-Le format doit être choisi AVANT de briefer la production.
-Il découle de : l'awareness stage + la mécanique créative + le persona + la plateforme.
-
----
-
-## Comment Choisir un Format
-
-**Étape 1 :** Identifier la phase funnel (TOF / MOF / BOF)
-**Étape 2 :** Identifier la mécanique choisie (M1–M8)
-**Étape 3 :** Croiser avec le tableau de sélection rapide en fin de document
-**Étape 4 :** Vérifier la compatibilité plateforme (Meta Feed / Reels / TikTok / etc.)
+The format must be chosen BEFORE briefing production.
+It follows from: awareness stage + creative mechanic + persona + platform.
 
 ---
 
-## Les Formats — Catalogue Complet
+## How to Choose a Format
+
+**Step 1:** Identify the funnel phase (TOF / MOF / BOF)
+**Step 2:** Identify the chosen mechanic (M1–M8)
+**Step 3:** Cross-reference with the quick selection table at the end of this document
+**Step 4:** Check platform compatibility (Meta Feed / Reels / TikTok / etc.)
+
+---
+
+## The Formats — Full Catalog
 
 ### F01 — AI Slop Animation
-**Définition :** Vidéo générée par IA avec style visuel reconnaissable (légèrement imparfait, surréaliste).
-**Medium :** Vidéo
-**Funnel :** TOF
-**Meilleur pour :** Produits tech, jeune audience, catégories créatives
-**Mécanique compatible :** M6 Trojan Horse, M1 Implied Answer
-**Note :** Fonctionne parce que le style lui-même arrête le scroll — inhabituel dans le feed.
+**Definition:** AI-generated video with recognizable visual style (slightly imperfect, surreal).
+**Medium:** Video | **Funnel:** TOF | **Best for:** Tech products, young audience, creative categories
+**Compatible mechanic:** M6 Trojan Horse, M1 Implied Answer
+**Note:** Works because the style itself stops the scroll — unusual in the feed.
 
 ---
 
 ### F02 — ASMR
-**Définition :** Vidéo centrée sur des sons apaisants ou satisfaisants liés au produit.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Alimentation, beauté, produits sensoriels, objets du quotidien
-**Mécanique compatible :** M7 Contrast Without Comment, M1 Implied Answer
-**Note :** Efficace sans voix off — 100% visuel et sonore.
+**Definition:** Video centered on soothing or satisfying sounds related to the product.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** Food, beauty, sensory products, everyday objects
+**Compatible mechanic:** M7 Contrast Without Comment, M1 Implied Answer
+**Note:** Effective without voiceover — 100% visual and audio.
 
 ---
 
 ### F03 — Before & After
-**Définition :** Deux états côte à côte ou en séquence — avant l'utilisation du produit vs après.
-**Medium :** Vidéo ou Statique
-**Funnel :** MOF / BOF
-**Meilleur pour :** Fitness, beauté, santé, home, nettoyage, productivité
-**Mécanique compatible :** M7 Contrast Without Comment, M2 Social Witness
-**Note :** Très réglementé sur Meta pour les corps humains — vérifier compliance avant.
+**Definition:** Two states side by side or in sequence — before using the product vs after.
+**Medium:** Video or Static | **Funnel:** MOF / BOF | **Best for:** Fitness, beauty, health, home, cleaning, productivity
+**Compatible mechanic:** M7 Contrast Without Comment, M2 Social Witness
+**Note:** Heavily regulated on Meta for human bodies — check compliance before.
 
 ---
 
 ### F04 — Behind the Scenes
-**Définition :** Montre le processus de fabrication, l'équipe, ou la réalité du produit.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Artisanat, food, mode, formations, services
-**Mécanique compatible :** M3 Overheard Conversation, M6 Trojan Horse
-**Note :** Crée de la confiance via la transparence — "rien à cacher".
+**Definition:** Shows the manufacturing process, team, or reality of the product.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Craft, food, fashion, training, services
+**Compatible mechanic:** M3 Overheard Conversation, M6 Trojan Horse
+**Note:** Builds trust through transparency — "nothing to hide."
 
 ---
 
 ### F05 — Billboard
-**Définition :** Statique épuré — visuel fort + headline court. Comme une affiche.
-**Medium :** Statique
-**Funnel :** TOF / BOF (offre directe)
-**Meilleur pour :** Branding, offre simple, retargeting
-**Mécanique compatible :** M8 This and a..., M1 Implied Answer
-**Note :** Moins de texte = plus d'impact. 5 mots max sur l'image.
+**Definition:** Clean static — strong visual + short headline. Like a poster.
+**Medium:** Static | **Funnel:** TOF / BOF (direct offer) | **Best for:** Branding, simple offer, retargeting
+**Compatible mechanic:** M8 This and a..., M1 Implied Answer
+**Note:** Less text = more impact. 5 words max on the image.
 
 ---
 
 ### F06 — Case Study
-**Définition :** Histoire structurée d'un client : situation initiale → problème → solution → résultat.
-**Medium :** Vidéo ou Statique (carousel)
-**Funnel :** MOF / BOF
-**Meilleur pour :** B2B, SaaS, formation, coaching, services premium
-**Mécanique compatible :** M2 Social Witness, M4 Reframe
-**Note :** Chiffres précis obligatoires pour la crédibilité.
+**Definition:** Structured story of a client: initial situation → problem → solution → result.
+**Medium:** Video or Static (carousel) | **Funnel:** MOF / BOF | **Best for:** B2B, SaaS, training, coaching, premium services
+**Compatible mechanic:** M2 Social Witness, M4 Reframe
+**Note:** Precise numbers mandatory for credibility.
 
 ---
 
 ### F07 — ChatGPT / AI Conversation
-**Définition :** Screen recording d'une conversation avec une IA — le produit ou l'insight émerge de la réponse.
-**Medium :** Vidéo ou Statique
-**Funnel :** TOF / MOF
-**Meilleur pour :** Tech, productivité, formation, marketing
-**Mécanique compatible :** M3 Overheard Conversation, M6 Trojan Horse
-**Note :** Format natif très reconnu — arrête le scroll par familiarité.
+**Definition:** Screen recording of a conversation with an AI — the product or insight emerges from the response.
+**Medium:** Video or Static | **Funnel:** TOF / MOF | **Best for:** Tech, productivity, training, marketing
+**Compatible mechanic:** M3 Overheard Conversation, M6 Trojan Horse
+**Note:** Highly recognized native format — stops the scroll through familiarity.
 
 ---
 
 ### F08 — Cinematic B-Roll
-**Définition :** Séquences vidéo cinématiques du produit ou du style de vie associé. Peu ou pas de parole.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Luxe, voyage, mode, beauté premium, immobilier
-**Mécanique compatible :** M8 This and a..., M7 Contrast Without Comment
-**Note :** Qualité de production élevée requise. Son et musique = 50% de l'impact.
+**Definition:** Cinematic video sequences of the product or associated lifestyle. Little or no speech.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** Luxury, travel, fashion, premium beauty, real estate
+**Compatible mechanic:** M8 This and a..., M7 Contrast Without Comment
+**Note:** High production quality required. Sound and music = 50% of the impact.
 
 ---
 
 ### F09 — Comment Response
-**Définition :** Vidéo qui répond à un commentaire réel (affiché à l'écran) — format TikTok natif.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Tous secteurs, très efficace si le commentaire contient une objection courante
-**Mécanique compatible :** M3 Overheard Conversation, M4 Reframe
-**Note :** Le commentaire peut être "organisé" — mais doit paraître authentique.
+**Definition:** Video that responds to a real comment (displayed on screen) — native TikTok format.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** All sectors, very effective if comment contains a common objection
+**Compatible mechanic:** M3 Overheard Conversation, M4 Reframe
+**Note:** The comment can be "organized" — but must appear authentic.
 
 ---
 
 ### F10 — Demo
-**Définition :** Démonstration en temps réel du produit en train de fonctionner.
-**Medium :** Vidéo
-**Funnel :** MOF / BOF
-**Meilleur pour :** SaaS, apps, gadgets, appareils, outils
-**Mécanique compatible :** M1 Implied Answer, M7 Contrast Without Comment
-**Note :** Montrer le résultat en 10 secondes > expliquer en 60 secondes.
+**Definition:** Real-time demonstration of the product working.
+**Medium:** Video | **Funnel:** MOF / BOF | **Best for:** SaaS, apps, gadgets, appliances, tools
+**Compatible mechanic:** M1 Implied Answer, M7 Contrast Without Comment
+**Note:** Show the result in 10 seconds > explain in 60 seconds.
 
 ---
 
 ### F11 — Expert Explainer
-**Définition :** Un expert (réel ou présenté comme tel) explique pourquoi le produit fonctionne.
-**Medium :** Vidéo
-**Funnel :** MOF
-**Meilleur pour :** Santé, finance, formation, B2B, tout ce qui nécessite de la crédibilité
-**Mécanique compatible :** M2 Social Witness, M4 Reframe
-**Note :** La crédibilité de l'expert doit être établie dans les 5 premières secondes.
+**Definition:** An expert (real or presented as such) explains why the product works.
+**Medium:** Video | **Funnel:** MOF | **Best for:** Health, finance, training, B2B, anything requiring credibility
+**Compatible mechanic:** M2 Social Witness, M4 Reframe
+**Note:** The expert's credibility must be established in the first 5 seconds.
 
 ---
 
 ### F12 — Feature Benefit Callout
-**Définition :** Liste visuelle des caractéristiques du produit avec leur bénéfice associé. Format très direct.
-**Medium :** Statique ou Vidéo
-**Funnel :** MOF / BOF
-**Meilleur pour :** E-commerce, SaaS, tout produit avec des avantages comparables
-**Mécanique compatible :** M5 Borrowed Enemy
-**Note :** Chaque feature doit se traduire en bénéfice client, pas en spec technique.
+**Definition:** Visual list of product features with their associated benefit. Very direct format.
+**Medium:** Static or Video | **Funnel:** MOF / BOF | **Best for:** E-commerce, SaaS, any product with comparable advantages
+**Compatible mechanic:** M5 Borrowed Enemy
+**Note:** Each feature must translate to a customer benefit, not a technical spec.
 
 ---
 
 ### F13 — Founder
-**Définition :** Le fondateur ou dirigeant parle directement à la caméra — histoire, vision, mission.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Marques avec histoire forte, B2B, formation, produits artisanaux
-**Mécanique compatible :** M4 Reframe, M2 Social Witness
-**Note :** Authentique > parfait. Un fondateur maladroit et sincère bat un acteur poli.
+**Definition:** The founder or CEO speaks directly to camera — story, vision, mission.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Brands with strong story, B2B, training, craft products
+**Compatible mechanic:** M4 Reframe, M2 Social Witness
+**Note:** Authentic > polished. An awkward but sincere founder beats a polished actor.
 
 ---
 
 ### F14 — Greenscreen
-**Définition :** Personne filmée devant un fond vert — l'arrière-plan est remplacé par du contenu pertinent.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Réaction à un contenu existant, commentaire sur stats/graphiques, tutoriels
-**Mécanique compatible :** M3 Overheard Conversation, M4 Reframe
-**Note :** Format très natif TikTok. La personne réagit à ce qui apparaît derrière elle.
+**Definition:** Person filmed in front of a green screen — background replaced with relevant content.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Reaction to existing content, commenting on stats/graphs, tutorials
+**Compatible mechanic:** M3 Overheard Conversation, M4 Reframe
+**Note:** Very native TikTok format. The person reacts to what appears behind them.
 
 ---
 
 ### F15 — Grid Swap / Split Screen
-**Définition :** Écran divisé montrant deux réalités simultanément — sans commentaire.
-**Medium :** Vidéo ou Statique
-**Funnel :** TOF / MOF
-**Meilleur pour :** Comparatifs, avant/après conceptuels, deux personas opposés
-**Mécanique compatible :** M7 Contrast Without Comment, M5 Borrowed Enemy
-**Note :** Pas besoin de texte si le contraste visuel est suffisamment fort.
+**Definition:** Screen divided showing two realities simultaneously — without comment.
+**Medium:** Video or Static | **Funnel:** TOF / MOF | **Best for:** Comparisons, conceptual before/after, two opposing personas
+**Compatible mechanic:** M7 Contrast Without Comment, M5 Borrowed Enemy
+**Note:** No text needed if the visual contrast is strong enough.
 
 ---
 
-### F16 — How-To / Tutoriel
-**Définition :** Démonstration pas à pas — "comment faire X avec ce produit".
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Cuisine, beauté, tech, fitness, DIY, formation
-**Mécanique compatible :** M6 Trojan Horse, M1 Implied Answer
-**Note :** La valeur éducative prime — le produit apparaît naturellement comme l'outil.
+### F16 — How-To / Tutorial
+**Definition:** Step-by-step demonstration — "how to do X with this product."
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Cooking, beauty, tech, fitness, DIY, training
+**Compatible mechanic:** M6 Trojan Horse, M1 Implied Answer
+**Note:** Educational value takes priority — the product appears naturally as the tool.
 
 ---
 
-### F17 — Lettre / Letter
-**Définition :** Texte écrit à la main ou typographié — comme une lettre adressée à la cible.
-**Medium :** Statique ou Vidéo (scroll)
-**Funnel :** TOF / MOF
-**Meilleur pour :** Émotionnel, cause, communauté, marques avec fort storytelling
-**Mécanique compatible :** M3 Overheard Conversation, M4 Reframe
-**Note :** Format rare dans le feed — arrête le scroll par son originalité.
+### F17 — Letter
+**Definition:** Handwritten or typeset text — like a letter addressed to the target.
+**Medium:** Static or Video (scroll) | **Funnel:** TOF / MOF | **Best for:** Emotional, cause, community, brands with strong storytelling
+**Compatible mechanic:** M3 Overheard Conversation, M4 Reframe
+**Note:** Rare format in the feed — stops the scroll through originality.
 
 ---
 
 ### F18 — Listicle
-**Définition :** Liste numérotée de points — "5 raisons de...", "3 erreurs que tu fais..."
-**Medium :** Vidéo ou Statique
-**Funnel :** TOF / MOF
-**Meilleur pour :** Éducation, formation, SaaS, tout contenu d'expertise
-**Mécanique compatible :** M6 Trojan Horse, M4 Reframe
-**Note :** Le chiffre dans le hook augmente le CTR. "5 raisons" > "plusieurs raisons".
+**Definition:** Numbered list of points — "5 reasons to...", "3 mistakes you're making..."
+**Medium:** Video or Static | **Funnel:** TOF / MOF | **Best for:** Education, training, SaaS, any expertise content
+**Compatible mechanic:** M6 Trojan Horse, M4 Reframe
+**Note:** The number in the hook increases CTR. "5 reasons" > "several reasons."
 
 ---
 
 ### F19 — Meme
-**Définition :** Format humoristique basé sur un meme culturel reconnu — le produit est intégré au contexte.
-**Medium :** Statique ou Vidéo
-**Funnel :** TOF
-**Meilleur pour :** Audiences jeunes, produits lifestyle, marques avec ton décalé
-**Mécanique compatible :** M4 Reframe, M8 This and a...
-**Note :** Demi-vie courte — les memes vieillissent vite. Tester rapidement ou éviter.
+**Definition:** Humorous format based on a recognized cultural meme — the product is integrated into the context.
+**Medium:** Static or Video | **Funnel:** TOF | **Best for:** Young audiences, lifestyle products, brands with edgy tone
+**Compatible mechanic:** M4 Reframe, M8 This and a...
+**Note:** Short half-life — memes age fast. Test quickly or avoid.
 
 ---
 
 ### F20 — Native Text Overlay
-**Définition :** Vidéo simple avec texte animé en overlay — style TikTok natif, sans voix off obligatoire.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Tous secteurs — très polyvalent
-**Mécanique compatible :** M1 Implied Answer, M6 Trojan Horse
-**Note :** Le texte overlay EST le hook. Doit être lisible en < 2s sur mobile.
+**Definition:** Simple video with animated text overlay — native TikTok style, voiceover not required.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** All sectors — very versatile
+**Compatible mechanic:** M1 Implied Answer, M6 Trojan Horse
+**Note:** The text overlay IS the hook. Must be readable in < 2s on mobile.
 
 ---
 
 ### F21 — Nostalgia
-**Définition :** Évoque un souvenir ou une époque passée — crée une connexion émotionnelle immédiate.
-**Medium :** Vidéo ou Statique
-**Funnel :** TOF
-**Meilleur pour :** Alimentation, culture pop, lifestyle, marques historiques
-**Mécanique compatible :** M8 This and a..., M4 Reframe
-**Note :** Très puissant pour les audiences 30–50 ans.
+**Definition:** Evokes a memory or a past era — creates an instant emotional connection.
+**Medium:** Video or Static | **Funnel:** TOF | **Best for:** Food, pop culture, lifestyle, historic brands
+**Compatible mechanic:** M8 This and a..., M4 Reframe
+**Note:** Very powerful for 30–50 year old audiences.
 
 ---
 
 ### F22 — Notes App
-**Définition :** Screen d'une app Notes (iPhone) avec un message ou une liste — format ultra-natif.
-**Medium :** Statique ou Vidéo (scroll)
-**Funnel :** TOF / MOF
-**Meilleur pour :** Confession, liste personnelle, "ce que j'ai appris", insights
-**Mécanique compatible :** M3 Overheard Conversation, M6 Trojan Horse
-**Note :** Fonctionne parce que ça ressemble à quelque chose de privé partagé.
+**Definition:** Screen of a Notes app (iPhone) with a message or list — ultra native format.
+**Medium:** Static or Video (scroll) | **Funnel:** TOF / MOF | **Best for:** Confession, personal list, "what I learned," insights
+**Compatible mechanic:** M3 Overheard Conversation, M6 Trojan Horse
+**Note:** Works because it looks like something private being shared.
 
 ---
 
 ### F23 — One Shot
-**Définition :** Vidéo filmée en un seul plan continu, sans coupe — naturaliste.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Témoignages, talking heads UGC, fondateurs
-**Mécanique compatible :** M3 Overheard Conversation, M2 Social Witness
-**Note :** L'absence de montage = authenticité perçue plus élevée.
+**Definition:** Video filmed in one continuous take, no cuts — naturalistic.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** Testimonials, UGC talking heads, founders
+**Compatible mechanic:** M3 Overheard Conversation, M2 Social Witness
+**Note:** Absence of editing = higher perceived authenticity.
 
 ---
 
 ### F24 — Pattern Interrupt
-**Définition :** Début de vidéo volontairement inattendu, bizarre, ou disruptif — pour forcer l'arrêt du scroll.
-**Medium :** Vidéo
-**Funnel :** TOF
-**Meilleur pour :** Audiences habituées aux pubs, marchés saturés
-**Mécanique compatible :** M4 Reframe, M1 Implied Answer
-**Note :** Plus le feed est encombré, plus le pattern interrupt est efficace.
+**Definition:** Deliberately unexpected, bizarre, or disruptive video opening — forces scroll stop.
+**Medium:** Video | **Funnel:** TOF | **Best for:** Ad-habituated audiences, saturated markets
+**Compatible mechanic:** M4 Reframe, M1 Implied Answer
+**Note:** The more cluttered the feed, the more effective the pattern interrupt.
 
 ---
 
 ### F25 — Podcast
-**Définition :** Extrait simulé d'un podcast — deux personnes en discussion, micro visible, fond sobre.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** B2B, formation, expertise, finance, santé
-**Mécanique compatible :** M3 Overheard Conversation, M2 Social Witness
-**Note :** Format perçu comme contenu organique de qualité — filtre publicitaire faible.
+**Definition:** Simulated podcast excerpt — two people in conversation, visible mic, plain background.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** B2B, training, expertise, finance, health
+**Compatible mechanic:** M3 Overheard Conversation, M2 Social Witness
+**Note:** Perceived as high-quality organic content — low advertising filter.
 
 ---
 
 ### F26 — Post-It / Sticky Note
-**Définition :** Message écrit sur un post-it photographié ou animé — ultra simple.
-**Medium :** Statique ou Vidéo
-**Funnel :** TOF / BOF (rappel)
-**Meilleur pour :** Messages courts, rappels, offres simples
-**Mécanique compatible :** M8 This and a...
-**Note :** Simplicité visuelle = attention maximale sur le message.
+**Definition:** Message written on a photographed or animated post-it — ultra simple.
+**Medium:** Static or Video | **Funnel:** TOF / BOF (reminder) | **Best for:** Short messages, reminders, simple offers
+**Compatible mechanic:** M8 This and a...
+**Note:** Visual simplicity = maximum attention on the message.
 
 ---
 
 ### F27 — Press / Media Mention
-**Définition :** Screenshot ou mise en avant d'une mention presse, d'un article, ou d'un logo média.
-**Medium :** Statique
-**Funnel :** MOF / BOF
-**Meilleur pour :** Marques avec couverture médiatique, B2B, crédibilité
-**Mécanique compatible :** M2 Social Witness
-**Note :** "Vu dans [Média connu]" = transfert d'autorité immédiat.
+**Definition:** Screenshot or highlight of a press mention, article, or media logo.
+**Medium:** Static | **Funnel:** MOF / BOF | **Best for:** Brands with media coverage, B2B, credibility
+**Compatible mechanic:** M2 Social Witness
+**Note:** "As seen in [known media]" = instant authority transfer.
 
 ---
 
 ### F28 — Reaction
-**Définition :** Quelqu'un réagit à quelque chose (résultat, contenu, produit) — émotion en temps réel.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Produits avec effet wow, résultats visuels, surprises
-**Mécanique compatible :** M2 Social Witness, M3 Overheard Conversation
-**Note :** La réaction authentique > la réaction jouée. Filmer des vraies premières fois.
+**Definition:** Someone reacts to something (result, content, product) — emotion in real time.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Products with wow effect, visual results, surprises
+**Compatible mechanic:** M2 Social Witness, M3 Overheard Conversation
+**Note:** Authentic reaction > played reaction. Film real first times.
 
 ---
 
-### F29 — Review / Avis Client
-**Définition :** Témoignage client présenté comme un avis — texte, vidéo, ou screenshot.
-**Medium :** Vidéo ou Statique
-**Funnel :** MOF / BOF
-**Meilleur pour :** Tous secteurs — universel
-**Mécanique compatible :** M2 Social Witness
-**Note :** Spécificité > généralité. "J'ai perdu 8kg en 3 mois" > "Super produit".
+### F29 — Review / Customer Review
+**Definition:** Customer testimonial presented as a review — text, video, or screenshot.
+**Medium:** Video or Static | **Funnel:** MOF / BOF | **Best for:** All sectors — universal
+**Compatible mechanic:** M2 Social Witness
+**Note:** Specificity > generality. "I lost 8kg in 3 months" > "Great product."
 
 ---
 
 ### F30 — Selfie / POV
-**Définition :** Vidéo filmée en selfie — comme si la personne se filmait elle-même dans sa vie quotidienne.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Lifestyle, beauté, fitness, formation, tout ce qui touche à la vie personnelle
-**Mécanique compatible :** M3 Overheard Conversation, M2 Social Witness
-**Note :** Le plus natif de tous les formats — très faible résistance au message.
+**Definition:** Selfie-filmed video — as if the person is filming themselves in their daily life.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** Lifestyle, beauty, fitness, training, anything touching personal life
+**Compatible mechanic:** M3 Overheard Conversation, M2 Social Witness
+**Note:** The most native of all formats — very low message resistance.
 
 ---
 
-### F31 — Sign / Panneau
-**Définition :** Personne tient un signe ou un panneau avec le message clé.
-**Medium :** Vidéo ou Statique
-**Funnel :** TOF
-**Meilleur pour :** Messages courts et percutants, humour, urgence
-**Mécanique compatible :** M1 Implied Answer, M5 Borrowed Enemy
-**Note :** Format simple qui fonctionne par contraste avec la complexité du feed.
+### F31 — Sign
+**Definition:** Person holds a sign or panel with the key message.
+**Medium:** Video or Static | **Funnel:** TOF | **Best for:** Short punchy messages, humor, urgency
+**Compatible mechanic:** M1 Implied Answer, M5 Borrowed Enemy
+**Note:** Simple format that works through contrast with feed complexity.
 
 ---
 
-### F32 — Skit / Saynète
-**Définition :** Courte mise en scène humoristique ou dramatique illustrant le problème ou la transformation.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Situations quotidiennes reconnaissables, audiences jeunes
-**Mécanique compatible :** M3 Overheard Conversation, M4 Reframe
-**Note :** Humour > drama pour les audiences 18–30. Drama > humour pour 35+.
+### F32 — Skit / Scene
+**Definition:** Short humorous or dramatic staging illustrating the problem or transformation.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** Recognizable everyday situations, young audiences
+**Compatible mechanic:** M3 Overheard Conversation, M4 Reframe
+**Note:** Humor > drama for 18–30 audiences. Drama > humor for 35+.
 
 ---
 
 ### F33 — Social Proof Mashup
-**Définition :** Montage rapide de plusieurs témoignages ou résultats clients — volume de preuves.
-**Medium :** Vidéo
-**Funnel :** MOF / BOF
-**Meilleur pour :** Produits avec beaucoup de clients satisfaits, retargeting
-**Mécanique compatible :** M2 Social Witness
-**Note :** Rythme rapide = plus de preuves en moins de temps. 3–5 secondes par témoignage max.
+**Definition:** Quick montage of multiple customer testimonials or results — volume of proof.
+**Medium:** Video | **Funnel:** MOF / BOF | **Best for:** Products with many satisfied customers, retargeting
+**Compatible mechanic:** M2 Social Witness
+**Note:** Fast pace = more proof in less time. 3–5 seconds per testimonial max.
 
 ---
 
 ### F34 — Statistic / Data
-**Définition :** Chiffre ou statistique percutant mis en avant visuellement.
-**Medium :** Statique ou Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** B2B, finance, santé, éducation
-**Mécanique compatible :** M1 Implied Answer, M4 Reframe
-**Note :** La source de la stat augmente la crédibilité. "Étude de l'INSERM" > "des études montrent".
+**Definition:** Striking number or statistic highlighted visually.
+**Medium:** Static or Video | **Funnel:** TOF / MOF | **Best for:** B2B, finance, health, education
+**Compatible mechanic:** M1 Implied Answer, M4 Reframe
+**Note:** The source of the stat increases credibility. "Harvard study" > "studies show."
 
 ---
 
 ### F35 — Street Interview
-**Définition :** Interview de passants ou de vraies personnes dans la rue sur un sujet lié au produit.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Produits grand public, sujets de société, validation externe
-**Mécanique compatible :** M2 Social Witness, M3 Overheard Conversation
-**Note :** Les réponses inattendues ou drôles augmentent le partage organique.
+**Definition:** Interview of passersby or real people on the street about a topic related to the product.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Mass market products, societal topics, external validation
+**Compatible mechanic:** M2 Social Witness, M3 Overheard Conversation
+**Note:** Unexpected or funny responses increase organic sharing.
 
 ---
 
 ### F36 — Testimonial
-**Définition :** Client témoigne directement face caméra de son expérience avec le produit.
-**Medium :** Vidéo
-**Funnel :** MOF / BOF
-**Meilleur pour :** Tous secteurs — valeur universelle
-**Mécanique compatible :** M2 Social Witness
-**Note :** Le plus crédible quand le profil du témoignant est identique à la cible.
+**Definition:** Customer testifies directly to camera about their experience with the product.
+**Medium:** Video | **Funnel:** MOF / BOF | **Best for:** All sectors — universal value
+**Compatible mechanic:** M2 Social Witness
+**Note:** Most credible when the testimonial profile is identical to the target.
 
 ---
 
 ### F37 — Text Message / DM Screenshot
-**Définition :** Screenshot d'un échange de messages (WhatsApp, SMS, DM) évoquant le produit.
-**Medium :** Statique ou Vidéo (scroll)
-**Funnel :** TOF / MOF
-**Meilleur pour :** Recommandations entre amis, preuves informelles, B2C lifestyle
-**Mécanique compatible :** M3 Overheard Conversation
-**Note :** Ressemble à du contenu privé — très faible résistance publicitaire.
+**Definition:** Screenshot of a message exchange (WhatsApp, SMS, DM) mentioning the product.
+**Medium:** Static or Video (scroll) | **Funnel:** TOF / MOF | **Best for:** Friend recommendations, informal proof, B2C lifestyle
+**Compatible mechanic:** M3 Overheard Conversation
+**Note:** Looks like private content — very low advertising resistance.
 
 ---
 
 ### F38 — Time Lapse
-**Définition :** Évolution rapide dans le temps — transformation accélérée.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Résultats progressifs (fitness, jardinage, rénovation, croissance)
-**Mécanique compatible :** M7 Contrast Without Comment, M1 Implied Answer
-**Note :** Montre la transformation sans explication — puissant pour les résultats visuels.
+**Definition:** Rapid evolution over time — accelerated transformation.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Progressive results (fitness, gardening, renovation, growth)
+**Compatible mechanic:** M7 Contrast Without Comment, M1 Implied Answer
+**Note:** Shows transformation without explanation — powerful for visual results.
 
 ---
 
 ### F39 — Trend Hijack
-**Définition :** Reprend un format ou une tendance virale du moment et l'adapte au produit.
-**Medium :** Vidéo
-**Funnel :** TOF
-**Meilleur pour :** Audiences jeunes, marques avec ton agile
-**Mécanique compatible :** M6 Trojan Horse, M8 This and a...
-**Note :** Demi-vie très courte. Exécuter dans les 48–72h du pic de la tendance.
+**Definition:** Takes a viral format or trending moment and adapts it to the product.
+**Medium:** Video | **Funnel:** TOF | **Best for:** Young audiences, brands with agile tone
+**Compatible mechanic:** M6 Trojan Horse, M8 This and a...
+**Note:** Very short half-life. Execute within 48–72h of the trend's peak.
 
 ---
 
-### F40 — Try-On / Test en Conditions Réelles
-**Définition :** Utilisation du produit en situation réelle — "j'essaie X dans ma vie".
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** Mode, beauté, gadgets, alimentation, activités physiques
-**Mécanique compatible :** M3 Overheard Conversation, M2 Social Witness
-**Note :** La réaction spontanée pendant le test > la review après le fait.
+### F40 — Try-On / Real Conditions Test
+**Definition:** Using the product in a real situation — "I'm trying X in my life."
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Fashion, beauty, gadgets, food, physical activities
+**Compatible mechanic:** M3 Overheard Conversation, M2 Social Witness
+**Note:** Spontaneous reaction during the test > the review after the fact.
 
 ---
 
 ### F41 — Unboxing
-**Définition :** Déballage du produit filmé en temps réel — découverte première fois.
-**Medium :** Vidéo
-**Funnel :** TOF / MOF
-**Meilleur pour :** E-commerce physique, box, cadeaux, produits avec packaging soigné
-**Mécanique compatible :** M1 Implied Answer, M2 Social Witness
-**Note :** L'anticipation du déballage > le produit lui-même pour certaines catégories.
+**Definition:** Product unboxing filmed in real time — first-time discovery.
+**Medium:** Video | **Funnel:** TOF / MOF | **Best for:** Physical e-commerce, boxes, gifts, products with careful packaging
+**Compatible mechanic:** M1 Implied Answer, M2 Social Witness
+**Note:** The anticipation of unboxing > the product itself for some categories.
 
 ---
 
 ### F42 — Unconventional Text Placement
-**Définition :** Texte positionné de façon inattendue dans l'image — rompt les codes visuels du feed.
-**Medium :** Statique ou Vidéo
-**Funnel :** TOF
-**Meilleur pour :** Branding, messages courts, marchés saturés visuellement
-**Mécanique compatible :** M4 Reframe, M1 Implied Answer
-**Note :** Le déplacement du regard = pattern interrupt visuel.
+**Definition:** Text positioned unexpectedly in the image — breaks the visual codes of the feed.
+**Medium:** Static or Video | **Funnel:** TOF | **Best for:** Branding, short messages, visually saturated markets
+**Compatible mechanic:** M4 Reframe, M1 Implied Answer
+**Note:** Redirecting the gaze = visual pattern interrupt.
 
 ---
 
 ### F43 — Us vs. Them
-**Définition :** Comparaison explicite ou implicite entre l'approche du produit et l'alternative standard.
-**Medium :** Statique ou Vidéo
-**Funnel :** MOF
-**Meilleur pour :** Produits avec différenciation forte, marchés Level 3–4
-**Mécanique compatible :** M5 Borrowed Enemy, M7 Contrast Without Comment
-**Note :** Ne jamais nommer le concurrent. La comparaison implicite est plus puissante et évite le risque légal.
+**Definition:** Explicit or implicit comparison between the product's approach and the standard alternative.
+**Medium:** Static or Video | **Funnel:** MOF | **Best for:** Products with strong differentiation, Level 3–4 markets
+**Compatible mechanic:** M5 Borrowed Enemy, M7 Contrast Without Comment
+**Note:** Never name the competitor. Implicit comparison is more powerful and avoids legal risk.
 
 ---
 
 ### F44 — VSL (Video Sales Letter)
-**Définition :** Vidéo longue forme (2–15 min) structurée comme une lettre de vente — argument complet.
-**Medium :** Vidéo
-**Funnel :** BOF / Full Funnel (landing page)
-**Meilleur pour :** Formation premium, coaching, infoproduits, produits complexes > 200€
-**Mécanique compatible :** M4 Reframe, M6 Trojan Horse
-**Note :** Fonctionne sur des audiences chaudes ou des retargetings avancés. Trop long pour TOF cold.
+**Definition:** Long-form video (2–15 min) structured like a sales letter — complete argument.
+**Medium:** Video | **Funnel:** BOF / Full Funnel (landing page) | **Best for:** Premium training, coaching, info products, complex products > €200
+**Compatible mechanic:** M4 Reframe, M6 Trojan Horse
+**Note:** Works on warm audiences or advanced retargeting. Too long for cold TOF.
 
 ---
 
 ### F45 — Yapper
-**Définition :** Personne qui parle directement à la caméra, sans coupe, sans filtre — débit rapide, énergie haute.
-**Medium :** Vidéo
-**Funnel :** TOF / Full Funnel
-**Meilleur pour :** Tous secteurs — très polyvalent si le speaking est bon
-**Mécanique compatible :** M4 Reframe, M3 Overheard Conversation
-**Note :** Le contenu > la production. Un Yapper dans une voiture avec un bon argument bat une prod studio sans message.
+**Definition:** Person talking directly to camera, no cuts, no filter — fast delivery, high energy.
+**Medium:** Video | **Funnel:** TOF / Full Funnel | **Best for:** All sectors — very versatile if the speaking is good
+**Compatible mechanic:** M4 Reframe, M3 Overheard Conversation
+**Note:** Content > production. A Yapper in a car with a good argument beats a studio production without a message.
 
 ---
 
-## Tableau de Sélection Rapide
+## Quick Selection Table
 
-| Format | Medium | Funnel | Effort Prod | Authenticité | Crédibilité |
+| Format | Medium | Funnel | Prod Effort | Authenticity | Credibility |
 |---|---|---|---|---|---|
-| F03 Before & After | V/S | MOF/BOF | Faible | Haute | Haute |
-| F06 Case Study | V/S | MOF/BOF | Moyen | Moyenne | Très haute |
-| F10 Demo | V | MOF/BOF | Faible | Haute | Haute |
-| F11 Expert Explainer | V | MOF | Moyen | Moyenne | Très haute |
-| F13 Founder | V | TOF/MOF | Faible | Très haute | Haute |
-| F16 How-To | V | TOF/MOF | Faible | Haute | Moyenne |
-| F18 Listicle | V/S | TOF/MOF | Faible | Moyenne | Moyenne |
-| F20 Native Text Overlay | V | TOF | Très faible | Très haute | Faible |
-| F23 One Shot | V | TOF | Très faible | Très haute | Moyenne |
-| F25 Podcast | V | TOF/MOF | Moyen | Haute | Très haute |
-| F29 Review | V/S | MOF/BOF | Faible | Haute | Haute |
-| F30 Selfie / POV | V | TOF | Très faible | Très haute | Faible |
-| F32 Skit | V | TOF | Moyen | Haute | Faible |
-| F33 Social Proof Mashup | V | MOF/BOF | Moyen | Haute | Très haute |
-| F36 Testimonial | V | MOF/BOF | Faible | Haute | Haute |
-| F44 VSL | V | BOF | Élevé | Moyenne | Haute |
-| F45 Yapper | V | TOF | Très faible | Très haute | Moyenne |
+| F03 Before & After | V/S | MOF/BOF | Low | High | High |
+| F06 Case Study | V/S | MOF/BOF | Medium | Medium | Very high |
+| F10 Demo | V | MOF/BOF | Low | High | High |
+| F11 Expert Explainer | V | MOF | Medium | Medium | Very high |
+| F13 Founder | V | TOF/MOF | Low | Very high | High |
+| F16 How-To | V | TOF/MOF | Low | High | Medium |
+| F18 Listicle | V/S | TOF/MOF | Low | Medium | Medium |
+| F20 Native Text Overlay | V | TOF | Very low | Very high | Low |
+| F23 One Shot | V | TOF | Very low | Very high | Medium |
+| F25 Podcast | V | TOF/MOF | Medium | High | Very high |
+| F29 Review | V/S | MOF/BOF | Low | High | High |
+| F30 Selfie / POV | V | TOF | Very low | Very high | Low |
+| F32 Skit | V | TOF | Medium | High | Low |
+| F33 Social Proof Mashup | V | MOF/BOF | Medium | High | Very high |
+| F36 Testimonial | V | MOF/BOF | Low | High | High |
+| F44 VSL | V | BOF | High | Medium | High |
+| F45 Yapper | V | TOF | Very low | Very high | Medium |
 
 ---
 
 ## Format × Awareness Stage
 
-| Awareness | Formats recommandés |
+| Awareness | Recommended formats |
 |---|---|
 | Unaware | F16 How-To, F18 Listicle, F20 Native Text, F32 Skit, F45 Yapper |
 | Problem Aware | F13 Founder, F23 One Shot, F30 Selfie, F34 Statistic, F35 Street Interview |
@@ -507,9 +417,9 @@ Il découle de : l'awareness stage + la mécanique créative + le persona + la p
 
 ---
 
-## Format × Mécanique Créative
+## Format × Creative Mechanic
 
-| Mécanique | Formats naturels |
+| Mechanic | Natural formats |
 |---|---|
 | M1 Implied Answer | F05 Billboard, F10 Demo, F38 Time Lapse, F42 Text Placement |
 | M2 Social Witness | F28 Reaction, F29 Review, F36 Testimonial, F33 Mashup |

@@ -1,12 +1,12 @@
 ---
 name: customer-reality
-description: "Maps the emotional reality of the target persona: dominant emotion, private vs social pain, acute vs chronic pain, and triggering micro-moments. Use after review-audit and audience-research to go deeper than demographics. Trigger on: 'cartographie émotionnelle', 'micro-moments', 'réalité client', 'ce que ressent vraiment l'audience'. Produces an emotional map that directly informs hook direction and creative tone."
+description: "Maps the emotional reality of the target persona: dominant emotion, private vs social pain, acute vs chronic pain, and triggering micro-moments. Use after review-audit and audience-research to go deeper than demographics. Trigger on: 'emotional mapping', 'micro-moments', 'customer reality', 'what the audience really feels'. Produces an emotional map that directly informs hook direction and creative tone."
 metadata:
   version: 1.0.0
   status: stable
   tags: [research, emotion, micro-moments, persona, psychology]
-  inputs: [persona-[nom].md, verbatim library (review-audit)]
-  outputs: [emotional-map-[persona].md — cartographie émotionnelle complète]
+  inputs: [persona-[name].md, verbatim library (review-audit)]
+  outputs: [emotional-map-[persona].md — full emotional mapping]
   depends-on: [brand-guidelines, audience-research, review-audit]
 ---
 
@@ -14,115 +14,115 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] `persona-[nom].md` disponible (audience-research exécuté)
-- [ ] Verbatim library disponible (review-audit exécuté) ou au moins 10 verbatims bruts
-- [ ] Produit et contexte d'usage clairement définis
+Confirm before starting:
+- [ ] `persona-[name].md` available (audience-research completed)
+- [ ] Verbatim library available (review-audit completed) or at least 10 raw verbatims
+- [ ] Product and usage context clearly defined
 
-Ce skill ne produit rien de valeur sans données réelles du persona. Ne pas improviser les émotions — les extraire.
+This skill produces nothing of value without real persona data. Do not improvise emotions — extract them.
 
 ---
 
-## Phase 1 : Identifier l'Émotion Dominante
+## Phase 1: Identify the Dominant Emotion
 
-À partir des verbatims du Bucket 1 (douleurs) et Bucket 4 (transformations), identifier l'émotion la plus présente.
+From the verbatims in Bucket 1 (pains) and Bucket 4 (transformations), identify the most present emotion.
 
-**Émotions à détecter :**
+**Emotions to detect:**
 
-| Émotion | Signaux verbatims |
+| Emotion | Verbatim signals |
 |---|---|
-| Frustration | "j'en ai marre", "j'ai tout essayé", "rien ne marche" |
-| Peur | "j'ai peur que", "et si", "je risque de" |
-| Honte | "je n'ose pas en parler", "les gens pensent que" |
-| Espoir | "j'aimerais tellement", "je rêve de", "si seulement" |
-| Colère | "c'est scandaleux", "personne ne dit la vérité" |
-| Confusion | "je ne comprends pas pourquoi", "tout le monde dit X mais" |
-| Résignation | "j'ai appris à vivre avec", "c'est comme ça" |
+| Frustration | "I'm fed up", "I tried everything", "nothing works" |
+| Fear | "I'm afraid that", "what if", "I risk" |
+| Shame | "I don't dare talk about it", "people think that" |
+| Hope | "I would love so much", "I dream of", "if only" |
+| Anger | "it's outrageous", "nobody tells the truth" |
+| Confusion | "I don't understand why", "everyone says X but" |
+| Resignation | "I've learned to live with it", "that's just how it is" |
 
-Pour la cartographie complète : voir [references/emotional-mapping.md](references/emotional-mapping.md)
-
----
-
-## Phase 2 : Qualifier la Douleur
-
-### Q2A — Privée ou Sociale ?
-
-**Douleur privée :** Vécue en silence. La personne n'en parle pas.
-→ Tone : intime, confidentiel. Formats : texte overlay, voix off calme, confession face caméra.
-
-**Douleur sociale :** Liée au regard des autres. La personne craint le jugement.
-→ Tone : de soutien, non-jugeant. Formats : testimonial, communauté, "tu n'es pas seul(e)".
-
-**Indices dans les verbatims :**
-- Pronoms "je / moi" = privée
-- Mentions "les gens / mon entourage / ma famille / au travail" = sociale
-
-### Q2B — Aiguë ou Chronique ?
-
-**Douleur aiguë :** Déclenchée récemment. Intense et urgente.
-→ Indicateurs temporels : "ce matin", "la semaine dernière", "depuis l'accident"
-→ Hook : ancrer dans le moment précis. Urgence naturelle.
-
-**Douleur chronique :** Présente depuis longtemps. Normalisée, presque acceptée.
-→ Indicateurs : "depuis toujours", "j'ai appris à vivre avec", "ça a toujours été comme ça"
-→ Hook : révéler que ce n'est pas une fatalité. "Tu n'as pas à continuer à..."
+For full mapping: See [references/emotional-mapping.md](references/emotional-mapping.md)
 
 ---
 
-## Phase 3 : Identifier le Micro-Moment Déclencheur
+## Phase 2: Qualify the Pain
 
-Extraire du Bucket 2 (déclencheurs) le micro-moment le plus fréquent ou le plus intense.
+### Q2A — Private or Social?
 
-**4 types de micro-moments :**
-1. **Limite** — un événement a tout déclenché ("le jour où j'ai réalisé que...")
-2. **Récurrent** — une boucle régulière ("chaque lundi matin", "à chaque fin de mois")
-3. **Comparaison** — un écart perçu ("mon collègue venait d'acheter...", "j'ai vu que X...")
-4. **Anticipation** — une peur projetée ("si ça continue dans 5 ans...")
+**Private pain:** Experienced in silence. The person doesn't talk about it.
+→ Tone: intimate, confidential. Formats: text overlay, calm voiceover, face-to-camera confession.
 
-Pour le cadre complet : voir [references/micro-moments.md](references/micro-moments.md)
+**Social pain:** Linked to others' perception. The person fears judgment.
+→ Tone: supportive, non-judgmental. Formats: testimonial, community, "you're not alone."
+
+**Signals in verbatims:**
+- "I / me" pronouns = private
+- Mentions of "people / my circle / my family / at work" = social
+
+### Q2B — Acute or Chronic?
+
+**Acute pain:** Recently triggered. Intense and urgent.
+→ Time indicators: "this morning", "last week", "since the accident"
+→ Hook: anchor in the precise moment. Natural urgency.
+
+**Chronic pain:** Present for a long time. Normalized, almost accepted.
+→ Indicators: "always", "I've learned to live with it", "it's always been like this"
+→ Hook: reveal that it's not inevitable. "You don't have to keep..."
 
 ---
 
-## Phase 4 : Dériver la Direction Créative
+## Phase 3: Identify the Triggering Micro-Moment
 
-À partir de la cartographie, formuler :
-- Le ton adapté (intime / collectif / urgent / éducatif)
-- Le format recommandé
-- La direction du hook (amorce émotionnelle vs situationnelle vs identitaire)
-- L'awareness stage confirmé ou révisé
+Extract from Bucket 2 (triggers) the most frequent or most intense micro-moment.
+
+**4 types of micro-moments:**
+1. **Breaking point** — an event triggered everything ("the day I realized that...")
+2. **Recurring** — a regular loop ("every Monday morning", "at the end of every month")
+3. **Comparison** — a perceived gap ("my colleague had just bought...", "I saw that X...")
+4. **Anticipation** — a projected fear ("if this continues in 5 years...")
+
+For the full framework: See [references/micro-moments.md](references/micro-moments.md)
+
+---
+
+## Phase 4: Derive the Creative Direction
+
+From the mapping, formulate:
+- The appropriate tone (intimate / collective / urgent / educational)
+- The recommended format
+- The hook direction (emotional vs situational vs identity opening)
+- The confirmed or revised awareness stage
 
 ---
 
 ## Output Format
 
 ```markdown
-# Emotional Map — [Persona] — [Produit] — [Date]
+# Emotional Map — [Persona] — [Product] — [Date]
 
-## Émotion Dominante
-[Émotion] — [2 verbatims qui la confirment]
+## Dominant Emotion
+[Emotion] — [2 verbatims that confirm it]
 
-## Qualification de la Douleur
-- Privée ou Sociale : [Private / Social] — [Raison]
-- Aiguë ou Chronique : [Acute / Chronic] — [Raison]
+## Pain Qualification
+- Private or Social: [Private / Social] — [Reason]
+- Acute or Chronic: [Acute / Chronic] — [Reason]
 
-## Micro-Moment Principal
-Type : [Limite / Récurrent / Comparaison / Anticipation]
-Description : [Situation précise]
-Verbatim associé : "[Citation exacte]"
+## Main Micro-Moment
+Type: [Breaking point / Recurring / Comparison / Anticipation]
+Description: [Specific situation]
+Associated verbatim: "[Exact quote]"
 
-## Direction Créative
-→ Ton : [intime / collectif / urgent / éducatif]
-→ Format recommandé : [format ou type]
-→ Hook direction : [description de l'amorce]
-→ Awareness confirmé : [Niveau 1–5]
-→ Mécanique recommandée : [M1–M8]
+## Creative Direction
+→ Tone: [intimate / collective / urgent / educational]
+→ Recommended format: [format or type]
+→ Hook direction: [description of the opening]
+→ Confirmed awareness: [Level 1–5]
+→ Recommended mechanic: [M1–M8]
 ```
 
 ---
 
 ## Related Skills
 
-- `02-research/review-audit` — source des verbatims
-- `02-research/audience-research` — source du persona
-- `03-strategy/creative-brief` — emotional map → angle et ton du brief
-- `03-strategy/hook-writing` — micro-moment → première ligne du hook
+- `02-research/review-audit` — verbatim source
+- `02-research/audience-research` — persona source
+- `03-strategy/creative-brief` — emotional map → brief angle and tone
+- `03-strategy/hook-writing` — micro-moment → first line of the hook

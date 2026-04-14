@@ -1,103 +1,103 @@
-# Biais Cognitifs Appliqués au Paid Social
+# Cognitive Biases Applied to Paid Social
 
-## Les 10 Biais les Plus Actifs en Publicité
-
----
-
-### 1. Aversion à la Perte (Loss Aversion)
-**Principe :** Perdre 100€ fait plus mal que gagner 100€ fait plaisir. (Kahneman)
-**Application :** Formuler l'offre en termes de ce qu'on perd en n'agissant pas.
-**Exemple :** "Chaque mois que tu attends te coûte X€."
-**Risque :** Overdose de peur → paralysie. Équilibrer avec espoir.
+## The 10 Most Active Biases in Advertising
 
 ---
 
-### 2. Preuve Sociale (Social Proof)
-**Principe :** En cas de doute, on fait ce que font les autres.
-**Application :** Nombre de clients, témoignages spécifiques, noms reconnus.
-**Exemple :** "12 000 freelances utilisent déjà [produit]." / Témoignage avec photo réelle.
-**Clé :** La spécificité est plus crédible que le volume. "12 347" bat "des milliers".
+### 1. Loss Aversion
+**Principle:** Losing €100 hurts more than gaining €100 feels good. (Kahneman)
+**Application:** Frame the offer in terms of what is lost by not acting.
+**Example:** "Every month you wait costs you X€."
+**Risk:** Overdose of fear → paralysis. Balance with hope.
+
+---
+
+### 2. Social Proof
+**Principle:** In doubt, people do what others do.
+**Application:** Number of customers, specific testimonials, recognized names.
+**Example:** "12,000 freelancers already use [product]." / Testimonial with real photo.
+**Key:** Specificity is more credible than volume. "12,347" beats "thousands."
 
 ---
 
 ### 3. FOMO — Fear Of Missing Out
-**Principe :** La peur d'être exclu ou de rater quelque chose de bon.
-**Application :** Urgence temporelle, accès limité, communauté exclusive.
-**Exemple :** "Cette offre disparaît dans 48h." / "Rejoins les 500 membres qui ont déjà accès."
-**Risque :** FOMO artificiel = perte de confiance si la deadline est fausse.
+**Principle:** Fear of being excluded or missing something good.
+**Application:** Time urgency, limited access, exclusive community.
+**Example:** "This offer disappears in 48h." / "Join the 500 members who already have access."
+**Risk:** Artificial FOMO = loss of trust if the deadline is fake.
 
 ---
 
-### 4. Effet d'Ancrage (Anchoring)
-**Principe :** La première information reçue influence toutes les suivantes.
-**Application :** Montrer le prix "normal" avant le prix réduit. Montrer la valeur avant le coût.
-**Exemple :** "Valeur totale : 2 400€ → Accès aujourd'hui : 497€."
-**Clé :** L'ancre doit être crédible. Une ancre gonflée détruit la confiance.
+### 4. Anchoring Effect
+**Principle:** The first piece of information received influences all subsequent ones.
+**Application:** Show the "normal" price before the reduced price. Show the value before the cost.
+**Example:** "Total value: €2,400 → Access today: €497."
+**Key:** The anchor must be credible. An inflated anchor destroys trust.
 
 ---
 
-### 5. Réciprocité
-**Principe :** Quand on reçoit quelque chose, on se sent obligé de rendre.
-**Application :** Donner d'abord — valeur gratuite, ressource offerte, insight utile.
-**Exemple :** Lead magnet, contenu pédagogique avant l'offre, template gratuit.
-**Application paid social :** Les ads qui enseignent quelchose génèrent plus d'engagement organique.
+### 5. Reciprocity
+**Principle:** When we receive something, we feel obliged to give back.
+**Application:** Give first — free value, offered resource, useful insight.
+**Example:** Lead magnet, educational content before the offer, free template.
+**Paid social application:** Ads that teach something generate more organic engagement.
 
 ---
 
-### 6. Biais de Confirmation
-**Principe :** On cherche des informations qui confirment ce qu'on croit déjà.
-**Application :** Valider la croyance du prospect avant de la challenger ou de la renforcer.
-**Exemple :** "Tu sais déjà que [croyance]. Ce que la plupart des gens ne savent pas, c'est..."
-**Clé :** Commencer par valider → crédibilité immédiate.
+### 6. Confirmation Bias
+**Principle:** People seek information that confirms what they already believe.
+**Application:** Validate the prospect's belief before challenging or reinforcing it.
+**Example:** "You already know that [belief]. What most people don't know is..."
+**Key:** Start by validating → immediate credibility.
 
 ---
 
-### 7. Effet de Rareté (Scarcity)
-**Principe :** Ce qui est rare est perçu comme plus précieux.
-**Application :** Stock limité, cohorte fermée, accès restreint, prix early-bird.
-**Exemple :** "Il reste 7 places." / "La prochaine ouverture est en septembre."
-**Risque :** Même que FOMO — doit être vrai ou implicite, pas crié.
+### 7. Scarcity Effect
+**Principle:** What is rare is perceived as more valuable.
+**Application:** Limited stock, closed cohort, restricted access, early-bird price.
+**Example:** "7 spots left." / "Next opening is in September."
+**Risk:** Same as FOMO — must be real or implicitly justifiable, not just claimed.
 
 ---
 
-### 8. Biais d'Autorité (Authority)
-**Principe :** On fait confiance aux experts et aux figures d'autorité.
-**Application :** Credentials, médias, certifications, résultats mesurables.
-**Exemple :** "Utilisé par [entreprise connue]." / "[Expert] recommande."
-**Clé dans le feed :** L'autorité s'établit en 3 secondes — ton, langage, confiance du regard.
+### 8. Authority Bias
+**Principle:** People trust experts and authority figures.
+**Application:** Credentials, media mentions, certifications, measurable results.
+**Example:** "Used by [known company]." / "[Expert] recommends."
+**Key in the feed:** Authority is established in 3 seconds — tone, language, confidence.
 
 ---
 
-### 9. Effet de Proximité (In-Group Bias)
-**Principe :** On fait plus confiance à quelqu'un qui nous ressemble.
-**Application :** Testimonials de personas identiques à la cible.
-**Exemple :** "J'étais exactement là où tu es il y a 6 mois." / UGC par profils similaires.
-**Clé :** Le testimonial le plus puissant n'est pas le plus beau — c'est le plus reconnaissable.
+### 9. In-Group Bias (Proximity Effect)
+**Principle:** People trust someone who resembles them more.
+**Application:** Testimonials from personas identical to the target.
+**Example:** "I was exactly where you are 6 months ago." / UGC from similar profiles.
+**Key:** The most powerful testimonial is not the most polished — it's the most recognizable.
 
 ---
 
-### 10. Effet de Progression (Endowment Effect)
-**Principe :** On valorise plus ce qu'on possède ou ce dans quoi on a investi.
-**Application :** Faire investir le prospect mentalement avant l'achat (quiz, évaluation, étape gratuite).
-**Exemple :** "Réponds à ces 3 questions pour voir ton profil créatif." → il est déjà engagé.
+### 10. Endowment Effect (Progression Effect)
+**Principle:** People value more what they own or have invested in.
+**Application:** Get the prospect to invest mentally before the purchase (quiz, assessment, free step).
+**Example:** "Answer these 3 questions to see your creative profile." → they are already engaged.
 
 ---
 
-## Tableau de Sélection Rapide
+## Quick Selection Table
 
-| Objectif de l'ad | Biais prioritaire |
+| Ad objective | Priority bias |
 |---|---|
-| Déclencher l'action immédiate | Aversion à la perte + FOMO |
-| Construire la confiance | Preuve sociale + Autorité |
-| Justifier le prix | Ancrage + Réciprocité |
-| Qualifier la cible | Proximité + Confirmation |
-| Engager avant l'offre | Réciprocité + Progression |
+| Trigger immediate action | Loss Aversion + FOMO |
+| Build trust | Social Proof + Authority |
+| Justify the price | Anchoring + Reciprocity |
+| Qualify the target | In-Group + Confirmation |
+| Engage before the offer | Reciprocity + Endowment |
 
 ---
 
-## Règle d'Éthique
+## Ethics Rule
 
-Un biais est un levier, pas une manipulation.
-La différence : manipuler = créer une perception fausse. Persuader = rendre une vérité plus saillante.
-Si ton produit tient ses promesses, utiliser ces biais est légitime.
-Si ton produit ne tient pas ses promesses, ces biais accélèrent juste les remboursements.
+A bias is a lever, not manipulation.
+The difference: manipulating = creating a false perception. Persuading = making a truth more salient.
+If your product delivers on its promises, using these biases is legitimate.
+If your product doesn't deliver, these biases just accelerate refunds.

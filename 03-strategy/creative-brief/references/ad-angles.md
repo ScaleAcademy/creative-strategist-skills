@@ -1,110 +1,110 @@
-# Ad Angles — Matrice des Angles Créatifs
+# Ad Angles — Creative Angle Matrix
 
-## Définition
+## Definition
 
-Un angle créatif est le prisme par lequel on présente le produit à l'audience.
-Même produit, même persona, même awareness stage → des angles différents produisent des résultats très différents.
+A creative angle is the lens through which the product is presented to the audience.
+Same product, same persona, same awareness stage → different angles produce very different results.
 
-Tester des angles ≠ tester des formats.
-Un angle peut être décliné en dizaines de hooks et formats.
-Un angle qui ne marche pas révèle quelque chose sur le persona — pas forcément sur le produit.
-
----
-
-## Les 4 Catégories d'Angles (Matrice C1-C4)
-
-### C1 — Angle Problème (Pain-Focused)
-**Définition :** L'ad part de la douleur, la nomme, l'amplifie, puis propose la sortie.
-**Awareness idéal :** Problem Aware (principalement), Unaware (avec éducation)
-**Structure :** Nommer le problème → Agiter → Solution
-**Exemple angle :** "Le problème caché qui plombe tes pubs Meta"
-
-**Sous-types :**
-- P1 — Douleur fonctionnelle : "ça ne marche pas, ça prend trop de temps, c'est trop compliqué"
-- P2 — Douleur émotionnelle : "frustration, honte, épuisement, découragement"
-- P3 — Douleur sociale : "jugement des autres, image perçue, comparaison"
-- P4 — Douleur projetée : "si ça continue, dans 6 mois tu seras..."
-
-**Risque :** Overuse de la douleur → tone déprimant. Équilibrer avec l'espoir.
+Testing angles ≠ testing formats.
+An angle can be declined into dozens of hooks and formats.
+An angle that doesn't work reveals something about the persona — not necessarily the product.
 
 ---
 
-### C2 — Angle Résultat (Proof-Focused)
-**Définition :** L'ad part du résultat concret, mesurable, avant d'expliquer comment.
-**Awareness idéal :** Solution Aware / Product Aware
-**Structure :** Résultat précis → Preuve → Mécanisme → Invitation
-**Exemple angle :** "47k€ générés en 60 jours avec ce système de test"
+## The 4 Angle Categories (C1-C4 Matrix)
 
-**Sous-types :**
-- R1 — Chiffres et métriques : CA, ROI, ROAS, temps économisé
-- R2 — Transformation lifestyle : "ma journée ressemble maintenant à..."
-- R3 — Témoignage tiers : "voilà ce que mon client a obtenu"
-- R4 — Avant/Après : deux états documentés
+### C1 — Problem Angle (Pain-Focused)
+**Definition:** The ad starts from the pain, names it, amplifies it, then proposes the exit.
+**Ideal awareness:** Problem Aware (primarily), Unaware (with education)
+**Structure:** Name the problem → Agitate → Solution
+**Example angle:** "The hidden problem that's killing your Meta ads"
 
-**Clé :** La spécificité est la crédibilité. "47k€" bat "des dizaines de milliers d'euros".
+**Sub-types:**
+- P1 — Functional pain: "it doesn't work, it takes too long, it's too complicated"
+- P2 — Emotional pain: "frustration, shame, exhaustion, discouragement"
+- P3 — Social pain: "judgment from others, perceived image, comparison"
+- P4 — Projected pain: "if this continues, in 6 months you'll be..."
 
----
-
-### C3 — Angle Éducation (Education-Focused)
-**Définition :** L'ad enseigne quelque chose d'utile — la marque ou le produit est le contexte, pas le sujet principal.
-**Awareness idéal :** Unaware / Problem Aware (TOF principalement)
-**Structure :** Insight utile → Application → Pont vers le produit
-**Exemple angle :** "Les 3 erreurs qui détruisent les pubs Meta (et comment les éviter)"
-
-**Sous-types :**
-- E1 — Révélation : "ce que personne ne te dit sur..."
-- E2 — Framework : "voilà comment penser à..."
-- E3 — Myth-busting : "contrairement à ce qu'on croit..."
-- E4 — How-to : "étape par étape pour..."
-
-**Clé :** L'éducation crée de la confiance. La confiance précède l'achat dans les marchés sophistiqués.
+**Risk:** Overuse of pain → depressing tone. Balance with hope.
 
 ---
 
-### C4 — Angle Identité (Identity-Focused)
-**Définition :** L'ad ne parle pas du produit mais de qui tu es (ou qui tu veux être) en l'utilisant.
-**Awareness idéal :** Unaware / Most Aware (sophisitication Level 5 surtout)
-**Structure :** Identité aspirationnelle → Appartenance → Produit comme marqueur
-**Exemple angle :** "Les Creative Strategists qui ne font pas de compromis sur leur méthode"
+### C2 — Result Angle (Proof-Focused)
+**Definition:** The ad starts from the concrete, measurable result before explaining how.
+**Ideal awareness:** Solution Aware / Product Aware
+**Structure:** Precise result → Proof → Mechanism → Invitation
+**Example angle:** "€47k generated in 60 days with this test system"
 
-**Sous-types :**
-- I1 — Aspiration identitaire : "le type de personne qui..."
-- I2 — Communauté : "rejoindre ceux qui..."
-- I3 — Opposition : "pour ceux qui refusent de..."
-- I4 — Statut : "ce que font les meilleurs dans [domaine]"
+**Sub-types:**
+- R1 — Numbers and metrics: revenue, ROI, ROAS, time saved
+- R2 — Lifestyle transformation: "my day now looks like..."
+- R3 — Third-party testimonial: "here's what my client achieved"
+- R4 — Before/After: two documented states
 
-**Clé :** Marche surtout quand la marque a déjà une base. Fragile sans preuve en dessous.
+**Key:** Specificity is credibility. "€47k" beats "tens of thousands of euros."
 
 ---
 
-## Sélection de l'Angle
+### C3 — Education Angle (Education-Focused)
+**Definition:** The ad teaches something useful — the brand or product is the context, not the main topic.
+**Ideal awareness:** Unaware / Problem Aware (TOF primarily)
+**Structure:** Useful insight → Application → Bridge to product
+**Example angle:** "The 3 mistakes that destroy Meta ads (and how to avoid them)"
 
-| Signal | Angle recommandé |
+**Sub-types:**
+- E1 — Revelation: "what nobody tells you about..."
+- E2 — Framework: "here's how to think about..."
+- E3 — Myth-busting: "contrary to what people believe..."
+- E4 — How-to: "step by step to..."
+
+**Key:** Education builds trust. Trust precedes purchase in sophisticated markets.
+
+---
+
+### C4 — Identity Angle (Identity-Focused)
+**Definition:** The ad doesn't talk about the product but about who you are (or want to be) by using it.
+**Ideal awareness:** Unaware / Most Aware (sophistication Level 5 especially)
+**Structure:** Aspirational identity → Belonging → Product as marker
+**Example angle:** "The Creative Strategists who don't compromise on their method"
+
+**Sub-types:**
+- I1 — Identity aspiration: "the type of person who..."
+- I2 — Community: "join those who..."
+- I3 — Opposition: "for those who refuse to..."
+- I4 — Status: "what the best in [field] do"
+
+**Key:** Works best when the brand already has a base. Fragile without proof underneath.
+
+---
+
+## Angle Selection
+
+| Signal | Recommended angle |
 |---|---|
-| Audience n'a jamais entendu parler du produit | C1 ou C3 |
-| Audience a essayé des solutions sans succès | C1 (agiter) + C3 (éduquer) |
-| Audience hésite entre plusieurs options | C2 (prouver) + comparaison |
-| Audience est prête mais manque de confiance | C2 (preuve sociale) + C1 (objection) |
-| Marché sophistiqué (Level 4-5) | C4 (identité) ou C3 (mécanisme) |
-| Retargeting chaud | C2 (offre) + C1 (urgence) |
+| Audience has never heard of the product | C1 or C3 |
+| Audience has tried solutions without success | C1 (agitate) + C3 (educate) |
+| Audience is choosing between several options | C2 (prove) + comparison |
+| Audience is ready but lacks confidence | C2 (social proof) + C1 (objection) |
+| Sophisticated market (Level 4-5) | C4 (identity) or C3 (mechanism) |
+| Warm retargeting | C2 (offer) + C1 (urgency) |
 
 ---
 
-## Matrice Angle × Awareness
+## Angle × Awareness Matrix
 
 |  | Unaware | Problem Aware | Solution Aware | Product Aware | Most Aware |
 |---|---|---|---|---|---|
-| C1 — Problème | ✓ (doux) | ✓✓ | ✓ | — | — |
-| C2 — Résultat | — | ✓ | ✓✓ | ✓✓ | ✓ |
-| C3 — Éducation | ✓✓ | ✓✓ | ✓ | — | — |
-| C4 — Identité | ✓✓ | — | — | ✓ | ✓✓ |
+| C1 — Problem | ✓ (soft) | ✓✓ | ✓ | — | — |
+| C2 — Result | — | ✓ | ✓✓ | ✓✓ | ✓ |
+| C3 — Education | ✓✓ | ✓✓ | ✓ | — | — |
+| C4 — Identity | ✓✓ | — | — | ✓ | ✓✓ |
 
 ---
 
-## Règle des Sprints de Test
+## Testing Sprint Rules
 
-**Sprint minimal :** 1 angle par awareness stage = 4 ads.
-**Sprint standard :** 2 angles × 2 hooks chacun = 8 ads.
-**Sprint avancé :** 3 angles × 2 mechanics × 1 hook = 6 concepts.
+**Minimal sprint:** 1 angle per awareness stage = 4 ads.
+**Standard sprint:** 2 angles × 2 hooks each = 8 ads.
+**Advanced sprint:** 3 angles × 2 mechanics × 1 hook = 6 concepts.
 
-Ne pas tester plusieurs angles ET plusieurs formats en même temps → impossible d'isoler ce qui a fonctionné.
+Do not test multiple angles AND multiple formats at the same time → impossible to isolate what worked.

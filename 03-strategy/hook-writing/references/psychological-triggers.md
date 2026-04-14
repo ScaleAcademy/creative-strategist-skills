@@ -1,103 +1,103 @@
-# Psychological Triggers — Les 8 Catégories
+# Psychological Triggers — The 8 Categories
 
-## Définition
+## Definition
 
-Un trigger psychologique est le mécanisme émotionnel ou cognitif qu'un hook active dans le cerveau du prospect.
+A psychological trigger is the emotional or cognitive mechanism a hook activates in the prospect's brain.
 
-Ce n'est pas la même chose qu'une tactic (T01–T35) :
-- **La tactic** = la structure du hook (comment il est construit)
-- **Le trigger** = le mécanisme psychologique activé (pourquoi ça marche)
+It's not the same as a tactic (T01–T42):
+- **The tactic** = the structure of the hook (how it's built)
+- **The trigger** = the psychological mechanism activated (why it works)
 
-Une tactic peut activer plusieurs triggers.
-Un trigger peut être activé via plusieurs tactics.
+A tactic can activate multiple triggers.
+A trigger can be activated via multiple tactics.
 
-**Règle d'usage :** Identifier le trigger dominant AVANT de choisir la tactic. Le trigger découle de l'émotion dominante du persona (voir `customer-reality`).
+**Usage rule:** Identify the dominant trigger BEFORE choosing the tactic. The trigger follows from the persona's dominant emotion (see `customer-reality`).
 
 ---
 
-## Les 8 Triggers
+## The 8 Triggers
 
 ### TR1 — Pattern Interrupt
-**Mécanisme :** Le cerveau filtre 99% des stimuli répétitifs pour économiser l'énergie cognitive. Quelque chose d'inattendu force le filtre à s'ouvrir.
-**Quand l'utiliser :** Marchés saturés, audiences qui ont beaucoup vu de publicités, feed très encombré.
-**Signaux d'activation :** Début de vidéo inattendu, affirmation choquante, visuel disruptif, son inhabituel.
-**Tactics naturelles :** T04 Challenge, T24 Shocking Statement, T15 Myth-Busting, T05 Contrarian
-**Formats compatibles :** F24 Pattern Interrupt, F19 Meme, F42 Unconventional Text
-**Risque :** Interrompre le pattern sans promesse de valeur = frustration. Doit être suivi d'un contenu qui justifie l'interruption.
+**Mechanism:** The brain filters 99% of repetitive stimuli to save cognitive energy. Something unexpected forces the filter open.
+**When to use:** Saturated markets, audiences that have seen many ads, very cluttered feed.
+**Activation signals:** Unexpected video opening, shocking statement, disruptive visual, unusual sound.
+**Natural tactics:** T04 Challenge, T24 Shocking Statement, T15 Myth-Busting, T05 Contrarian
+**Compatible formats:** F24 Pattern Interrupt, F19 Meme, F42 Unconventional Text
+**Risk:** Interrupting the pattern without a value promise = frustration. Must be followed by content that justifies the interruption.
 
 ---
 
 ### TR2 — Identity Call-Out
-**Mécanisme :** Le cerveau traite les informations qui concernent le "soi" en priorité. Nommer l'identité du prospect provoque une sélection automatique.
-**Quand l'utiliser :** Audience segmentée avec une identité forte (professionnels, parents, sportifs, entrepreneurs…), awareness Unaware ou Most Aware.
-**Signaux d'activation :** "Si tu es [profil]", "Pour les gens qui [font X]", "Les [persona] savent que..."
-**Tactics naturelles :** T07 Demographic Callout, T13 Identity Hook, T10 Exclusivity
-**Formats compatibles :** F30 Selfie/POV, F13 Founder, F45 Yapper
-**Risque :** Trop précis = trop petit. Trop large = personne ne se reconnaît.
+**Mechanism:** The brain processes information that concerns the "self" first. Naming the prospect's identity triggers automatic selection.
+**When to use:** Segmented audience with a strong identity (professionals, parents, athletes, entrepreneurs...), Unaware or Most Aware.
+**Activation signals:** "If you're [profile]", "For people who [do X]", "People who [persona] know that..."
+**Natural tactics:** T07 Demographic Callout, T13 Identity Hook, T10 Exclusivity
+**Compatible formats:** F30 Selfie/POV, F13 Founder, F45 Yapper
+**Risk:** Too specific = too small. Too broad = nobody recognizes themselves.
 
 ---
 
 ### TR3 — Pain Agitation
-**Mécanisme :** Rendre une douleur existante plus saillante et douloureuse que le prospect ne la perçoit habituellement. Active l'inconfort — moteur de changement.
-**Quand l'utiliser :** Problem Aware principalement. Audience qui souffre mais a normalisé la douleur.
-**Signaux d'activation :** Descriptions précises de la douleur, projections négatives, micro-moments douloureux.
-**Tactics naturelles :** T17 Pain Agitation, T20 Problem-First, T30 Warning
-**Formats compatibles :** F45 Yapper, F23 One Shot, F13 Founder
-**Risque :** Trop de douleur sans espoir = paralysie. Équilibrer avec une sortie visible.
+**Mechanism:** Makes an existing pain more salient and painful than the prospect usually perceives it. Activates discomfort — the engine of change.
+**When to use:** Problem Aware primarily. Audience that suffers but has normalized the pain.
+**Activation signals:** Precise pain descriptions, negative projections, painful micro-moments.
+**Natural tactics:** T17 Pain Agitation, T20 Problem-First, T30 Warning
+**Compatible formats:** F45 Yapper, F23 One Shot, F13 Founder
+**Risk:** Too much pain without hope = paralysis. Balance with a visible exit.
 
 ---
 
 ### TR4 — Curiosity Gap
-**Mécanisme :** Le cerveau déteste les boucles ouvertes. Une information incomplète crée une tension cognitive qui ne peut être résolue qu'en continuant à regarder ou lire.
-**Quand l'utiliser :** Tous niveaux d'awareness — le plus polyvalent des triggers.
-**Signaux d'activation :** Question sans réponse, affirmation partielle, promesse d'une révélation.
-**Tactics naturelles :** T06 Curiosity Gap, T22 Revelation, T32 Behind the Scenes, T15 Myth-Busting
-**Formats compatibles :** F16 How-To, F18 Listicle, F45 Yapper, F07 ChatGPT
-**Risque :** Si la promesse n'est pas tenue dans la vidéo, le prospect se sent manipulé. La boucle DOIT être fermée.
+**Mechanism:** The brain hates open loops. Incomplete information creates cognitive tension that can only be resolved by continuing to watch or read.
+**When to use:** All awareness levels — the most versatile of the triggers.
+**Activation signals:** Unanswered question, partial statement, promise of a revelation.
+**Natural tactics:** T06 Curiosity Gap, T22 Revelation, T32 Behind the Scenes, T15 Myth-Busting
+**Compatible formats:** F16 How-To, F18 Listicle, F45 Yapper, F07 ChatGPT
+**Risk:** If the promise isn't kept in the video, the prospect feels manipulated. The loop MUST be closed.
 
 ---
 
 ### TR5 — Social Proof / Credibility
-**Mécanisme :** En situation d'incertitude, le cerveau cherche ce que font les autres pour décider quoi faire. La preuve sociale réduit le risque perçu.
-**Quand l'utiliser :** Solution Aware et Product Aware — quand le prospect hésite entre plusieurs options ou avant l'achat.
-**Signaux d'activation :** Chiffres de clients, témoignages spécifiques, logos reconnus, certifications.
-**Tactics naturelles :** T25 Social Proof, T02 Authority, T27 Transformation
-**Formats compatibles :** F33 Social Proof Mashup, F36 Testimonial, F27 Press, F06 Case Study
-**Risque :** Preuve vague = pas de preuve. "Des milliers de clients" bat "beaucoup de clients" mais perd contre "12 347 clients".
+**Mechanism:** In uncertain situations, the brain looks for what others do to decide what to do. Social proof reduces perceived risk.
+**When to use:** Solution Aware and Product Aware — when the prospect is hesitating between several options or before purchase.
+**Activation signals:** Customer numbers, specific testimonials, recognized logos, certifications.
+**Natural tactics:** T25 Social Proof, T02 Authority, T27 Transformation
+**Compatible formats:** F33 Social Proof Mashup, F36 Testimonial, F27 Press, F06 Case Study
+**Risk:** Vague proof = no proof. "12,347 customers" beats "many customers" but loses to a single credible case study.
 
 ---
 
 ### TR6 — Contrarian / Myth-Busting
-**Mécanisme :** Le cerveau accorde plus d'attention à ce qui contredit ses croyances existantes qu'à ce qui les confirme — effet de surprise cognitive.
-**Quand l'utiliser :** Marchés avec croyances établies à challenger, audiences fatiguées des messages conventionnels.
-**Signaux d'activation :** "Contrairement à ce qu'on croit...", "Tout le monde dit X — c'est faux", "La vraie raison..."
-**Tactics naturelles :** T05 Contrarian, T15 Myth-Busting, T04 Challenge
-**Formats compatibles :** F45 Yapper, F11 Expert Explainer, F14 Greenscreen, F18 Listicle
-**Risque :** Le contrarian doit être défendable. Contredire sans preuve = perte de crédibilité.
+**Mechanism:** The brain pays more attention to what contradicts its existing beliefs than what confirms them — cognitive surprise effect.
+**When to use:** Markets with established beliefs to challenge, audiences tired of conventional messages.
+**Activation signals:** "Contrary to what people think...", "Everyone says X — that's false", "The real reason..."
+**Natural tactics:** T05 Contrarian, T15 Myth-Busting, T04 Challenge
+**Compatible formats:** F45 Yapper, F11 Expert Explainer, F14 Greenscreen, F18 Listicle
+**Risk:** The contrarian must be defensible. Contradicting without proof = loss of credibility.
 
 ---
 
 ### TR7 — Aspiration / Desire
-**Mécanisme :** Le cerveau se projette naturellement dans des états désirables. Une image du futur souhaité crée un écart motivationnel entre le présent et ce futur.
-**Quand l'utiliser :** Unaware et Most Aware. Marchés sophistiqués (Level 4–5). LF1, LF4, LF6, LF8.
-**Signaux d'activation :** Descriptions de vies désirables, identités aspirationnelles, "imagine que..."
-**Tactics naturelles :** T01 Aspirational, T35 Future Pacing, T19 Prediction, T31 What If
-**Formats compatibles :** F08 Cinematic B-Roll, F30 Selfie/POV, F32 Skit, F45 Yapper
-**Risque :** Sans ancrage dans la réalité actuelle du prospect, l'aspiration paraît inaccessible. Connecter toujours au "où il en est maintenant".
+**Mechanism:** The brain naturally projects into desirable states. An image of the desired future creates a motivational gap between the present and that future.
+**When to use:** Unaware and Most Aware. Sophisticated markets (Level 4–5). LF1, LF4, LF6, LF8.
+**Activation signals:** Descriptions of desirable lives, aspirational identities, "imagine that..."
+**Natural tactics:** T01 Aspirational, T35 Future Pacing, T19 Prediction, T31 What If
+**Compatible formats:** F08 Cinematic B-Roll, F30 Selfie/POV, F32 Skit, F45 Yapper
+**Risk:** Without grounding in the prospect's current reality, the aspiration seems inaccessible. Always connect to "where they are now."
 
 ---
 
 ### TR8 — Urgency / Stakes
-**Mécanisme :** La perspective de perdre quelque chose (aversion à la perte) est 2× plus motivante que la perspective de gagner la même chose (Kahneman). Le temps limité force la décision.
-**Quand l'utiliser :** Product Aware et Most Aware. BOF et retargeting principalement.
-**Signaux d'activation :** Deadlines, stock limité, coût de l'inaction, "pendant que tu attends..."
-**Tactics naturelles :** T29 Urgency, T11 FOMO, T23 Risk Reversal
-**Formats compatibles :** F05 Billboard, F26 Post-It, F44 VSL (fin)
-**Risque :** Fausse urgence = destruction de la confiance. L'urgence doit être réelle ou implicitement justifiable.
+**Mechanism:** The prospect of losing something (loss aversion) is 2× more motivating than the prospect of gaining the same thing (Kahneman). Limited time forces the decision.
+**When to use:** Product Aware and Most Aware. BOF and retargeting primarily.
+**Activation signals:** Deadlines, limited stock, cost of inaction, "while you're waiting..."
+**Natural tactics:** T29 Urgency, T11 FOMO, T23 Risk Reversal
+**Compatible formats:** F05 Billboard, F26 Post-It, F44 VSL (end)
+**Risk:** Fake urgency = destruction of trust. Urgency must be real or implicitly justifiable.
 
 ---
 
-## Matrice Trigger × Awareness Stage
+## Trigger × Awareness Stage Matrix
 
 | Trigger | Unaware | Problem Aware | Solution Aware | Product Aware | Most Aware |
 |---|---|---|---|---|---|
@@ -112,39 +112,39 @@ Un trigger peut être activé via plusieurs tactics.
 
 ---
 
-## Chaîne Trigger → Tactic → Voice Pattern
+## Trigger → Tactic → Voice Pattern Chain
 
-La séquence de construction d'un hook :
+The hook construction sequence:
 
 ```
-Émotion dominante du persona (customer-reality)
+Persona's dominant emotion (customer-reality)
         ↓
-Trigger psychologique dominant (TR1–TR8)
+Dominant psychological trigger (TR1–TR8)
         ↓
-Tactic(s) compatibles (T01–T35) — hook-tactics.md
+Compatible tactics (T01–T42) — hook-tactics.md
         ↓
-Voice Pattern adapté au ton — hook-voice-patterns.md
+Voice pattern adapted to tone — hook-voice-patterns.md
         ↓
-Hook final calibré pour la plateforme (vidéo/statique)
+Final hook calibrated for the platform (video/static)
 ```
 
-**Exemple concret :**
-- Émotion : Frustration chronique (travaille dur, aucun résultat)
-- Trigger : TR3 Pain Agitation + TR4 Curiosity Gap
-- Tactic : T17 Pain Agitation + T06 Curiosity Gap
-- Voice Pattern : Cluster 4 "Experience Arc" ou Cluster 1 "Confession"
-- Hook : "J'ai travaillé 60h par semaine pendant 2 ans. Le problème n'était pas mon effort — c'était ça."
+**Concrete example:**
+- Emotion: Chronic frustration (works hard, no results)
+- Trigger: TR3 Pain Agitation + TR4 Curiosity Gap
+- Tactic: T17 Pain Agitation + T06 Curiosity Gap
+- Voice Pattern: Cluster 4 "Experience Arc" or Cluster 1 "Confession"
+- Hook: "I worked 60h/week for 2 years. The problem wasn't my effort — it was this."
 
 ---
 
-## Quick Reference — Trigger par Émotion Dominante
+## Quick Reference — Trigger by Dominant Emotion
 
-| Émotion dominante du persona | Trigger prioritaire | Trigger secondaire |
+| Persona's dominant emotion | Priority trigger | Secondary trigger |
 |---|---|---|
 | Frustration | TR3 Pain Agitation | TR4 Curiosity Gap |
-| Peur | TR8 Urgency | TR5 Social Proof |
-| Honte | TR2 Identity Call-Out | TR5 Social Proof |
-| Espoir | TR7 Aspiration | TR4 Curiosity Gap |
-| Colère | TR6 Contrarian | TR1 Pattern Interrupt |
+| Fear | TR8 Urgency | TR5 Social Proof |
+| Shame | TR2 Identity Call-Out | TR5 Social Proof |
+| Hope | TR7 Aspiration | TR4 Curiosity Gap |
+| Anger | TR6 Contrarian | TR1 Pattern Interrupt |
 | Confusion | TR4 Curiosity Gap | TR6 Contrarian |
-| Résignation | TR1 Pattern Interrupt | TR6 Contrarian |
+| Resignation | TR1 Pattern Interrupt | TR6 Contrarian |

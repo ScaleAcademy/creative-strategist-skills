@@ -1,90 +1,90 @@
-# Persona Layers — 3 Niveaux de Profondeur
+# Persona Layers — 3 Levels of Depth
 
-## Pourquoi 3 Layers ?
+## Why 3 Layers?
 
-Un persona démographique (âge, genre, ville) ne suffit pas à écrire une bonne publicité.
-Il faut descendre jusqu'au layer 3 pour atteindre les mots exacts que la personne utilise pour décrire sa propre douleur.
-
----
-
-## Layer 1 — Démographique (Qui)
-
-Ce que tu vois de l'extérieur.
-
-- Âge, genre, localisation
-- Situation professionnelle / revenus
-- Situation familiale
-- Plateformes utilisées
-- Comportements d'achat visibles
-
-**Utilité :** Ciblage publicitaire, ton général.
-**Limite :** Deux personnes identiques en Layer 1 peuvent avoir des motivations radicalement différentes.
+A demographic persona (age, gender, city) is not enough to write a good ad.
+You need to go down to layer 3 to reach the exact words the person uses to describe their own pain.
 
 ---
 
-## Layer 2 — Psychographique (Pourquoi)
+## Layer 1 — Demographic (Who)
 
-Ce qui motive les décisions.
+What you see from the outside.
 
-- Valeurs prioritaires (liberté, sécurité, statut, famille, performance)
-- Identité : comment se perçoit-il ? Comment veut-il être perçu ?
-- Peurs profondes (souvent non exprimées publiquement)
-- Aspirations à long terme
-- Rapport à l'argent, au temps, au risque
-- Références culturelles, influenceurs suivis, marques admirées
+- Age, gender, location
+- Professional situation / income
+- Family situation
+- Platforms used
+- Visible purchasing behaviors
 
-**Utilité :** Angle créatif, ton, niveau de sophistication du message.
-**Source :** Interviews, Reddit, commentaires Instagram, forums.
-
----
-
-## Layer 3 — Situationnel (Quand & Comment)
-
-Le contexte précis qui déclenche l'achat.
-
-- Micro-moment : quelle situation spécifique a provoqué la recherche d'une solution ?
-- Phrase exacte qu'il a tapée sur Google ou dite à un ami
-- Ce qui l'a empêché d'acheter avant (objection principale)
-- L'événement ou la goutte d'eau qui a tout changé
-- Le sentiment au moment exact où il a trouvé la solution
-
-**Utilité :** Hooks ultra-précis, intro de vidéo, copywriting d'accroche.
-**Source :** Reviews longues (4-5 étoiles), verbatims clients, interviews post-achat.
+**Usefulness:** Ad targeting, general tone.
+**Limit:** Two people identical at Layer 1 can have radically different motivations.
 
 ---
 
-## Template Persona Complet
+## Layer 2 — Psychographic (Why)
+
+What drives decisions.
+
+- Priority values (freedom, security, status, family, performance)
+- Identity: how do they see themselves? How do they want to be seen?
+- Deep fears (often not expressed publicly)
+- Long-term aspirations
+- Relationship with money, time, risk
+- Cultural references, followed influencers, admired brands
+
+**Usefulness:** Creative angle, tone, message sophistication level.
+**Source:** Interviews, Reddit, Instagram comments, forums.
+
+---
+
+## Layer 3 — Situational (When & How)
+
+The precise context that triggers the purchase.
+
+- Micro-moment: what specific situation triggered the search for a solution?
+- Exact phrase they typed on Google or said to a friend
+- What prevented them from buying before (main objection)
+- The event or tipping point that changed everything
+- The feeling at the exact moment they found the solution
+
+**Usefulness:** Ultra-precise hooks, video intros, opening copywriting.
+**Source:** Long reviews (4-5 stars), customer verbatims, post-purchase interviews.
+
+---
+
+## Full Persona Template
 
 ```
-## Persona — [Nom fictif] — [Produit]
+## Persona — [Fictional name] — [Product]
 
-### Layer 1 — Démographique
-- Âge / Genre :
-- Situation pro :
-- Localisation :
-- Revenus approximatifs :
-- Plateformes actives :
+### Layer 1 — Demographic
+- Age / Gender:
+- Professional situation:
+- Location:
+- Approximate income:
+- Active platforms:
 
-### Layer 2 — Psychographique
-- Valeur n°1 :
-- Identité : "Je suis quelqu'un qui..."
-- Peur profonde :
-- Aspiration à 3 ans :
-- Marques admirées :
+### Layer 2 — Psychographic
+- Priority value:
+- Identity: "I am someone who..."
+- Deep fear:
+- 3-year aspiration:
+- Admired brands:
 
-### Layer 3 — Situationnel
-- Micro-moment déclencheur :
-- Phrase exacte (verbatim) :
-- Objection principale :
-- Ce qui a finalement convaincu :
-- Émotion au moment de l'achat :
+### Layer 3 — Situational
+- Triggering micro-moment:
+- Exact phrase (verbatim):
+- Main objection:
+- What finally convinced them:
+- Emotion at the time of purchase:
 ```
 
 ---
 
-## Règle d'Or
+## Golden Rule
 
-**Le Layer 3 est la matière première du hook.**
+**Layer 3 is the raw material of the hook.**
 
-Si tu ne connais pas le micro-moment déclencheur de ton persona, ton hook sera générique.
-Si tu connais sa phrase exacte, ton hook arrête le scroll parce qu'il dit ce qu'il pensait sans le dire.
+If you don't know your persona's triggering micro-moment, your hook will be generic.
+If you know their exact phrase, your hook stops the scroll because it says what they were thinking without saying it.

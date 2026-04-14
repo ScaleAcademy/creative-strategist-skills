@@ -1,157 +1,157 @@
-# Hook Voice Patterns — Swipe File FR
+# Hook Voice Patterns — Swipe File
 
-## Définition
+## Definition
 
-Ces patterns sont des structures de phrases natives du feed — des conteneurs syntaxiques.
-Ils ne sont pas des formules à copier mot pour mot.
-Ils sont des moules à remplir avec le contexte du produit, du persona, et de l'angle créatif.
+These patterns are native feed sentence structures — syntactic containers.
+They are not formulas to copy word for word.
+They are molds to fill with the product, persona, and creative angle context.
 
-**Règle d'usage :** Sélectionne le pattern qui correspond au ton et à l'awareness de ta cible.
-Remplis les [variables]. Teste plusieurs remplissages avant de choisir.
+**Usage rule:** Select the pattern that matches your target's tone and awareness.
+Fill in the [variables]. Test several fillings before choosing.
 
 ---
 
 ## Cluster 1 — Confession & Gatekeeping
-*"Je sais quelque chose que tu ne sais pas"*
+*"I know something you don't"*
 
-- "Ce que j'aurais voulu savoir avant de [action]."
-- "Personne ne te dit ça sur [sujet] — alors je vais le faire."
-- "J'ai mis [temps] à comprendre ça. Tu vas le comprendre en [temps court]."
-- "La chose que les [experts / pros] gardent pour eux."
-- "Si j'avais su ça plus tôt, j'aurais évité [conséquence douloureuse]."
+- "What I wish I'd known before [action]."
+- "Nobody tells you this about [topic] — so I will."
+- "It took me [time] to understand this. You'll get it in [short time]."
+- "The thing [experts / pros] keep to themselves."
+- "If I'd known this sooner, I would have avoided [painful consequence]."
 
-**Tactic :** Revelation, Curiosity Gap
-**Trigger :** Curiosité, exclusivité
-
----
-
-## Cluster 2 — Confusion & Découverte
-*"Attends, comment je ne savais pas ça ?"*
-
-- "Je viens de réaliser quelque chose sur [sujet] et ça m'a choqué."
-- "C'est quoi exactement [concept que ta cible utilise sans comprendre] ?"
-- "On m'a posé cette question et je n'avais pas la réponse. Voilà ce que j'ai trouvé."
-- "Ça fait [temps] que je travaille sur [domaine] et je viens seulement de voir que..."
-- "La chose la plus contre-intuitive que j'ai apprise sur [sujet]."
-
-**Tactic :** Curiosity Gap, Revelation
-**Trigger :** Curiosité, boucle ouverte
+**Tactic:** Revelation, Curiosity Gap
+**Trigger:** Curiosity, exclusivity
 
 ---
 
-## Cluster 3 — Positions Tranchées & Contrarian
-*"Tout le monde croit X. Je pense l'inverse."*
+## Cluster 2 — Confusion & Discovery
+*"Wait, how did I not know that?"*
 
-- "Je vais dire quelque chose d'impopulaire sur [sujet]."
-- "L'opinion la plus répandue sur [sujet] est une erreur."
-- "Pourquoi [conseil courant] est le pire conseil qu'on puisse donner."
-- "Ce que tout le monde fait sur [plateforme / domaine] — et pourquoi ça ne marche pas."
-- "Je suis en désaccord avec [figure d'autorité / tendance] sur ce point précis."
+- "I just realized something about [topic] and it shocked me."
+- "What exactly is [concept your target uses without understanding]?"
+- "Someone asked me this question and I didn't have the answer. Here's what I found."
+- "I've been working on [field] for [time] and I only just saw that..."
+- "The most counter-intuitive thing I've learned about [topic]."
 
-**Tactic :** Contrarian, Challenge, Myth-Busting
-**Trigger :** Pattern interrupt, curiosité
-
----
-
-## Cluster 4 — Arc d'Expérience
-*"J'ai appris ça à mes dépens"*
-
-- "Il y a [temps], j'aurais tout donné pour qu'on me dise ça."
-- "La leçon la plus dure que [domaine / expérience] m'ait apprise."
-- "Après [X clients / Y mois / Z€ dépensés], voilà ce que j'ai compris."
-- "Je me suis planté sur [point précis]. Voilà ce que j'ai changé."
-- "C'était [situation critique]. Et ce moment a tout changé pour moi."
-
-**Tactic :** Personal Story, Confession
-**Trigger :** Empathie, confiance, authenticité
+**Tactic:** Curiosity Gap, Revelation
+**Trigger:** Curiosity, open loop
 
 ---
 
-## Cluster 5 — Sélection d'Audience & Enjeux
-*"Ce post est exactement pour toi"*
+## Cluster 3 — Sharp Positions & Contrarian
+*"Everyone believes X. I think the opposite."*
 
-- "Si tu [comportement ou situation précise], lis ça."
-- "Pour ceux qui [font X] sans avoir encore [résultat Y]."
-- "Tu es [profil] ? Alors tu connais ce problème."
-- "[Profil spécifique] : voilà ce que personne ne vous dit."
-- "Ce post n'est pas pour tout le monde. C'est pour [persona précis]."
+- "I'm going to say something unpopular about [topic]."
+- "The most widespread opinion on [topic] is a mistake."
+- "Why [common advice] is the worst advice you can give."
+- "What everyone does on [platform / field] — and why it doesn't work."
+- "I disagree with [authority figure / trend] on this specific point."
 
-**Tactic :** Demographic Callout, Identity Hook
-**Trigger :** Identité, appartenance
-
----
-
-## Cluster 6 — Proximité & Positionnement Catégorie
-*"Sois le [X] de [Y]"*
-
-- "Le [concept connu] du [domaine niche]."
-- "Ce que [marque admirée] a compris — et que [catégorie] n'a pas encore intégré."
-- "La version [adjectif] de [chose connue] pour [cible spécifique]."
-- "Pourquoi [niche] a besoin d'une approche différente de [mainstream]."
-
-**Tactic :** Identity Hook, Comparison, Reframe
-**Trigger :** Identité, différenciation
+**Tactic:** Contrarian, Challenge, Myth-Busting
+**Trigger:** Pattern interrupt, curiosity
 
 ---
 
-## Cluster 7 — Signaux Doux & Drops Casualisés
-*"Je pose ça là, sans pression"*
+## Cluster 4 — Experience Arc
+*"I learned this the hard way"*
 
-- "Juste un truc que j'ai remarqué sur [sujet]."
-- "Ça peut sembler évident, mais beaucoup de gens ratent ça."
-- "Petit rappel pour [profil] qui travaillent sur [objectif]."
-- "En passant : [insight ou info utile inattendue]."
-- "Je ne sais pas si ça peut t'aider, mais [insight ou ressource]."
+- "[Time] ago, I would have given anything to be told this."
+- "The hardest lesson [field / experience] ever taught me."
+- "After [X clients / Y months / Z€ spent], here's what I understood."
+- "I got it wrong on [specific point]. Here's what I changed."
+- "It was [critical situation]. And that moment changed everything for me."
 
-**Tactic :** Empathy Hook, How-To
-**Trigger :** Proximité, confiance
-
----
-
-## Cluster 8 — Commentaire Culturel & Tendance
-*"Ce qui se passe révèle quelque chose de plus grand"*
-
-- "[Événement récent ou tendance] montre quelque chose d'important sur [implication]."
-- "Ce qui se passe avec [X] en ce moment n'est pas un accident."
-- "[Changement dans l'industrie] : voilà ce que ça signifie vraiment pour [cible]."
-- "On parle beaucoup de [tendance], mais personne ne parle de [implication secondaire]."
-
-**Tactic :** Trend Hook, Prediction, Revelation
-**Trigger :** Pertinence, FOMO, curiosité
+**Tactic:** Personal Story, Confession
+**Trigger:** Empathy, trust, authenticity
 
 ---
 
-## Cluster 9 — Structures d'Explication
-*"Laisse-moi t'expliquer exactement pourquoi"*
+## Cluster 5 — Audience Selection & Stakes
+*"This post is exactly for you"*
 
-- "La vraie raison pour laquelle [problème courant] — et ce n'est pas ce que tu penses."
-- "Voilà exactement pourquoi [X] ne fonctionne pas pour [cible]."
-- "3 raisons pour lesquelles [résultat désiré] reste hors de portée — et comment les éliminer."
-- "[X] étapes pour [résultat] — sans [sacrifice courant]."
-- "Décortiquons [process / stratégie] étape par étape."
+- "If you [specific behavior or situation], read this."
+- "For those who [do X] without yet having [result Y]."
+- "You're [specific profile]? Then you know this problem."
+- "[Specific profile]: here's what nobody tells you."
+- "This post isn't for everyone. It's for [precise persona]."
 
-**Tactic :** How-To, Curiosity Gap, Bold Claim
-**Trigger :** Utilité, curiosité, résolution
-
----
-
-## Cluster 10 — Formats Natifs TikTok / Reels
-*"Containers culturels empruntés"*
-
-- "POV : tu es [persona dans situation précise]."
-- "Le moment où tu réalises que [vérité inconfortable]."
-- "Réponse à @[compte fictif] qui m'a demandé [question courante]."
-- "Ce que j'aurais fait si j'avais su [info] il y a [temps]."
-- "Storytelling time : [amorce d'une histoire en cours]."
-
-**Tactic :** Social Witness, Storytelling, Overheard Conversation
-**Trigger :** Proximité, empathie, format natif
+**Tactic:** Demographic Callout, Identity Hook
+**Trigger:** Identity, belonging
 
 ---
 
-## Règles d'Application
+## Cluster 6 — Proximity & Category Positioning
+*"Be the [X] of [Y]"*
 
-1. **Un pattern = une structure, pas une formule.** Remplis les [variables] avec les mots exacts de ton persona (Layer 3).
-2. **Teste le pattern à voix haute.** Si ça sonne comme de la pub, recommence.
-3. **Les meilleurs hooks se lisent comme si quelqu'un parlait à un ami** — pas comme si quelqu'un vendait quelque chose.
-4. **Le premier mot compte double.** Commence par un verbe d'action, un chiffre, ou le mot exact que ton persona utilise pour décrire sa douleur.
+- "The [known concept] of [niche field]."
+- "What [admired brand] understood — and what [category] hasn't integrated yet."
+- "The [adjective] version of [known thing] for [specific target]."
+- "Why [niche] needs a different approach from [mainstream]."
+
+**Tactic:** Identity Hook, Comparison, Reframe
+**Trigger:** Identity, differentiation
+
+---
+
+## Cluster 7 — Soft Signals & Casual Drops
+*"Just leaving this here, no pressure"*
+
+- "Just something I noticed about [topic]."
+- "This might seem obvious, but a lot of people miss this."
+- "Quick reminder for [profile] working on [goal]."
+- "In passing: [unexpected useful insight or info]."
+- "Not sure if this helps, but [insight or resource]."
+
+**Tactic:** Empathy Hook, How-To
+**Trigger:** Proximity, trust
+
+---
+
+## Cluster 8 — Cultural Commentary & Trend
+*"What's happening reveals something bigger"*
+
+- "[Recent event or trend] reveals something important about [implication]."
+- "What's happening with [X] right now is not an accident."
+- "[Industry change]: here's what it really means for [target]."
+- "Everyone's talking about [trend], but nobody's talking about [secondary implication]."
+
+**Tactic:** Trend Hook, Prediction, Revelation
+**Trigger:** Relevance, FOMO, curiosity
+
+---
+
+## Cluster 9 — Explanation Structures
+*"Let me explain exactly why"*
+
+- "The real reason why [common problem] — and it's not what you think."
+- "Here's exactly why [X] doesn't work for [target]."
+- "3 reasons why [desired result] stays out of reach — and how to eliminate them."
+- "[X] steps to [result] — without [common sacrifice]."
+- "Let's break down [process / strategy] step by step."
+
+**Tactic:** How-To, Curiosity Gap, Bold Claim
+**Trigger:** Utility, curiosity, resolution
+
+---
+
+## Cluster 10 — Native TikTok / Reels Formats
+*"Borrowed cultural containers"*
+
+- "POV: you're [persona in specific situation]."
+- "The moment you realize [uncomfortable truth]."
+- "Reply to @[fictional account] who asked [common question]."
+- "What I would have done if I'd known [info] [time] ago."
+- "Storytelling time: [hook of an ongoing story]."
+
+**Tactic:** Social Witness, Storytelling, Overheard Conversation
+**Trigger:** Proximity, empathy, native format
+
+---
+
+## Application Rules
+
+1. **A pattern = a structure, not a formula.** Fill the [variables] with your persona's exact words (Layer 3).
+2. **Test the pattern aloud.** If it sounds like an ad, start over.
+3. **The best hooks read like someone talking to a friend** — not like someone selling something.
+4. **The first word counts double.** Start with an action verb, a number, or the exact word your persona uses to describe their pain.

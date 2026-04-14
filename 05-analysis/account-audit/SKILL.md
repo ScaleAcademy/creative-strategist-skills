@@ -1,12 +1,12 @@
 ---
 name: account-audit
-description: "Reviews the full Meta ad account performance over a defined period to identify top performers, underperformers, creative patterns, and structural gaps. Use quarterly or when performance drops unexpectedly. Trigger on: 'audit du compte', 'vue d'ensemble des performances', 'analyse macro', 'qu'est-ce qui marche dans le compte'. Produces a macro performance report with strategic recommendations."
+description: "Reviews the full Meta ad account performance over a defined period to identify top performers, underperformers, creative patterns, and structural gaps. Use quarterly or when performance drops unexpectedly. Trigger on: 'account audit', 'performance overview', 'macro analysis', 'what's working in the account'. Produces a macro performance report with strategic recommendations."
 metadata:
   version: 1.0.0
   status: stable
   tags: [analysis, account, performance, meta-ads, macro]
-  inputs: [accès compte Meta Ads, période minimum 30 jours recommandé 90 jours]
-  outputs: [rapport d'audit compte — top performers, patterns, gaps, recommandations]
+  inputs: [Meta Ads account access, minimum 30-day period, recommended 90 days]
+  outputs: [account audit report — top performers, patterns, gaps, recommendations]
   depends-on: [brand-health]
 ---
 
@@ -14,124 +14,124 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Accès Meta Ads Manager (Campaigns, Ad Sets, Ads)
-- [ ] Période définie : minimum 30 jours, recommandé 90 jours
-- [ ] KPI primaire du compte connu (CPA / CPL / ROAS)
-- [ ] `brand-context.md` disponible pour contexte produit et audience
-- [ ] Données de spend suffisantes (compte avec < 1 000€ sur la période = données peu fiables)
+Confirm before starting:
+- [ ] Meta Ads Manager access (Campaigns, Ad Sets, Ads)
+- [ ] Period defined: minimum 30 days, recommended 90 days
+- [ ] Primary account KPI known (CPA / CPL / ROAS)
+- [ ] `brand-context.md` available for product and audience context
+- [ ] Sufficient spend data (account with < 1,000€ over the period = unreliable data)
 
-Pour les benchmarks : voir [references/kpi-benchmarks.md](../ad-analysis/references/kpi-benchmarks.md)
-
----
-
-## Phase 1 : Vue d'Ensemble Compte
-
-Analyser au niveau campagne :
-
-- Budget total dépensé sur la période
-- Répartition du budget : testing / scaling / retargeting (%) 
-- Nombre de campagnes actives vs pausées
-- Évolution des performances semaine sur semaine (tendance haussière ou baissière)
-- CPM moyen du compte (signal de compétitivité du compte)
+For benchmarks: see [references/kpi-benchmarks.md](../ad-analysis/references/kpi-benchmarks.md)
 
 ---
 
-## Phase 2 : Analyse des Creatives
+## Phase 1: Account Overview
 
-Trier toutes les ads actives sur la période par dépense décroissante.
+Analyze at the campaign level:
 
-**Top 5 Performers :** Ads avec le meilleur KPI primaire ET dépense significative.
-**Bottom 5 :** Ads avec le pire KPI primaire avec dépense significative.
-**Ads non testées suffisamment :** Ads avec < 100€ de dépense — données non fiables.
-
-Pour chaque top performer, noter :
-- Format (vidéo / statique / carousel)
-- Angle créatif (C1/C2/C3/C4)
-- Awareness stage ciblé
-- Hook tactic utilisée
-- Mécanique créative
+- Total budget spent over the period
+- Budget breakdown: testing / scaling / retargeting (%)
+- Number of active vs. paused campaigns
+- Week-over-week performance trends (upward or downward)
+- Account average CPM (account competitiveness signal)
 
 ---
 
-## Phase 3 : Identifier les Patterns
+## Phase 2: Creative Analysis
 
-Comparer les top performers vs bottom performers :
+Sort all active ads over the period by spend descending.
 
-- Y a-t-il un format dominant parmi les winners ?
-- Y a-t-il un angle dominant parmi les winners ?
-- Y a-t-il un awareness stage sur-représenté ?
-- Y a-t-il des mécaniques absentes du compte ?
-- Y a-t-il des personas non adressés ?
+**Top 5 Performers:** Ads with the best primary KPI AND significant spend.
+**Bottom 5:** Ads with the worst primary KPI with significant spend.
+**Insufficiently tested ads:** Ads with < 100€ spend — unreliable data.
 
----
-
-## Phase 4 : Identifier les Gaps Structurels
-
-Analyser la structure du compte :
-
-- Distribution TOF / MOF / BOF : est-elle équilibrée ?
-- Fréquence des audiences chaudes : signal de saturation ?
-- Rotation des creatives : quand la dernière nouvelle creative a-t-elle été lancée ?
-- Budget testing : y a-t-il un budget dédié au test de nouveaux concepts ?
+For each top performer, note:
+- Format (video / static / carousel)
+- Creative angle (C1/C2/C3/C4)
+- Targeted awareness stage
+- Hook tactic used
+- Creative mechanic
 
 ---
 
-## Phase 5 : Recommandations
+## Phase 3: Identify Patterns
 
-Structurer les recommandations en 3 catégories :
-1. **Optimiser** — ce qui marche et peut être amplifié (augmenter budget, itérer)
-2. **Killer** — ce qui consomme du budget sans résultat (stop immédiat)
-3. **Tester** — ce qui manque et devrait être testé ce sprint
+Compare top performers vs. bottom performers:
+
+- Is there a dominant format among winners?
+- Is there a dominant angle among winners?
+- Is there an over-represented awareness stage?
+- Are there mechanics absent from the account?
+- Are there unaddressed personas?
+
+---
+
+## Phase 4: Identify Structural Gaps
+
+Analyze account structure:
+
+- TOF / MOF / BOF distribution: is it balanced?
+- Warm audience frequency: signal of saturation?
+- Creative rotation: when was the last new creative launched?
+- Testing budget: is there a dedicated budget for testing new concepts?
+
+---
+
+## Phase 5: Recommendations
+
+Structure recommendations into 3 categories:
+1. **Optimize** — what's working and can be amplified (increase budget, iterate)
+2. **Kill** — what's consuming budget without results (immediate stop)
+3. **Test** — what's missing and should be tested this sprint
 
 ---
 
 ## Output Format
 
 ```markdown
-# Account Audit — [Marque] — [Période] — [Date]
+# Account Audit — [Brand] — [Period] — [Date]
 
-## Vue d'Ensemble
-- Dépense totale : [X€]
-- Répartition budget : TOF [%] / MOF [%] / BOF [%]
-- KPI primaire moyen : [valeur] vs cible [valeur]
-- Tendance : [Haussière / Stable / Baissière]
+## Overview
+- Total spend: [X€]
+- Budget breakdown: TOF [%] / MOF [%] / BOF [%]
+- Average primary KPI: [value] vs target [value]
+- Trend: [Upward / Stable / Downward]
 
 ## Top 5 Performers
-| Creative | Format | Angle | Awareness | KPI | Dépense |
-[tableau]
+| Creative | Format | Angle | Awareness | KPI | Spend |
+[table]
 
 ## Bottom 5
-| Creative | Format | Angle | Awareness | KPI | Dépense |
-[tableau]
+| Creative | Format | Angle | Awareness | KPI | Spend |
+[table]
 
-## Patterns Identifiés
-**Ce qui marche :** [Format / Angle / Mécanique dominant]
-**Ce qui échoue :** [Pattern commun des losers]
+## Identified Patterns
+**What works:** [Dominant Format / Angle / Mechanic]
+**What fails:** [Common pattern among losers]
 
-## Gaps Structurels
-- Awareness non couverts :
-- Formats non testés :
-- Personas non adressés :
-- Mécaniques absentes :
+## Structural Gaps
+- Awareness not covered:
+- Formats not tested:
+- Personas not addressed:
+- Absent mechanics:
 
-## Recommandations
+## Recommendations
 
-### Optimiser
-[Ce qu'on scale ou itère]
+### Optimize
+[What to scale or iterate]
 
-### Killer
-[Ce qu'on stoppe — avec raison]
+### Kill
+[What to stop — with reason]
 
-### Tester ce sprint
-[3 nouveaux concepts prioritaires avec brief direction]
+### Test This Sprint
+[3 priority new concepts with brief direction]
 ```
 
 ---
 
 ## Related Skills
 
-- `01-audit/brand-health` — baseline initiale
-- `05-analysis/ad-analysis` — pour aller plus loin sur chaque creative
-- `05-analysis/strategy-gap` — pour approfondir les gaps identifiés
-- `03-strategy/creative-brief` — pour briefe les nouveaux tests recommandés
+- `01-audit/brand-health` — initial baseline
+- `05-analysis/ad-analysis` — to go deeper on each creative
+- `05-analysis/strategy-gap` — to dig deeper into identified gaps
+- `03-strategy/creative-brief` — to brief the recommended new tests

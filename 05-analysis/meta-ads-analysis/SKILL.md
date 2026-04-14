@@ -1,203 +1,203 @@
 ---
 name: meta-ads-analysis
-description: "Runs a full Meta Ads account analysis in 7 steps using Windsor.ai as MCP data bridge. Pulls live campaign/creative/audience data directly into Claude and produces an actionable audit report: account health, campaign audit, creative lifecycle, angle & format performance, audience analysis, and prioritized action plan. Trigger on: 'analyse mon compte Meta', 'audit Meta Ads', 'quelles pubs tuner', 'creative analysis Meta', 'analyse Windsor'. Requires Windsor.ai MCP connection."
+description: "Runs a full Meta Ads account analysis in 7 steps using Windsor.ai as MCP data bridge. Pulls live campaign/creative/audience data directly into Claude and produces an actionable audit report: account health, campaign audit, creative lifecycle, angle & format performance, audience analysis, and prioritized action plan. Trigger on: 'analyze my Meta account', 'Meta Ads audit', 'which ads to tune', 'creative analysis Meta', 'Windsor analysis'. Requires Windsor.ai MCP connection."
 metadata:
   version: 1.0.0
   status: stable
   tags: [analysis, meta-ads, performance, creative, windsor, mcp, account-audit]
-  inputs: [Compte Meta Ads connecté via Windsor.ai MCP, convention de nommage appliquée (optionnel mais recommandé)]
-  outputs: [Rapport 7 sections : santé compte + audit campagnes + lifecycle créatives + angles & formats + audiences + plan d'action priorisé]
+  inputs: [Meta Ads account connected via Windsor.ai MCP, naming convention applied (optional but recommended)]
+  outputs: [7-section report: account health + campaign audit + creative lifecycle + angles & formats + audiences + prioritized action plan]
   depends-on: [brand-guidelines, ad-analysis]
 ---
 
-# Meta Ads Analysis — Système Complet (Claude + Windsor.ai)
+# Meta Ads Analysis — Complete System (Claude + Windsor.ai)
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Windsor.ai MCP connecté et fonctionnel dans Claude Desktop
-- [ ] Accès au compte Meta Ads cible (via Windsor.ai)
-- [ ] Période d'analyse définie (recommandé : 30 derniers jours minimum)
-- [ ] KPI cible connu (CPA cible, CPL, ROAS)
-- [ ] Convention de nommage appliquée (voir [references/windsor-setup.md](references/windsor-setup.md)) — fortement recommandée pour l'analyse créative
+Confirm before starting:
+- [ ] Windsor.ai MCP connected and functional in Claude Desktop
+- [ ] Access to target Meta Ads account (via Windsor.ai)
+- [ ] Analysis period defined (recommended: minimum last 30 days)
+- [ ] Target KPI known (target CPA, CPL, ROAS)
+- [ ] Naming convention applied (see [references/windsor-setup.md](references/windsor-setup.md)) — strongly recommended for creative analysis
 
-Si Windsor.ai n'est pas encore configuré : voir [references/windsor-setup.md](references/windsor-setup.md) — setup en 4 étapes.
-
----
-
-## Phase 0 : Setup & Connexion
-
-Avant toute analyse, initialiser la connexion et définir le contexte.
-
-**Prompt :**
-```
-Connecte-toi à mon compte Meta Ads via Windsor.ai.
-Liste tous les comptes publicitaires disponibles.
-Je veux analyser [NOM DU COMPTE] sur les [X] derniers jours.
-Mon objectif principal est [acquisition / lead gen / awareness].
-Mon KPI cible est [CPA cible X€ / CPL cible X€ / ROAS cible X].
-```
-
-**Résultat attendu :**
-- Confirmation de connexion
-- Liste des comptes disponibles
-- Période et contexte de l'analyse confirmés
+If Windsor.ai is not yet configured: see [references/windsor-setup.md](references/windsor-setup.md) — setup in 4 steps.
 
 ---
 
-## Phase 1 : Santé du Compte
+## Phase 0: Setup & Connection
 
-Obtenir une vue macro de la santé globale du compte avant d'entrer dans les détails.
+Before any analysis, initialize the connection and define the context.
 
-**Prompt :**
+**Prompt:**
 ```
-Donne-moi un résumé global de la santé du compte [NOM] sur les [X] derniers jours :
-- Dépense totale et évolution vs période précédente
-- CPA / CPL / ROAS global vs ma cible ([X€])
-- Nombre de campagnes actives, d'adsets, de creatives en diffusion
-- Répartition du budget par campagne (% de la dépense totale)
-- Top 3 campagnes en dépense et leur performance respective
-- Signaux d'alerte : budget concentration, fréquence élevée, fatigue détectée
+Connect to my Meta Ads account via Windsor.ai.
+List all available ad accounts.
+I want to analyze [ACCOUNT NAME] over the last [X] days.
+My primary objective is [acquisition / lead gen / awareness].
+My target KPI is [target CPA X€ / target CPL X€ / target ROAS X].
 ```
 
-**Ce qu'on cherche :**
-- Identifier si le compte est sain ou en dérive
-- Repérer les campagnes qui monopolisent le budget sans performer
-- Avoir une baseline avant l'analyse détaillée
+**Expected result:**
+- Connection confirmation
+- List of available accounts
+- Period and analysis context confirmed
 
 ---
 
-## Phase 2 : Audit Campagnes
+## Phase 1: Account Health
 
-Analyser chaque campagne en détail pour identifier les maillons faibles et les gagnantes.
+Get a macro view of the account's overall health before going into detail.
 
-**Prompt :**
+**Prompt:**
 ```
-Pour chaque campagne active sur les [X] derniers jours, donne-moi :
-- Nom de la campagne
-- Objectif (awareness / traffic / conversion / etc.)
-- Dépense totale
-- Impressions, Reach, Fréquence moyenne
+Give me an overall health summary of account [NAME] over the last [X] days:
+- Total spend and change vs. previous period
+- Global CPA / CPL / ROAS vs. my target ([X€])
+- Number of active campaigns, ad sets, and creatives running
+- Budget breakdown by campaign (% of total spend)
+- Top 3 campaigns by spend and their respective performance
+- Warning signals: budget concentration, high frequency, detected fatigue
+```
+
+**What we're looking for:**
+- Identify if the account is healthy or drifting
+- Spot campaigns monopolizing budget without performing
+- Get a baseline before detailed analysis
+
+---
+
+## Phase 2: Campaign Audit
+
+Analyze each campaign in detail to identify weak links and winners.
+
+**Prompt:**
+```
+For each active campaign over the last [X] days, give me:
+- Campaign name
+- Objective (awareness / traffic / conversion / etc.)
+- Total spend
+- Impressions, Reach, Average Frequency
 - CTR (link click-through rate)
-- CPA / CPL / ROAS selon l'objectif
-- Statut : Winner / Learner / Loser (par rapport à ma cible [X€])
-- Recommandation : Scaler / Maintenir / Optimiser / Couper
+- CPA / CPL / ROAS depending on objective
+- Status: Winner / Learner / Loser (relative to my target [X€])
+- Recommendation: Scale / Maintain / Optimize / Cut
 
-Trie par dépense décroissante.
+Sort by spend descending.
 ```
 
-**Règles de verdict :**
-- **Winner :** KPI primaire ≤ cible × 0.9
-- **Learner :** KPI primaire entre cible × 0.9 et cible × 1.3, ou dépense insuffisante
-- **Loser :** KPI primaire > cible × 1.5 avec dépense suffisante (>200€)
+**Verdict rules:**
+- **Winner:** Primary KPI ≤ target × 0.9
+- **Learner:** Primary KPI between target × 0.9 and target × 1.3, or insufficient spend
+- **Loser:** Primary KPI > target × 1.5 with sufficient spend (>200€)
 
 ---
 
-## Phase 3 : Lifecycle des Créatives
+## Phase 3: Creative Lifecycle
 
-Identifier l'état de vie de chaque creative : montante, au pic, en fatigue, ou morte.
+Identify the life state of each creative: rising, at peak, in fatigue, or dead.
 
-**Prompt :**
+**Prompt:**
 ```
-Analyse le lifecycle de chaque creative active sur les [X] derniers jours.
-Pour chaque creative :
-- Nom / ID
-- Dépense totale et date de lancement
-- Évolution du CPA semaine par semaine (ou période par période)
-- Hook Rate (ThruPlay / Impressions si vidéo)
-- Fréquence actuelle
-- Phase de vie estimée : Montante / Pic / Déclin / Fatiguée / Morte
-- Action recommandée : Laisser tourner / Booster budget / Ralentir / Couper
+Analyze the lifecycle of each active creative over the last [X] days.
+For each creative:
+- Name / ID
+- Total spend and launch date
+- Week-over-week (or period-over-period) CPA evolution
+- Hook Rate (ThruPlay / Impressions for video)
+- Current frequency
+- Estimated life phase: Rising / Peak / Declining / Fatigued / Dead
+- Recommended action: Let it run / Boost budget / Slow down / Cut
 
-Identifie les 3 creatives qui montrent des signes de fatigue les plus marqués.
-Identifie les 3 creatives avec la meilleure dynamique récente.
+Identify the 3 creatives showing the most marked signs of fatigue.
+Identify the 3 creatives with the best recent momentum.
 ```
 
-**Signaux de fatigue :**
-- CPA en hausse de >20% sur 7 jours consécutifs
-- CTR en baisse de >30% vs première semaine
-- Fréquence > 3.5 sur audience froide
+**Fatigue signals:**
+- CPA rising >20% over 7 consecutive days
+- CTR dropping >30% vs. first week
+- Frequency > 3.5 on cold audience
 
 ---
 
-## Phase 4 : Performance par Angle & Format
+## Phase 4: Performance by Angle & Format
 
-Analyser quelle mécanique créative et quel format performent le mieux — pour orienter les prochaines productions.
+Analyze which creative mechanic and format perform best — to guide next productions.
 
-**Prompt :**
+**Prompt:**
 ```
-En utilisant les noms des creatives, analyse les performances par angle et par format.
+Using creative names, analyze performance by angle and by format.
 
-Par angle créatif (codes dans le nom : PR / RS / ED / ID — voir convention) :
-- Dépense totale par angle
-- CPA moyen par angle
-- CTR moyen par angle
-- Nombre de creatives testées par angle
-- Angle le plus rentable vs angle le moins rentable
+By creative angle (codes in the name: PR / RS / ED / ID — see convention):
+- Total spend by angle
+- Average CPA by angle
+- Average CTR by angle
+- Number of creatives tested by angle
+- Most profitable angle vs. least profitable angle
 
-Par format (codes dans le nom : VID / STA / CAR — voir convention) :
-- Même métriques que ci-dessus
-- Hook Rate moyen (vidéo uniquement)
-- Durée optimale (vidéo : 15s / 30s / 60s+)
+By format (codes in the name: VID / STA / CAR — see convention):
+- Same metrics as above
+- Average Hook Rate (video only)
+- Optimal duration (video: 15s / 30s / 60s+)
 
-Conclusion : quels angles et formats prioriser pour les prochaines créations ?
+Conclusion: which angles and formats to prioritize for next productions?
 ```
 
-**Note :** Si la convention de nommage n'est pas appliquée, cette analyse sera manuelle. Voir [references/windsor-setup.md](references/windsor-setup.md) pour adopter la convention.
+**Note:** If the naming convention is not applied, this analysis will be manual. See [references/windsor-setup.md](references/windsor-setup.md) to adopt the convention.
 
 ---
 
-## Phase 5 : Analyse Audiences
+## Phase 5: Audience Analysis
 
-Identifier quelle audience répond le mieux et détecter les problèmes de ciblage.
+Identify which audience responds best and detect targeting issues.
 
-**Prompt :**
+**Prompt:**
 ```
-Analyse les performances par audience sur les [X] derniers jours :
+Analyze performance by audience over the last [X] days:
 
-Par adset / audience :
-- Nom de l'audience
-- Type : Prospection froide / Lookalike / Retargeting / Warm
-- Dépense totale
+By ad set / audience:
+- Audience name
+- Type: Cold prospecting / Lookalike / Retargeting / Warm
+- Total spend
 - CPA / CPL / ROAS
-- Fréquence
-- Taille d'audience estimée
-- Statut : Winner / Learner / Loser
+- Frequency
+- Estimated audience size
+- Status: Winner / Learner / Loser
 
-Questions spécifiques :
-- Y a-t-il des overlaps d'audience suspects ?
-- Quelle audience cold fonctionne le mieux ?
-- Le retargeting performe-t-il mieux que la prospection ?
-- Y a-t-il des signaux de saturation d'audience (fréquence > 4 + CPA en hausse) ?
+Specific questions:
+- Are there suspicious audience overlaps?
+- Which cold audience works best?
+- Does retargeting outperform prospecting?
+- Are there audience saturation signals (frequency > 4 + rising CPA)?
 ```
 
 ---
 
-## Phase 6 : Plan d'Action Priorisé
+## Phase 6: Prioritized Action Plan
 
-Synthétiser tous les constats en un plan d'action concret, priorisé par impact potentiel.
+Synthesize all findings into a concrete action plan, prioritized by potential impact.
 
-**Prompt :**
+**Prompt:**
 ```
-Sur la base de toute l'analyse précédente (santé compte, campagnes, lifecycle, angles, formats, audiences), génère un plan d'action priorisé pour les 7 prochains jours.
+Based on all previous analysis (account health, campaigns, lifecycle, angles, formats, audiences), generate a prioritized action plan for the next 7 days.
 
-Format :
-## Actions Immédiates (à faire aujourd'hui)
-- [Action] → [Raison] → [Impact attendu]
+Format:
+## Immediate Actions (to do today)
+- [Action] → [Reason] → [Expected impact]
 
-## Actions Cette Semaine
-- [Action] → [Raison] → [Impact attendu]
+## Actions This Week
+- [Action] → [Reason] → [Expected impact]
 
-## Prochaines Productions Recommandées
-Basé sur les angles qui performent et ceux qui manquent :
-- Creative à tester #1 : [Angle / Format / Mécanique recommandée]
-- Creative à tester #2 : [Angle / Format / Mécanique recommandée]
-- Creative à tester #3 : [Angle / Format / Mécanique recommandée]
+## Recommended Next Productions
+Based on performing angles and missing ones:
+- Creative to test #1: [Recommended Angle / Format / Mechanic]
+- Creative to test #2: [Recommended Angle / Format / Mechanic]
+- Creative to test #3: [Recommended Angle / Format / Mechanic]
 
-## Hypothèses à Valider
-- H1 : Si on [X], alors [KPI] devrait [direction] parce que [signal].
-- H2 : [Même structure]
-- H3 : [Même structure]
+## Hypotheses to Validate
+- H1: If we [X], then [KPI] should [direction] because [signal].
+- H2: [Same structure]
+- H3: [Same structure]
 ```
 
 ---
@@ -205,45 +205,45 @@ Basé sur les angles qui performent et ceux qui manquent :
 ## Output Format
 
 ```markdown
-# Meta Ads Analysis — [Marque] — [Période] — [Date]
-*Outil : Windsor.ai MCP | Compte : [ID] | Dépense analysée : [X€]*
+# Meta Ads Analysis — [Brand] — [Period] — [Date]
+*Tool: Windsor.ai MCP | Account: [ID] | Spend analyzed: [X€]*
 
-## Phase 0 — Contexte
-- Compte : [Nom]
-- Période : [Du XX au XX]
-- KPI cible : [CPA X€ / CPL X€ / ROAS X]
-- Objectif : [Acquisition / Lead / Awareness]
+## Phase 0 — Context
+- Account: [Name]
+- Period: [From XX to XX]
+- Target KPI: [CPA X€ / CPL X€ / ROAS X]
+- Objective: [Acquisition / Lead / Awareness]
 
-## Phase 1 — Santé du Compte
-[Tableau récapitulatif + signaux d'alerte]
+## Phase 1 — Account Health
+[Summary table + warning signals]
 
-## Phase 2 — Audit Campagnes
-[Tableau Winner / Learner / Loser par campagne]
+## Phase 2 — Campaign Audit
+[Winner / Learner / Loser table by campaign]
 
-## Phase 3 — Lifecycle Créatives
-[Top 3 en déclin + Top 3 en croissance + tableau complet]
+## Phase 3 — Creative Lifecycle
+[Top 3 declining + Top 3 growing + full table]
 
 ## Phase 4 — Angles & Formats
-[Performance par angle + par format + conclusion prochaines créas]
+[Performance by angle + by format + conclusion for next creatives]
 
 ## Phase 5 — Audiences
-[Tableau par audience + overlaps + saturation]
+[Table by audience + overlaps + saturation]
 
-## Phase 6 — Plan d'Action
-[Actions immédiates + cette semaine + prochaines productions + hypothèses]
+## Phase 6 — Action Plan
+[Immediate actions + this week + next productions + hypotheses]
 ```
 
 ---
 
-## Références
+## References
 
-- [references/windsor-setup.md](references/windsor-setup.md) — Installation Windsor.ai MCP + convention de nommage complète
-- [../ad-analysis/references/kpi-benchmarks.md](../ad-analysis/references/kpi-benchmarks.md) — Benchmarks de référence par plateforme et objectif
+- [references/windsor-setup.md](references/windsor-setup.md) — Windsor.ai MCP installation + complete naming convention
+- [../ad-analysis/references/kpi-benchmarks.md](../ad-analysis/references/kpi-benchmarks.md) — Reference benchmarks by platform and objective
 
 ## Related Skills
 
-- `05-analysis/ad-analysis` — analyse d'une creative individuelle (complément micro)
-- `05-analysis/account-audit` — audit stratégique macro du compte
-- `05-analysis/strategy-gap` — si l'analyse révèle des angles manquants
-- `03-strategy/creative-brief` — pour briefer les prochaines productions issues du plan d'action
-- `04-production/campaign-setup` — pour paramétrer les nouvelles campagnes post-analyse
+- `05-analysis/ad-analysis` — individual creative analysis (micro complement)
+- `05-analysis/account-audit` — macro strategic account audit
+- `05-analysis/strategy-gap` — if the analysis reveals missing angles
+- `03-strategy/creative-brief` — to brief next productions from the action plan
+- `04-production/campaign-setup` — to set up new campaigns post-analysis

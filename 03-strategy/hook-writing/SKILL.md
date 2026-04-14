@@ -1,12 +1,12 @@
 ---
 name: hook-writing
-description: "Writes 10 psychologically-driven hooks calibrated to a specific awareness stage, persona, and creative mechanic. Use after creative-brief is validated. Trigger on: 'écris des hooks', 'génère des accroches', 'première ligne de la pub', 'hook pour [persona]'. Produces a scored hook bank ready for brief integration or direct testing."
+description: "Writes 10 psychologically-driven hooks calibrated to a specific awareness stage, persona, and creative mechanic. Use after creative-brief is validated. Trigger on: 'write hooks', 'generate hooks', 'first line of the ad', 'hook for [persona]'. Produces a scored hook bank ready for brief integration or direct testing."
 metadata:
   version: 1.1.0
   status: stable
   tags: [strategy, hooks, copywriting, psychology, awareness]
-  inputs: [creative-brief validé, persona-[nom].md, emotional-map-[persona].md]
-  outputs: [10 hooks scorés et classés par awareness + tactic + trigger]
+  inputs: [validated creative-brief, persona-[name].md, emotional-map-[persona].md]
+  outputs: [10 hooks scored and ranked by awareness + tactic + trigger]
   depends-on: [creative-brief, audience-research, customer-reality]
 ---
 
@@ -14,57 +14,57 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Brief créatif validé (`creative-brief.md`)
-- [ ] Persona connu avec au moins un verbatim Layer 3
-- [ ] Émotion dominante du persona identifiée (customer-reality)
-- [ ] Awareness stage ciblé clairement défini
-- [ ] Mécanique créative choisie (M1–M8)
-- [ ] Medium connu (vidéo ou statique) — un hook vidéo s'entend, un hook statique se lit
-- [ ] Format visuel retenu (F01–F45) — le hook doit être cohérent avec le format
+Confirm before starting:
+- [ ] Validated creative brief (`creative-brief.md`)
+- [ ] Persona known with at least one Layer 3 verbatim
+- [ ] Persona's dominant emotion identified (customer-reality)
+- [ ] Target awareness stage clearly defined
+- [ ] Creative mechanic chosen (M1–M8)
+- [ ] Medium known (video or static) — a video hook is heard, a static hook is read
+- [ ] Visual format chosen (F01–F45) — the hook must be coherent with the format
 
-**Règle absolue :** Ne jamais écrire de hooks sans brief validé. Un hook sans stratégie est du bruit.
-
----
-
-## Phase 1 : Charger le Contexte
-
-Avant d'écrire, relire dans l'ordre :
-1. L'angle créatif du brief (C1/C2/C3/C4)
-2. L'émotion dominante du persona + micro-moment déclencheur
-3. La mécanique choisie (M1–M8)
-4. Les verbatims Layer 3 disponibles (Bucket 5 du review-audit si disponible)
-5. Le format visuel retenu (F01–F45)
-
-Le meilleur hook est souvent une reformulation directe d'un verbatim Layer 3.
+**Absolute rule:** Never write hooks without a validated brief. A hook without strategy is noise.
 
 ---
 
-## Phase 2 : Identifier le Trigger Psychologique
+## Phase 1: Load the Context
 
-Avant de choisir une tactic, identifier le trigger dominant.
+Before writing, re-read in order:
+1. The brief's creative angle (C1/C2/C3/C4)
+2. The persona's dominant emotion + triggering micro-moment
+3. The chosen mechanic (M1–M8)
+4. Available Layer 3 verbatims (Bucket 5 from review-audit if available)
+5. The chosen visual format (F01–F45)
 
-Pour la chaîne complète trigger → tactic → voice pattern : voir [references/psychological-triggers.md](references/psychological-triggers.md)
+The best hook is often a direct reformulation of a Layer 3 verbatim.
 
-| Émotion dominante | Trigger prioritaire |
+---
+
+## Phase 2: Identify the Psychological Trigger
+
+Before choosing a tactic, identify the dominant trigger.
+
+For the full trigger → tactic → voice pattern chain: See [references/psychological-triggers.md](references/psychological-triggers.md)
+
+| Dominant emotion | Priority trigger |
 |---|---|
 | Frustration | TR3 Pain Agitation |
-| Peur | TR8 Urgency / Stakes |
-| Honte | TR2 Identity Call-Out |
-| Espoir | TR7 Aspiration |
-| Colère | TR6 Contrarian |
+| Fear | TR8 Urgency / Stakes |
+| Shame | TR2 Identity Call-Out |
+| Hope | TR7 Aspiration |
+| Anger | TR6 Contrarian |
 | Confusion | TR4 Curiosity Gap |
-| Résignation | TR1 Pattern Interrupt |
+| Resignation | TR1 Pattern Interrupt |
 
 ---
 
-## Phase 3 : Sélectionner 3–4 Tactics
+## Phase 3: Select 3–4 Tactics
 
-Choisir des tactics complémentaires qui correspondent à l'awareness stage.
+Choose complementary tactics that match the awareness stage.
 
-Pour la liste complète : voir [references/hook-tactics.md](references/hook-tactics.md)
+For the full list: See [references/hook-tactics.md](references/hook-tactics.md)
 
-| Awareness | Tactics recommandées |
+| Awareness | Recommended tactics |
 |---|---|
 | Unaware | T01 Aspirational, T26 Storytelling, T31 What If, T06 Curiosity Gap |
 | Problem Aware | T17 Pain Agitation, T09 Empathy, T20 Problem-First, T15 Myth-Busting |
@@ -74,104 +74,104 @@ Pour la liste complète : voir [references/hook-tactics.md](references/hook-tact
 
 ---
 
-## Phase 4 : Sélectionner des Voice Patterns
+## Phase 4: Select Voice Patterns
 
-Choisir 2–3 patterns du swipe file qui correspondent au ton voulu.
+Choose 2–3 patterns from the swipe file that match the desired tone.
 
-Pour le swipe file : voir [references/hook-voice-patterns.md](references/hook-voice-patterns.md)
-
----
-
-## Phase 5 : Écrire les 10 Hooks
-
-### Standards d'écriture
-
-**À faire :**
-- Maximum 2 lignes (15–20 mots pour une vidéo, 25 pour un statique)
-- Premier mot : verbe d'action, chiffre précis, ou mot exact du persona
-- Utiliser les mots exacts du persona (Layer 3 verbatims, Bucket 5)
-- 1 hook = 1 tension ouverte — ne pas résoudre dans le hook
-- Tester à voix haute (vidéo) : est-ce que ça se dit naturellement ?
-- Tester à la lecture rapide (statique) : lisible en < 2s ?
-
-**À éviter :**
-- Commencer par "Vous", "Votre", "Notre produit"
-- Résoudre la tension dans le hook lui-même
-- Utiliser du vocabulaire marketing ("révolutionnaire", "innovant", "unique")
-- Poser une question rhétorique sans vraie curiosité gap derrière
-- Écrire pour toutes les audiences — 1 hook = 1 persona précis
-
-### Format de production
-
-Produire 10 hooks en variant :
-- 3–4 triggers différents
-- 3–4 tactics correspondantes
-- 2–3 voice patterns différents
-- Ton direct vs ton narratif
-- Question vs affirmation
+For the swipe file: See [references/hook-voice-patterns.md](references/hook-voice-patterns.md)
 
 ---
 
-## Phase 6 : Scorer et Sélectionner
+## Phase 5: Write the 10 Hooks
 
-Pour chaque hook, évaluer sur 3 critères (score 1–5) :
+### Writing Standards
 
-| Critère | Question |
+**Do:**
+- Maximum 2 lines (15–20 words for video, 25 for static)
+- First word: action verb, precise number, or persona's exact word
+- Use the persona's exact words (Layer 3 verbatims, Bucket 5)
+- 1 hook = 1 open tension — do not resolve it in the hook
+- Test aloud (video): does it sound natural?
+- Test speed-read (static): readable in < 2s?
+
+**Avoid:**
+- Starting with "You", "Your", "Our product"
+- Resolving the tension in the hook itself
+- Using marketing vocabulary ("revolutionary", "innovative", "unique")
+- Asking a rhetorical question without a real curiosity gap behind it
+- Writing for all audiences — 1 hook = 1 precise persona
+
+### Production Format
+
+Produce 10 hooks varying:
+- 3–4 different triggers
+- 3–4 corresponding tactics
+- 2–3 different voice patterns
+- Direct tone vs narrative tone
+- Question vs statement
+
+---
+
+## Phase 6: Score and Select
+
+For each hook, evaluate on 3 criteria (score 1–5):
+
+| Criterion | Question |
 |---|---|
-| Arrêt du scroll | Est-ce que ce hook force à s'arrêter ? |
-| Reconnaissance | Le persona se reconnaît-il immédiatement ? |
-| Curiosité ouverte | Est-ce que ça donne envie de voir la suite ? |
+| Scroll stop | Does this hook force a stop? |
+| Recognition | Does the persona immediately recognize themselves? |
+| Open curiosity | Does it make you want to see more? |
 
-Score total max = 15. Recommander les 3 hooks avec score > 11.
+Total score max = 15. Recommend the 3 hooks with score > 11.
 
 ---
 
 ## Output Format
 
 ```markdown
-# Hook Bank — [Marque] — [Persona] — [Awareness] — [Date]
+# Hook Bank — [Brand] — [Persona] — [Awareness] — [Date]
 
-## Contexte
-- Angle : [C1/C2/C3/C4]
-- Mécanique : [M1–M8]
-- Awareness : [Niveau]
-- Ton dominant : [intime / direct / éducatif / narratif]
+## Context
+- Angle: [C1/C2/C3/C4]
+- Mechanic: [M1–M8]
+- Awareness: [Level]
+- Dominant tone: [intimate / direct / educational / narrative]
 
-## Les 10 Hooks
+## The 10 Hooks
 
 ### Hook 1
-**Texte :** "[Hook complet]"
-**Trigger :** [TR#]
-**Tactic :** [T##]
-**Voice Pattern :** [Cluster #]
-**Score :** [X/15] — Scroll [X] · Reconnaissance [X] · Curiosité [X]
+**Text:** "[Full hook]"
+**Trigger:** [TR#]
+**Tactic:** [T##]
+**Voice Pattern:** [Cluster #]
+**Score:** [X/15] — Scroll [X] · Recognition [X] · Curiosity [X]
 
 ### Hook 2
-[Même structure]
+[Same structure]
 
 [...]
 
-## Top 3 Recommandés
-1. Hook [#] — Score [X/15] — Raison
-2. Hook [#] — Score [X/15] — Raison
-3. Hook [#] — Score [X/15] — Raison
+## Top 3 Recommended
+1. Hook [#] — Score [X/15] — Reason
+2. Hook [#] — Score [X/15] — Reason
+3. Hook [#] — Score [X/15] — Reason
 
-## Notes de Production
-[Indications spécifiques : rythme, ton de voix, premier frame visuel recommandé]
+## Production Notes
+[Specific indications: rhythm, voice tone, recommended first visual frame]
 ```
 
 ---
 
-## Références
+## References
 
-- [references/psychological-triggers.md](references/psychological-triggers.md) — Les 8 triggers avec chaîne trigger → tactic → voice pattern
-- [references/hook-tactics.md](references/hook-tactics.md) — 35+ tactics avec templates et exemples FR
-- [references/hook-voice-patterns.md](references/hook-voice-patterns.md) — Swipe file de patterns natifs du feed
+- [references/psychological-triggers.md](references/psychological-triggers.md) — The 8 triggers with trigger → tactic → voice pattern chain
+- [references/hook-tactics.md](references/hook-tactics.md) — 42 tactics with templates and examples
+- [references/hook-voice-patterns.md](references/hook-voice-patterns.md) — Swipe file of native feed patterns
 
 ## Related Skills
 
-- `03-strategy/creative-brief` — prérequis absolu
-- `02-research/customer-reality` — source de l'émotion dominante et du micro-moment
-- `02-research/review-audit` — source des verbatims Layer 3 (Bucket 5)
-- `04-production/video-production` — les hooks Top 3 alimentent le brief de production
-- `04-production/static-production` — adaptation des hooks pour le format statique
+- `03-strategy/creative-brief` — absolute prerequisite
+- `02-research/customer-reality` — source of dominant emotion and micro-moment
+- `02-research/review-audit` — source of Layer 3 verbatims (Bucket 5)
+- `04-production/video-production` — Top 3 hooks feed the production brief
+- `04-production/static-production` — hook adaptation for static format

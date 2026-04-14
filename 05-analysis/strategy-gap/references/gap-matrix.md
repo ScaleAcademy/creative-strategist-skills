@@ -1,19 +1,19 @@
-# Gap Matrix — Angles Manquants & Personas Non Couverts
+# Gap Matrix — Missing Angles & Uncovered Personas
 
-## Définition
+## Definition
 
-La gap matrix est un outil d'analyse stratégique qui identifie les zones non testées dans une stratégie créative.
-Elle répond à la question : "Qu'est-ce qu'on ne fait PAS encore — et que ça nous coûte ?"
+The gap matrix is a strategic analysis tool that identifies untested areas in a creative strategy.
+It answers the question: "What are we NOT doing yet — and what is it costing us?"
 
-Un gap n'est pas forcément une erreur. C'est une opportunité non encore explorée.
+A gap is not necessarily a mistake. It's an unexplored opportunity.
 
 ---
 
 ## Dimension 1 — Awareness Gaps
 
-Cartographie les niveaux d'awareness couverts par les créas actuelles.
+Maps the awareness levels covered by current creatives.
 
-| Awareness | Créas actives | Volume de dépense | Gap ? |
+| Awareness | Active creatives | Spend volume | Gap? |
 |---|---|---|---|
 | Unaware | | | |
 | Problem Aware | | | |
@@ -21,72 +21,72 @@ Cartographie les niveaux d'awareness couverts par les créas actuelles.
 | Product Aware | | | |
 | Most Aware | | | |
 
-**Signal de gap :**
-- Un niveau d'awareness sans aucune créa = toute une portion du funnel non adressée.
-- Un niveau d'awareness avec 1 seule créa = pas de données fiables (besoin de 3+ tests).
-- Trop de budget concentré sur BOF = acquisition froide négligée, coût de retargeting qui monte.
+**Gap signal:**
+- An awareness level with no creative = an entire portion of the funnel not addressed.
+- An awareness level with only 1 creative = no reliable data (need 3+ tests).
+- Too much budget concentrated on BOF = cold acquisition neglected, rising retargeting cost.
 
 ---
 
 ## Dimension 2 — Angle Gaps
 
-Cartographie les angles créatifs testés.
+Maps the creative angles tested.
 
-| Angle | Créas testées | Résultat | À approfondir ? |
+| Angle | Creatives tested | Result | Worth deepening? |
 |---|---|---|---|
-| C1 — Problème | | | |
-| C2 — Résultat/Preuve | | | |
-| C3 — Éducation | | | |
-| C4 — Identité | | | |
+| C1 — Problem | | | |
+| C2 — Result/Proof | | | |
+| C3 — Education | | | |
+| C4 — Identity | | | |
 
-**Signal de gap :**
-- Un angle non testé = hypothèse non validée sur la réception de l'audience.
-- Un angle peu performant avec 1 seule créa = jugement trop rapide (tester au moins 3 exécutions différentes).
+**Gap signal:**
+- An untested angle = unvalidated hypothesis about audience reception.
+- A poorly performing angle with only 1 creative = too quick judgment (test at least 3 different executions).
 
 ---
 
 ## Dimension 3 — Persona Gaps
 
-Cartographie les personas ou sous-segments adressés.
+Maps the personas or sub-segments addressed.
 
-| Persona | Créas dédiées | Awareness ciblé | Résultat |
+| Persona | Dedicated creatives | Awareness targeted | Result |
 |---|---|---|---|
 | [Persona 1] | | | |
 | [Persona 2] | | | |
-| [Persona 3 non testé] | 0 | — | Gap |
+| [Persona 3 not tested] | 0 | — | Gap |
 
-**Signal de gap :**
-- Un sous-segment de l'audience jamais adressé directement = message générique qui dilue.
-- Tous les créas parlent au même persona = risque de saturation + audience potentielle inexploitée.
+**Gap signal:**
+- A sub-segment of the audience never directly addressed = generic message that dilutes.
+- All creatives speak to the same persona = saturation risk + unexplored audience potential.
 
 ---
 
 ## Dimension 4 — Format Gaps
 
-Cartographie les formats publicitaires utilisés.
+Maps the ad formats used.
 
-| Format | Utilisé ? | Volume | Performance |
+| Format | Used? | Volume | Performance |
 |---|---|---|---|
-| Vidéo UGC | | | |
-| Vidéo founder / talking head | | | |
-| Vidéo produit / demo | | | |
-| Statique — image seule | | | |
-| Statique — texte dominant | | | |
+| UGC Video | | | |
+| Founder / talking head video | | | |
+| Product / demo video | | | |
+| Static — image only | | | |
+| Static — text-dominant | | | |
 | Carousel | | | |
 | Stories | | | |
-| Reels natifs | | | |
+| Native Reels | | | |
 
-**Signal de gap :**
-- Uniquement des vidéos = pas de données sur ce que les statiques peuvent faire dans ce compte.
-- Uniquement des statiques = potentiel vidéo inexploré, notamment pour le TOF.
+**Gap signal:**
+- Only videos = no data on what statics can do in this account.
+- Only statics = unexplored video potential, particularly for TOF.
 
 ---
 
 ## Dimension 5 — Mechanic Gaps
 
-Cartographie les mécaniques créatives utilisées (voir `creative-mechanics.md`).
+Maps the creative mechanics used (see `creative-mechanics.md`).
 
-| Mécanique | Créas testées | À tester |
+| Mechanic | Creatives tested | To test |
 |---|---|---|
 | M1 Implied Answer | | |
 | M2 Social Witness | | |
@@ -99,41 +99,41 @@ Cartographie les mécaniques créatives utilisées (voir `creative-mechanics.md`
 
 ---
 
-## Priorisation des Gaps
+## Gap Prioritization
 
-Tous les gaps ne valent pas la même chose. Pour prioriser :
+Not all gaps are worth the same. To prioritize:
 
-| Critère | Score 1-3 |
+| Criterion | Score 1-3 |
 |---|---|
-| Volume potentiel d'audience concernée | |
-| Facilité de production d'un test | |
-| Signal préliminaire dans les données | |
-| Alignement avec objectif business Q actuel | |
+| Potential audience volume affected | |
+| Ease of producing a test | |
+| Preliminary signal in the data | |
+| Alignment with current quarter business objective | |
 
-**Score total > 9 = gap à tester en priorité ce sprint.**
+**Total score > 9 = gap to test as a priority this sprint.**
 
 ---
 
-## Template Output — Rapport Gap Strategy
+## Output Template — Gap Strategy Report
 
 ```
-## Gap Analysis — [Marque] — [Période]
+## Gap Analysis — [Brand] — [Period]
 
-### Top 3 Gaps Identifiés
+### Top 3 Identified Gaps
 
-**Gap 1 :**
-Dimension : [Awareness / Angle / Persona / Format / Mécanique]
-Description : [Ce qui manque]
-Hypothèse : [Ce que ce gap pourrait produire si comblé]
-Test recommandé : [1 créa précise à produire]
-Priorité : [Haute / Moyenne / Basse]
+**Gap 1:**
+Dimension: [Awareness / Angle / Persona / Format / Mechanic]
+Description: [What's missing]
+Hypothesis: [What this gap could produce if filled]
+Recommended test: [1 specific creative to produce]
+Priority: [High / Medium / Low]
 
-**Gap 2 :**
-[Même structure]
+**Gap 2:**
+[Same structure]
 
-**Gap 3 :**
-[Même structure]
+**Gap 3:**
+[Same structure]
 
-### Recommandation Sprint
-[X créas à produire ce sprint pour couvrir les gaps prioritaires]
+### Sprint Recommendation
+[X creatives to produce this sprint to cover the priority gaps]
 ```

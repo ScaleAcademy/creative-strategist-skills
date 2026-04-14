@@ -1,12 +1,12 @@
 ---
 name: video-production
-description: "Turns a validated creative brief into a sequenced technical brief for a human video editor or creator. Use after creative-brief and hook-writing when the format is video. Trigger on: 'brief vidéo', 'brief monteur', 'script vidéo', 'séquence de scènes'. Produces a scene-by-scene production brief ready to hand to the production team."
+description: "Turns a validated creative brief into a sequenced technical brief for a human video editor or creator. Use after creative-brief and hook-writing when the format is video. Trigger on: 'video brief', 'editor brief', 'video script', 'scene sequence'. Produces a scene-by-scene production brief ready to hand to the production team."
 metadata:
   version: 1.0.0
   status: beta
   tags: [production, video, script, brief, editing]
-  inputs: [creative-brief validé, hook sélectionné, assets disponibles (footage, UGC, produit)]
-  outputs: [brief technique vidéo — scène par scène]
+  inputs: [validated creative-brief, selected hook, available assets (footage, UGC, product)]
+  outputs: [video technical brief — scene by scene]
   depends-on: [creative-brief, hook-writing]
 ---
 
@@ -14,97 +14,97 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Brief créatif validé
-- [ ] Hook sélectionné (top 1 du hook bank)
-- [ ] Durée cible définie (15s / 30s / 45s / 60s / 90s)
-- [ ] Assets disponibles inventoriés (footage UGC, footage produit, images, voix off)
-- [ ] Style défini (UGC natif / talking head / B-roll produit / montage dynamique)
+Confirm before starting:
+- [ ] Validated creative brief
+- [ ] Selected hook (top 1 from the hook bank)
+- [ ] Target duration defined (15s / 30s / 45s / 60s / 90s)
+- [ ] Available assets inventoried (UGC footage, product footage, images, voiceover)
+- [ ] Style defined (native UGC / talking head / product B-roll / dynamic montage)
 
 ---
 
-## Phase 1 : Définir la Structure Narrative
+## Phase 1: Define the Narrative Structure
 
-Toute vidéo publicitaire suit une structure de tension-résolution :
+Every ad video follows a tension-resolution structure:
 
 ```
-Hook (0–3s) → Tension (3–15s) → Pivot (15–X s) → Résolution (X–fin) → CTA
+Hook (0–3s) → Tension (3–15s) → Pivot (15–Xs) → Resolution (X–end) → CTA
 ```
 
-**Pour 15s :** Hook (3s) → Tension courte (7s) → CTA direct (5s)
-**Pour 30s :** Hook (3s) → Tension (12s) → Résolution (10s) → CTA (5s)
-**Pour 60s :** Hook (3s) → Tension (20s) → Mécanisme (20s) → Preuve (10s) → CTA (7s)
+**For 15s:** Hook (3s) → Short tension (7s) → Direct CTA (5s)
+**For 30s:** Hook (3s) → Tension (12s) → Resolution (10s) → CTA (5s)
+**For 60s:** Hook (3s) → Tension (20s) → Mechanism (20s) → Proof (10s) → CTA (7s)
 
 ---
 
-## Phase 2 : Séquencer les Scènes
+## Phase 2: Sequence the Scenes
 
-Pour chaque scène, définir :
+For each scene, define:
 
-| Champ | Contenu |
+| Field | Content |
 |---|---|
-| Durée | En secondes |
-| Visuel | Ce qu'on voit à l'écran |
-| Audio | Voix off / dialogue / son ambiance / silence |
-| Texte overlay | Texte affiché à l'écran (si applicable) |
-| Émotion cible | Ce que le spectateur doit ressentir |
-| Note de montage | Rythme, transition, effet |
+| Duration | In seconds |
+| Visual | What is seen on screen |
+| Audio | Voiceover / dialogue / ambient sound / silence |
+| Text overlay | Text displayed on screen (if applicable) |
+| Target emotion | What the viewer should feel |
+| Editing note | Rhythm, transition, effect |
 
 ---
 
-## Phase 3 : Écrire le Brief Technique
+## Phase 3: Write the Technical Brief
 
 ```markdown
-## Brief Vidéo — [Marque] — [Creative ID] — [Date]
+## Video Brief — [Brand] — [Creative ID] — [Date]
 
-### Contexte
-Objectif : [Ce que la vidéo doit produire]
-Persona ciblé : [Prénom fictif + awareness stage]
-Ton : [Naturel UGC / Professionnel / Éducatif / Émotion]
-Plateforme principale : [Meta Feed / Reels / Stories]
+### Context
+Objective: [What the video must produce]
+Target persona: [Fictional first name + awareness stage]
+Tone: [Natural UGC / Professional / Educational / Emotional]
+Primary platform: [Meta Feed / Reels / Stories]
 
 ### Specs
-Durée : [Xs]
-Ratio : [9:16 / 4:5]
-Son : [Voix on / Voix off / Silent]
-Sous-titres : [Oui / Non — style si oui]
+Duration: [Xs]
+Ratio: [9:16 / 4:5]
+Sound: [Voice on / Voice off / Silent]
+Subtitles: [Yes / No — style if yes]
 
-### Assets Disponibles
-- [Liste des éléments fournis]
-- [Éléments à trouver / filmer]
+### Available Assets
+- [List of provided elements]
+- [Elements to find / shoot]
 
-### Structure Scène par Scène
+### Scene-by-Scene Structure
 
-**Scène 1 — Hook [0–3s]**
-Visuel : [Description]
-Audio : [Voix / Son]
-Texte overlay : "[Texte]"
-Émotion : [Ce qu'on doit ressentir]
-Note : [Instructions montage]
+**Scene 1 — Hook [0–3s]**
+Visual: [Description]
+Audio: [Voice / Sound]
+Text overlay: "[Text]"
+Emotion: [What we should feel]
+Note: [Editing instructions]
 
-**Scène 2 — [Nom] [3–Xs]**
-[Même structure]
+**Scene 2 — [Name] [3–Xs]**
+[Same structure]
 
 [...]
 
-**Scène finale — CTA [X–fin]**
-Visuel : [Produit / CTA visuel]
-Audio : "[Voix off CTA]"
-Texte overlay : "[CTA exact]"
+**Final Scene — CTA [X–end]**
+Visual: [Product / Visual CTA]
+Audio: "[CTA voiceover]"
+Text overlay: "[Exact CTA]"
 
-### Contraintes
-[Compliance, visuels interdits, claims à éviter]
+### Constraints
+[Compliance, forbidden visuals, claims to avoid]
 
-### Références
-[Liens vers creatives de référence dans le même style]
+### References
+[Links to reference creatives in the same style]
 ```
 
 ---
 
 ## Related Skills
 
-- `03-strategy/creative-brief` — prérequis
-- `03-strategy/hook-writing` — hook sélectionné = première scène
-- `04-production/ai-video-production` — alternative IA pour le même brief
-- `04-production/campaign-setup` — après production
-- `05-analysis/ad-analysis` — après diffusion
+- `03-strategy/creative-brief` — prerequisite
+- `03-strategy/hook-writing` — selected hook = first scene
+- `04-production/ai-video-production` — AI alternative for the same brief
+- `04-production/campaign-setup` — after production
+- `05-analysis/ad-analysis` — after delivery

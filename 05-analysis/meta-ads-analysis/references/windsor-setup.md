@@ -1,34 +1,34 @@
-# Windsor.ai — Setup MCP + Convention de Nommage
+# Windsor.ai — MCP Setup + Naming Convention
 
-## Qu'est-ce que Windsor.ai ?
+## What is Windsor.ai?
 
-Windsor.ai est un agrégateur de données marketing qui connecte directement Meta Ads (et d'autres plateformes) à Claude via le protocole MCP (Model Context Protocol). Il permet à Claude d'interroger en temps réel les données de performance sans export manuel.
+Windsor.ai is a marketing data aggregator that directly connects Meta Ads (and other platforms) to Claude via the MCP (Model Context Protocol). It allows Claude to query performance data in real time without manual exports.
 
-**Résultat :** Claude peut analyser ton compte Meta Ads comme un analyste qui a accès direct à l'interface — sans copier-coller de données.
+**Result:** Claude can analyze your Meta Ads account like an analyst with direct interface access — no copy-pasting data.
 
 ---
 
-## Section 1 : Connexion Windsor.ai MCP à Claude
+## Section 1: Connecting Windsor.ai MCP to Claude
 
-### Étape 1 — Créer un compte Windsor.ai
+### Step 1 — Create a Windsor.ai account
 
-- Aller sur [windsor.ai](https://windsor.ai)
-- Créer un compte (plan gratuit disponible avec limites)
-- Connecter ton compte Meta Ads dans le dashboard Windsor.ai
+- Go to [windsor.ai](https://windsor.ai)
+- Create an account (free plan available with limits)
+- Connect your Meta Ads account in the Windsor.ai dashboard
 
-### Étape 2 — Obtenir la clé API Windsor
+### Step 2 — Get your Windsor API key
 
-Dans le dashboard Windsor.ai :
-- Aller dans **Settings > API**
-- Copier la clé API (format : `wai_xxxxxxxxxxxx`)
+In the Windsor.ai dashboard:
+- Go to **Settings > API**
+- Copy the API key (format: `wai_xxxxxxxxxxxx`)
 
-### Étape 3 — Configurer Claude Desktop
+### Step 3 — Configure Claude Desktop
 
-Ouvrir le fichier de configuration Claude Desktop :
-- **Mac :** `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows :** `%APPDATA%\Claude\claude_desktop_config.json`
+Open the Claude Desktop configuration file:
+- **Mac:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
-Ajouter la configuration MCP :
+Add the MCP configuration:
 
 ```json
 {
@@ -37,112 +37,89 @@ Ajouter la configuration MCP :
       "command": "npx",
       "args": ["-y", "@windsor-ai/mcp-server"],
       "env": {
-        "WINDSOR_API_KEY": "wai_VOTRE_CLE_API_ICI"
+        "WINDSOR_API_KEY": "wai_YOUR_API_KEY_HERE"
       }
     }
   }
 }
 ```
 
-### Étape 4 — Redémarrer Claude Desktop
+### Step 4 — Restart Claude Desktop
 
-Fermer complètement et relancer Claude Desktop.
-Un icône Windsor devrait apparaître dans la barre d'outils.
+Fully close and relaunch Claude Desktop.
+A Windsor icon should appear in the toolbar.
 
-**Test de connexion :**
+**Connection test:**
 ```
-Liste les comptes Meta Ads disponibles via Windsor.ai
+List the Meta Ads accounts available via Windsor.ai
 ```
 
-Si Claude liste tes comptes → connexion réussie.
+If Claude lists your accounts → connection successful.
 
 ---
 
-## Section 2 : Convention de Nommage
+## Section 2: Naming Convention
 
-La convention de nommage est **optionnelle mais fortement recommandée**. Elle permet à Claude d'analyser les performances par angle, format, et mécanique directement depuis les noms de campagnes/adsets/creatives — sans avoir à catégoriser manuellement.
+The naming convention is **optional but strongly recommended**. It allows Claude to analyze performance by angle, format, and mechanic directly from campaign/ad set/creative names — without manual categorization.
 
-### Structure du Nom
+For the complete naming convention reference: see [references/naming-convention.md](../../../references/naming-convention.md)
 
-```
-[MARQUE]_[OBJECTIF]_[ANGLE]_[FORMAT]_[MECHANIQUE]_[VERSION]_[DATE]
-```
+### Quick Reference
 
-### Codes par Segment
+**Campaign:** `[BRAND]_[OBJECTIVE]_[BUDGET_TYPE]`
+Example: `MARCA_ACQ_CBO`
 
-#### Objectif
-| Code | Signification |
+**Ad Set:** `[BRAND]_[AUDIENCE_TYPE]_[AUDIENCE_DESCRIPTION]`
+Example: `MARCA_COLD_BROAD-25-45F`
+
+**Ad:** `[BRAND]_[ANGLE]_[FORMAT]_[STYLE]_[RATIO]_v[X]_[YYYYMM]`
+Example: `MARCA_PR_VID30_UGC_916_v1_202604`
+
+### Angle Codes
+| Code | Meaning |
 |---|---|
-| ACQ | Acquisition / Prospection froide |
-| LEA | Lead Generation |
-| RET | Retargeting |
-| AWA | Awareness |
+| PR | Problem (C1) |
+| RS | Result / Proof (C2) |
+| ED | Education (C3) |
+| ID | Identity (C4) |
 
-#### Angle Créatif
-| Code | Signification |
+### Format Codes
+| Code | Meaning |
 |---|---|
-| PR | Problème (C1) |
-| RS | Résultat / Preuve (C2) |
-| ED | Éducation (C3) |
-| ID | Identité (C4) |
-
-#### Format
-| Code | Signification |
-|---|---|
-| VID15 | Vidéo 15 secondes |
-| VID30 | Vidéo 30 secondes |
-| VID60 | Vidéo 60 secondes |
-| STA | Statique (image) |
+| VID15 | 15-second video |
+| VID30 | 30-second video |
+| VID60 | 60-second video |
+| STA | Static (image) |
 | CAR | Carousel |
 
-#### Mécanique
-| Code | Signification |
+### Style Codes
+| Code | Meaning |
 |---|---|
 | UGC | User Generated Content |
 | TH | Talking Head |
-| BB | B-roll + voix off |
-| TEX | Texte animé |
-| SKT | Skit / Mise en scène |
+| BROLL | B-Roll + voiceover |
+| TEXT | Animated text |
+| SKIT | Skit / Staged scene |
 
-### Exemples
+### Why this convention?
 
-**Campagne :**
-```
-MARCA_ACQ_PR_VID30_UGC_v1_2026-04
-```
-→ Marque / Acquisition / Angle Problème / Vidéo 30s / UGC / Version 1 / Avril 2026
+When the convention is applied, Claude can:
+- Calculate the average CPA by angle (PR vs RS vs ED vs ID) in a single query
+- Compare formats (VID15 vs VID30 vs STA) without manual sorting
+- Identify which style produces the best results
+- Track an angle's progression over time (v1 → v2 → v3)
 
-**Adset :**
-```
-MARCA_ACQ_LA-1pct-purchasers_FR-25-45
-```
-→ Lookalike 1% acheteurs / France / 25-45 ans
-
-**Creative :**
-```
-MARCA_PR_VID30_UGC_douleur-sommeil_v1
-```
-→ Angle Problème / Vidéo 30s / UGC / Douleur : sommeil / Version 1
-
-### Pourquoi cette convention ?
-
-Quand la convention est appliquée, Claude peut :
-- Calculer le CPA moyen par angle (PR vs RS vs ED vs ID) en une seule requête
-- Comparer les formats (VID15 vs VID30 vs STA) sans tri manuel
-- Identifier quelle mécanique produit les meilleurs résultats
-- Tracker la progression d'un angle dans le temps (v1 → v2 → v3)
-
-Sans convention → analyse créative = tri manuel = perte de temps.
+Without convention → creative analysis = manual sorting = wasted time.
 
 ---
 
-## Plateformes Compatibles Windsor.ai
+## Compatible Platforms with Windsor.ai
 
-Windsor.ai supporte également (en plus de Meta) :
+Windsor.ai also supports (in addition to Meta):
 - Google Ads
 - TikTok Ads
 - Snapchat Ads
 - Pinterest Ads
 - LinkedIn Ads
 
-La même logique d'analyse peut être appliquée à ces plateformes en adaptant les métriques clés (voir les fichiers de référence dans `04-production/campaign-setup/references/`).
+The same analysis logic can be applied to these platforms by adapting the key metrics (see the reference files in `04-production/campaign-setup/references/`).

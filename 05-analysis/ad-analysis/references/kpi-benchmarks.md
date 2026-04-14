@@ -1,127 +1,127 @@
 # KPI Benchmarks — Meta Ads FR
 
-## Avertissement
+## Warning
 
-Ces benchmarks sont des références de marché — pas des vérités absolues.
-Toujours comparer d'abord contre ton propre historique de compte.
-Un CTR de 1.5% peut être excellent dans une niche B2B et faible en e-commerce impulse.
-
----
-
-## Métriques Primaires
-
-### Hook Rate (Taux d'accroche vidéo)
-**Définition :** % de personnes qui regardent les 3 premières secondes de la vidéo.
-**Calcul :** ThruPlay 3s / Impressions × 100
-
-| Performance | Taux |
-|---|---|
-| Faible | < 15% |
-| Moyen | 15–25% |
-| Fort | 25–40% |
-| Exceptionnel | > 40% |
-
-**Signal :** Un Hook Rate faible = le premier frame ou la première seconde ne retient pas. Problème de hook visuel/audio, pas forcément de message.
+These benchmarks are market references — not absolute truths.
+Always compare first against your own account history.
+A 1.5% CTR can be excellent in a B2B niche and weak in impulse e-commerce.
 
 ---
 
-### Hold Rate (Taux de rétention)
-**Définition :** % de personnes qui regardent jusqu'au 50% ou 75% de la vidéo.
-**Calcul :** Video views at 50% / Video views at 3s
+## Primary Metrics
 
-| Performance | Taux (50%) |
+### Hook Rate (Video engagement rate)
+**Definition:** % of people who watch the first 3 seconds of the video.
+**Calculation:** ThruPlay 3s / Impressions × 100
+
+| Performance | Rate |
 |---|---|
-| Faible | < 20% |
-| Moyen | 20–35% |
-| Fort | > 35% |
+| Weak | < 15% |
+| Average | 15–25% |
+| Strong | 25–40% |
+| Exceptional | > 40% |
 
-**Signal :** Hook Rate fort + Hold Rate faible = le début accroche, mais le contenu ne tient pas la promesse. Problème de corps de message.
+**Signal:** A low Hook Rate = the first frame or first second doesn't retain. Problem with visual/audio hook, not necessarily the message.
+
+---
+
+### Hold Rate (Retention rate)
+**Definition:** % of people who watch up to 50% or 75% of the video.
+**Calculation:** Video views at 50% / Video views at 3s
+
+| Performance | Rate (50%) |
+|---|---|
+| Weak | < 20% |
+| Average | 20–35% |
+| Strong | > 35% |
+
+**Signal:** Strong Hook Rate + Low Hold Rate = the opening hooks, but the content doesn't fulfill the promise. Body copy problem.
 
 ---
 
 ### CTR (Click-Through Rate)
-**Définition :** % de personnes qui cliquent sur le lien après avoir vu l'ad.
-**Calcul :** Link Clicks / Impressions × 100
+**Definition:** % of people who click the link after seeing the ad.
+**Calculation:** Link Clicks / Impressions × 100
 
-| Type | Faible | Moyen | Fort |
+| Type | Weak | Average | Strong |
 |---|---|---|---|
-| Feed vidéo | < 0.8% | 1–2% | > 2.5% |
-| Feed statique | < 0.5% | 0.8–1.5% | > 1.8% |
+| Feed video | < 0.8% | 1–2% | > 2.5% |
+| Feed static | < 0.5% | 0.8–1.5% | > 1.8% |
 | Stories | < 0.4% | 0.6–1.2% | > 1.5% |
 | Reels | < 0.6% | 0.8–1.5% | > 2% |
 
-**Signal :** CTR fort = l'ad crée le désir de savoir plus. CTR faible après bon Hook Rate = le corps du message ne convertit pas l'attention en intention.
+**Signal:** Strong CTR = the ad creates the desire to know more. Low CTR after good Hook Rate = the body copy doesn't convert attention into intent.
 
 ---
 
-### CPM (Coût pour 1000 impressions)
-**Définition :** Coût de l'enchère — dépend de l'audience, la période, la concurrence.
+### CPM (Cost per 1000 impressions)
+**Definition:** Auction cost — depends on audience, period, competition.
 
-| Contexte FR | Fourchette typique |
+| FR Context | Typical range |
 |---|---|
-| Audience large (TOF) | 5–12€ |
-| Audience intermédiaire | 8–18€ |
+| Broad audience (TOF) | 5–12€ |
+| Mid audience | 8–18€ |
 | Retargeting (BOF) | 12–30€ |
-| B2B / niche premium | 20–50€+ |
+| B2B / premium niche | 20–50€+ |
 
-**Signal :** CPM élevé ≠ mauvaise créa. CPM élevé = audience compétitive ou période de forte enchère (Q4, rentrée).
+**Signal:** High CPM ≠ bad creative. High CPM = competitive audience or high-bid period (Q4, back-to-school).
 
 ---
 
-### CPA / CPL (Coût par acquisition ou lead)
-**Pas de benchmark universel** — dépend entièrement du secteur, de la marge et du LTV.
+### CPA / CPL (Cost per acquisition or lead)
+**No universal benchmark** — depends entirely on the sector, margin, and LTV.
 
-**Méthode :** Établir le CPA cible à partir du LTV ou de la marge brute.
-- E-commerce : CPA cible ≤ marge brute × (1 / nombre d'achats pour rentabiliser)
-- Formation / SaaS : CPA cible ≤ LTV × 30–40%
-- Lead gen : CPL cible = CA par lead fermé × taux de closing × (1 - marge souhaitée)
+**Method:** Set the CPA target from LTV or gross margin.
+- E-commerce: CPA target ≤ gross margin × (1 / number of purchases to break even)
+- Training / SaaS: CPA target ≤ LTV × 30–40%
+- Lead gen: CPL target = revenue per closed lead × closing rate × (1 - desired margin)
 
 ---
 
 ### ROAS (Return On Ad Spend)
-**Définition :** CA généré / Budget publicitaire dépensé
+**Definition:** Revenue generated / Ad budget spent
 
-| Stage | ROAS de référence |
+| Stage | Reference ROAS |
 |---|---|
-| Test (cold traffic) | 1.5–2.5× |
+| Testing (cold traffic) | 1.5–2.5× |
 | Scaling (warm) | 2.5–4× |
 | Retargeting (hot) | 4–8×+ |
 
-**Note :** Le ROAS seul est insuffisant. Une campagne à ROAS 5× avec 50€/jour ne scale pas. Regarder le volume + le ROAS ensemble.
+**Note:** ROAS alone is insufficient. A 5× ROAS campaign with 50€/day doesn't scale. Look at volume + ROAS together.
 
 ---
 
-## Métriques de Diagnostic Créatif
+## Creative Diagnostic Metrics
 
-### Fréquence
-**Seuil d'alerte :** > 3 en 7 jours pour une même audience
-**Signal :** Au-delà de 3, les performances commencent à se dégrader. Rafraîchir la créa ou élargir l'audience.
+### Frequency
+**Alert threshold:** > 3 in 7 days for the same audience
+**Signal:** Beyond 3, performance starts degrading. Refresh the creative or broaden the audience.
 
 ### Relevance Score (Quality Ranking)
-- Above Average = créa bien reçue par l'audience
+- Above Average = creative well received by the audience
 - Average = normal
-- Below Average = mauvaise expérience utilisateur, CPM pénalisé
+- Below Average = poor user experience, CPM penalized
 
-### Scroll Stop Rate (si disponible)
-Certains outils tiers (TripleWhale, Northbeam) mesurent le taux d'arrêt sur le premier frame.
-Référence : > 5% = bon premier frame visuel.
+### Scroll Stop Rate (if available)
+Some third-party tools (TripleWhale, Northbeam) measure the stop rate on the first frame.
+Reference: > 5% = good first visual frame.
 
 ---
 
-## Tableau de Lecture Rapide
+## Quick Reading Table
 
-| Symptôme | KPI en cause | Hypothèse créative |
+| Symptom | KPI affected | Creative hypothesis |
 |---|---|---|
-| Peu d'impressions malgré budget | CPM trop élevé | Audience trop restreinte ou période compétitive |
-| Impressions OK, peu de clics | CTR faible | Body copy ou CTA insuffisant |
-| Beaucoup de clics, peu de conversions | CPA élevé | Problème landing page ou promesse vs réalité |
-| Bonne vidéo vue, peu de clics | Hook Rate OK / CTR faible | La vidéo engage mais ne donne pas envie d'agir |
-| Performances dégradées semaine 3+ | Fréquence > 3 | Fatigue créative — rafraîchir |
+| Few impressions despite budget | CPM too high | Audience too narrow or competitive period |
+| Impressions OK, few clicks | Low CTR | Body copy or CTA insufficient |
+| Many clicks, few conversions | High CPA | Landing page problem or promise vs. reality |
+| Good video views, few clicks | Hook Rate OK / Low CTR | Video engages but doesn't drive action |
+| Degraded performance week 3+ | Frequency > 3 | Creative fatigue — refresh |
 
 ---
 
-## Cadre d'Analyse en 3 Étapes
+## 3-Step Analysis Framework
 
-1. **Trier par dépense** — les créas qui ont le plus dépensé ont les données les plus fiables.
-2. **Segmenter par KPI primaire** — selon l'objectif de la campagne (CPL, CPA, ROAS).
-3. **Identifier les patterns** — qu'ont en commun les 3 meilleures créas ? Les 3 pires ?
+1. **Sort by spend** — creatives with the most spend have the most reliable data.
+2. **Segment by primary KPI** — based on campaign objective (CPL, CPA, ROAS).
+3. **Identify patterns** — what do the 3 best creatives have in common? The 3 worst?

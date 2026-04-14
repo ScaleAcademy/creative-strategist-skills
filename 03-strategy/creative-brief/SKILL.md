@@ -1,12 +1,12 @@
 ---
 name: creative-brief
-description: "Builds a complete creative brief from research outputs. The brief defines the angle, awareness stage, hook direction, creative mechanic, format, specs, and success criteria. Use after audience-research and customer-reality. Trigger on: 'fait un brief', 'brief créatif', 'on prépare une campagne', 'je veux lancer des pubs'. This is the central strategic document — nothing goes to production without it."
+description: "Builds a complete creative brief from research outputs. The brief defines the angle, awareness stage, hook direction, creative mechanic, format, specs, and success criteria. Use after audience-research and customer-reality. Trigger on: 'build a brief', 'creative brief', 'we're preparing a campaign', 'I want to run ads'. This is the central strategic document — nothing goes to production without it."
 metadata:
   version: 1.0.0
   status: stable
   tags: [strategy, brief, angle, creative, planning]
-  inputs: [brand-context.md, persona-[nom].md, emotional-map-[persona].md, objectif campagne]
-  outputs: [creative-brief-[marque]-[date].md]
+  inputs: [brand-context.md, persona-[name].md, emotional-map-[persona].md, campaign objective]
+  outputs: [creative-brief-[brand]-[date].md]
   depends-on: [brand-guidelines, audience-research, customer-reality]
 ---
 
@@ -14,173 +14,173 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] `brand-context.md` disponible
-- [ ] `persona-[nom].md` disponible (audience-research exécuté)
-- [ ] `emotional-map-[persona].md` disponible (customer-reality exécuté) OU verbatims disponibles
-- [ ] Objectif business clair : acquisition / lead / awareness / retargeting ?
-- [ ] KPI principal défini : CPA cible, CPL, ou ROAS ?
-- [ ] Budget et capacité de production définis
+Confirm before starting:
+- [ ] `brand-context.md` available
+- [ ] `persona-[name].md` available (audience-research completed)
+- [ ] `emotional-map-[persona].md` available (customer-reality completed) OR verbatims available
+- [ ] Business objective clear: acquisition / lead / awareness / retargeting?
+- [ ] Primary KPI defined: target CPA, CPL, or ROAS?
+- [ ] Budget and production capacity defined
 
-Sans ces inputs, le brief sera basé sur des hypothèses — à labeler clairement.
-
----
-
-## Phase 1 : Cartographier Pain × Persona
-
-Avant de choisir un angle, construire la matrice douleur × persona.
-
-**Principe many-to-many :** Une même douleur peut résonner pour plusieurs personas différents. Un même persona peut avoir plusieurs douleurs. Chaque combinaison pain × persona est un brief potentiellement distinct.
-
-### Étape 1A — Lister les douleurs disponibles
-À partir des Buckets 1 & 3 du review-audit et du Layer 2 du persona :
-- Douleur 1 : [description courte]
-- Douleur 2 : [description courte]
-- Douleur 3 : [description courte]
-
-### Étape 1B — Lister les personas disponibles
-Un ou plusieurs personas issus de l'audience-research :
-- Persona A : [Prénom fictif] — Awareness [#]
-- Persona B : [Prénom fictif] — Awareness [#]
-
-### Étape 1C — Choisir la combinaison du brief
-Sélectionner la combinaison pain × persona la plus prioritaire pour ce brief.
-
-> **Ce brief cible :** [Persona X] souffrant de [Douleur Y] au niveau d'awareness [Z].
-
-Cette phrase est l'ancre stratégique du brief. Tout le reste en découle.
+Without these inputs, the brief will be based on hypotheses — label them clearly.
 
 ---
 
-## Phase 2 : Définir le Contexte Stratégique
+## Phase 1: Map Pain × Persona
 
-Synthétiser depuis les documents disponibles :
+Before choosing an angle, build the pain × persona matrix.
 
-1. **Persona ciblé** — Qui ? Quel layer dominant ?
-2. **Douleur adressée** — Quelle douleur spécifique ce brief traite-t-il ?
-3. **Awareness stage** — Où en est ce persona par rapport au problème et au produit ?
-4. **Objectif de la creative** — Que doit-elle produire comme action ?
-5. **Phase funnel** — TOF / MOF / BOF / Re-engage
+**Many-to-many principle:** The same pain can resonate with several different personas. The same persona can have several pains. Each pain × persona combination is a potentially distinct brief.
+
+### Step 1A — List available pains
+From Buckets 1 & 3 of the review-audit and the persona's Layer 2:
+- Pain 1: [short description]
+- Pain 2: [short description]
+- Pain 3: [short description]
+
+### Step 1B — List available personas
+One or more personas from audience-research:
+- Persona A: [Fictional first name] — Awareness [#]
+- Persona B: [Fictional first name] — Awareness [#]
+
+### Step 1C — Choose the brief's combination
+Select the most priority pain × persona combination for this brief.
+
+> **This brief targets:** [Persona X] suffering from [Pain Y] at awareness level [Z].
+
+This sentence is the strategic anchor of the brief. Everything else follows from it.
 
 ---
 
-## Phase 3 : Sélectionner l'Angle
+## Phase 2: Define Strategic Context
 
-Choisir parmi les 4 catégories d'angles.
+Synthesize from available documents:
 
-Pour le cadre complet : voir [references/ad-angles.md](references/ad-angles.md)
+1. **Target persona** — Who? Which dominant layer?
+2. **Pain addressed** — Which specific pain does this brief address?
+3. **Awareness stage** — Where is this persona relative to the problem and the product?
+4. **Creative objective** — What action should the creative produce?
+5. **Funnel phase** — TOF / MOF / BOF / Re-engage
 
-| Angle | Quand l'utiliser |
+---
+
+## Phase 3: Select the Angle
+
+Choose from the 4 angle categories.
+
+For the full framework: See [references/ad-angles.md](references/ad-angles.md)
+
+| Angle | When to use |
 |---|---|
-| C1 — Problème | Audience Problem Aware, douleur forte et identifiable |
-| C2 — Résultat | Audience Solution/Product Aware, preuve sociale disponible |
-| C3 — Éducation | Marché sophistiqué ou audience Unaware/Problem Aware |
-| C4 — Identité | Marché très sophistiqué ou audience Most Aware |
+| C1 — Problem | Problem Aware audience, strong and identifiable pain |
+| C2 — Result | Solution/Product Aware audience, social proof available |
+| C3 — Education | Sophisticated market or Unaware/Problem Aware audience |
+| C4 — Identity | Very sophisticated market or Most Aware audience |
 
-**Formuler l'angle en 1 phrase :** "Cette creative parle à [persona] qui [situation] et lui montre [promesse] via [angle]."
-
----
-
-## Phase 4 : Choisir la Mécanique Créative
-
-Sélectionner la mécanique qui correspond à l'angle et à l'émotion dominante.
-
-Pour le cadre des 8 mécaniques : voir [references/creative-mechanics.md](../hook-writing/references/creative-mechanics.md)
+**Frame the angle in 1 sentence:** "This creative speaks to [persona] who [situation] and shows them [promise] via [angle]."
 
 ---
 
-## Phase 5 : Définir le Format et les Specs
+## Phase 4: Choose the Creative Mechanic
 
-Choisir le format visuel en cohérence avec la mécanique et l'awareness stage.
+Select the mechanic that matches the angle and dominant emotion.
 
-Pour la bibliothèque complète : voir [references/visual-formats.md](references/visual-formats.md)
+For the 8 mechanics framework: See [references/creative-mechanics.md](../hook-writing/references/creative-mechanics.md)
 
-| Décision | Options |
+---
+
+## Phase 5: Define Format and Specs
+
+Choose the visual format in coherence with the mechanic and awareness stage.
+
+For the full library: See [references/visual-formats.md](references/visual-formats.md)
+
+| Decision | Options |
 |---|---|
-| Format visuel | F01–F45 (voir visual-formats.md) |
-| Medium | Vidéo / Statique / Carousel |
-| Durée (si vidéo) | 15s / 30s / 60s / 90s+ |
+| Visual format | F01–F45 (see visual-formats.md) |
+| Medium | Video / Static / Carousel |
+| Duration (if video) | 15s / 30s / 60s / 90s+ |
 | Ratio | 9:16 (Stories/Reels) / 4:5 (Feed) / 1:1 (Multi) |
-| Style | UGC / Talking head / Produit / B-roll / Animation |
-| Son | Avec voix / Musique seule / Silent (sous-titres) |
+| Style | UGC / Talking head / Product / B-roll / Animation |
+| Sound | With voice / Music only / Silent (subtitles) |
 
 ---
 
-## Phase 6 : Écrire le Brief
+## Phase 6: Write the Brief
 
 ```markdown
-# Creative Brief — [Marque] — [Date]
-*Statut : Draft / Validé*
+# Creative Brief — [Brand] — [Date]
+*Status: Draft / Validated*
 
-## Ancre Stratégique
-> "[Persona X] souffrant de [Douleur Y] au niveau d'awareness [Z]."
+## Strategic Anchor
+> "[Persona X] suffering from [Pain Y] at awareness level [Z]."
 
-## Contexte
-- Persona : [Prénom fictif] — [Awareness stage]
-- Douleur adressée : [Douleur spécifique issue du pain × persona mapping]
-- Objectif : [Acquisition / Lead / Awareness / Retargeting]
-- Phase funnel : [TOF / MOF / BOF]
-- KPI primaire : [CPA / CPL / CTR / ROAS cible]
+## Context
+- Persona: [Fictional first name] — [Awareness stage]
+- Pain addressed: [Specific pain from the pain × persona mapping]
+- Objective: [Acquisition / Lead / Awareness / Retargeting]
+- Funnel phase: [TOF / MOF / BOF]
+- Primary KPI: [CPA / CPL / CTR / ROAS target]
 
-## Angle Créatif
-[C1 / C2 / C3 / C4] — [Intitulé de l'angle en 1 phrase]
+## Creative Angle
+[C1 / C2 / C3 / C4] — [Angle statement in 1 sentence]
 
-## Promesse Centrale
-[Ce que la creative promet — 1 phrase, langage client]
+## Core Promise
+[What the creative promises — 1 sentence, customer language]
 
-## Proof Point Principal
-[La preuve qui rend la promesse crédible]
+## Main Proof Point
+[The proof that makes the promise credible]
 
-## Objection à Lever
-[Ce qui pourrait empêcher l'action — et comment on l'adresse]
+## Objection to Address
+[What might prevent action — and how we address it]
 
-## Mécanique
-[M1–M8] — [Nom de la mécanique] — [Comment elle s'applique ici]
+## Mechanic
+[M1–M8] — [Mechanic name] — [How it applies here]
 
 ## Hook Direction
-[Direction de la première ligne / première seconde — ne pas écrire le hook ici]
-Trigger dominant : [TR1–TR8]
-Tactic recommandée : [T01–T35]
+[Direction of the first line / first second — do not write the hook here]
+Dominant trigger: [TR1–TR8]
+Recommended tactic: [T01–T42]
 
 ## Format
-- Format visuel : [F##] — [Nom du format]
-- Medium : [Vidéo / Statique / Carousel]
-- Durée : [Xs]
-- Ratio : [9:16 / 4:5 / 1:1]
-- Style : [UGC / Talking head / etc.]
-- Son : [Voix on / off / silent]
+- Visual format: [F##] — [Format name]
+- Medium: [Video / Static / Carousel]
+- Duration: [Xs]
+- Ratio: [9:16 / 4:5 / 1:1]
+- Style: [UGC / Talking head / etc.]
+- Sound: [Voice on / off / silent]
 
 ## CTA
-[Texte du call-to-action — précis et adapté à l'awareness]
+[Call-to-action text — precise and adapted to awareness level]
 
-## Contraintes
-[Compliance, ton, visuels interdits, claims à éviter]
+## Constraints
+[Compliance, tone, forbidden visuals, claims to avoid]
 
-## Succès = ?
-[Ce qui définit une bonne performance pour ce brief]
-CPA cible : [X€] / CTR cible : [X%] / Autre :
+## Success = ?
+[What defines good performance for this brief]
+Target CPA: [X€] / Target CTR: [X%] / Other:
 ```
 
 ---
 
-## Phase 6 : Valider Avant Production
+## Phase 7: Validate Before Production
 
-Poser ces questions avant de passer à la production :
+Ask these questions before moving to production:
 
-- Est-ce que le persona se reconnaîtrait dans cette creative ?
-- La promesse est-elle crédible sans chercher à en savoir plus ?
-- L'objection principale est-elle adressée quelque part ?
-- Le format est-il adapté à la plateforme et au moment du scroll ?
-- L'angle n'a-t-il pas déjà été saturé par les concurrents ?
+- Would the persona recognize themselves in this creative?
+- Is the promise credible without needing to know more?
+- Is the main objection addressed somewhere?
+- Is the format adapted to the platform and the scroll moment?
+- Has the angle already been saturated by competitors?
 
 ---
 
 ## Related Skills
 
 - `02-research/audience-research` — persona
-- `02-research/customer-reality` — émotion + micro-moment
-- `02-research/market-research` — angle vs concurrence
-- `03-strategy/hook-writing` — prochaine étape après brief validé
-- `03-strategy/message-sequencing` — si la campagne est multi-touchpoints
-- `04-production/static-production` — brief → exécution statique
-- `04-production/video-production` — brief → exécution vidéo
+- `02-research/customer-reality` — emotion + micro-moment
+- `02-research/market-research` — angle vs competition
+- `03-strategy/hook-writing` — next step after validated brief
+- `03-strategy/message-sequencing` — if the campaign is multi-touchpoint
+- `04-production/static-production` — brief → static execution
+- `04-production/video-production` — brief → video execution

@@ -5,8 +5,8 @@ metadata:
   version: 1.0.0
   status: beta
   tags: [audit, performance, baseline, meta-ads]
-  inputs: [accès dashboard Meta Ads, période minimum 30 jours]
-  outputs: [rapport baseline KPIs — top/bottom performers, gaps stratégiques]
+  inputs: [Meta Ads dashboard access, minimum 30-day period]
+  outputs: [baseline KPI report — top/bottom performers, strategic gaps]
   depends-on: [brand-guidelines]
 ---
 
@@ -14,13 +14,13 @@ metadata:
 
 ## Before Starting
 
-Confirme avant de commencer :
-- [ ] Accès au dashboard Meta Ads (Business Manager ou Ads Manager)
-- [ ] Période définie — minimum 30 jours, recommandé 90 jours
-- [ ] `brand-context.md` disponible (sinon lancer `brand-guidelines` d'abord)
-- [ ] KPI principal connu : optimisation sur leads, purchases, ou ROAS ?
+Confirm before starting:
+- [ ] Access to Meta Ads dashboard (Business Manager or Ads Manager)
+- [ ] Period defined — minimum 30 days, recommended 90 days
+- [ ] `brand-context.md` available (otherwise launch `brand-guidelines` first)
+- [ ] Primary KPI known: optimizing for leads, purchases, or ROAS?
 
-Si l'accès dashboard n'est pas disponible : demander un export CSV des données de campagne.
+If dashboard access is not available: request a CSV export of campaign data.
 
 ---
 
