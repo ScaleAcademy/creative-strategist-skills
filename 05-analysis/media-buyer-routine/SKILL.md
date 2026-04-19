@@ -1,4 +1,17 @@
-# SKILL — Media Buyer
+---
+name: media-buyer-routine
+description: "Daily Meta Ads account optimization routine using CMAS methodology (Cut/Maintain/Scale). Reads account state, identifies ads to cut/maintain/scale based on documented kill rules and scale rules, picks the next priority action (P1 Wow Idea / P2 Message Testing / P3 Audience Testing / P4 Scale), and logs every decision. Works for lead generation or ecommerce accounts, existing or new. Trigger on: 'daily media buyer routine', 'optimize the account today', 'apply kill rules', 'what do I cut/scale', 'media buyer check', 'routine media buyer'."
+metadata:
+  version: 1.0.0
+  status: stable
+  tags: [analysis, media-buying, optimization, meta-ads, routine, cmas]
+  inputs: [client context, account state, kill rules, creative inventory]
+  outputs: [decision log, actions list, next priority action]
+  depends-on: [account-audit, campaign-setup]
+---
+
+# Media Buyer Routine
+
 **Type :** Skill universel  
 **Usage :** Lead Generation / E-commerce (spécifier au lancement)  
 **Dépendances :** Dossier client + fichiers de référence listés en bas de ce document
