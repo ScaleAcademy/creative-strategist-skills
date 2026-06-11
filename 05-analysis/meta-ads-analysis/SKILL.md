@@ -2,15 +2,38 @@
 name: meta-ads-analysis
 description: "Runs a full Meta Ads account analysis in 7 steps using Windsor.ai as MCP data bridge. Pulls live campaign/creative/audience data directly into Claude and produces an actionable audit report: account health, campaign audit, creative lifecycle, angle & format performance, audience analysis, and prioritized action plan. Trigger on: 'analyze my Meta account', 'Meta Ads audit', 'which ads to tune', 'creative analysis Meta', 'Windsor analysis'. Requires Windsor.ai MCP connection."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   status: stable
-  tags: [analysis, meta-ads, performance, creative, windsor, mcp, account-audit]
+  tags: [analysis, meta-ads, performance, creative, windsor, mcp, account-audit, notion]
   inputs: [Meta Ads account connected via Windsor.ai MCP, naming convention applied (optional but recommended)]
   outputs: [7-section report: account health + campaign audit + creative lifecycle + angles & formats + audiences + prioritized action plan]
+  notion-reads: [db-clients.md, db-concepts.md, db-briefs.md, db-roadmap.md]
+  notion-writes: [db-business-learnings.md, db-creative-learnings.md, db-roadmap.md, db-knowledge-base.md]
   depends-on: [brand-guidelines, ad-analysis]
 ---
 
 # Meta Ads Analysis — Complete System (Claude + Windsor.ai)
+
+## Output Routing (Dual-Mode)
+
+This skill follows [references/notion-output-protocol.md](../../references/notion-output-protocol.md).
+Run the routing logic before producing output.
+
+**Data source note:** Windsor.ai is one bridge among several. Use whichever is connected in the
+session: Windsor.ai MCP, the official Meta/Facebook MCP, or the Motion MCP (creative analytics).
+On Motion, always anchor on `goalMetric` first — per-creative cost columns can invert conclusions.
+
+| Standalone output | Connected-mode target |
+|---|---|
+| 7-section report (file) | Entry in `📚 [DB] Knowledge Base` (Type `Performance Report — Créa` or `Analysis Brief`, Phase `Phase 4 — Analysis`, Block `📊 Analysis`) with `Drive URL` / `Repo Path` to the report |
+| Strategic findings (personas, angles) | Entries in `🧠 [DB] Business Learnings` — Type `Persona`/`Angle`, Origine `📊 Audit ads`, linked Concept/Persona/Angle |
+| Execution findings (hooks, CTAs, formats…) | Entries in `🖼️ [DB] Creative Learnings` — Type `New Hook`/`New CTA`/…, `Hook Rate` when relevant, linked Brief |
+| Hypothesis verdicts | Update the matching `🗺️ [DB] Roadmap` items: `Status` → Validated/Rejected + `Validated Insight` filled |
+
+Connected-mode rules (hard):
+- Every learning carries `Week` (e.g. `S24`), `Currency` = `🟢 Current`, and `Validation` = `🤖 AI - To Validate` — a human reviews before it counts.
+- **Never delete or edit old learnings** — create a new one and chain it via `Replaces` / `Replaced By`; flip the old one's `Currency` to `🔴 Replaced`.
+- Tie each learning to the Brief/Concept it comes from — an unlinked learning is unusable.
 
 ## Before Starting
 

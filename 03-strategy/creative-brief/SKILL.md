@@ -2,15 +2,33 @@
 name: creative-brief
 description: "Builds a complete creative brief from research outputs. The brief defines the angle, awareness stage, hook direction, creative mechanic, format, specs, and success criteria. Use after audience-research and customer-reality. Trigger on: 'build a brief', 'creative brief', 'we're preparing a campaign', 'I want to run ads'. This is the central strategic document — nothing goes to production without it."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   status: stable
-  tags: [strategy, brief, angle, creative, planning]
+  tags: [strategy, brief, angle, creative, planning, notion]
   inputs: [brand-context.md, persona-[name].md, emotional-map-[persona].md, campaign objective]
   outputs: [creative-brief-[brand]-[date].md]
+  notion-reads: [db-clients.md, db-personas.md, db-knowledge-base.md, db-roadmap.md]
+  notion-writes: [db-concepts.md, db-briefs.md, db-roadmap.md]
   depends-on: [brand-guidelines, audience-research, customer-reality]
 ---
 
 # Creative Brief
+
+## Output Routing (Dual-Mode)
+
+This skill follows [references/notion-output-protocol.md](../../references/notion-output-protocol.md).
+Run the routing logic before producing output.
+
+| Standalone output | Connected-mode target |
+|---|---|
+| `creative-brief-[brand]-[date].md` | 1 entry in `📋 [DB] Concepts` (Persona relation × Angle relation, next `Concept No.` in the client's sequence, `Creative Type`) **+** 1..N entries in `📝 [DB] Briefs` (`#NNN-B1` naming, `Format`, `Angle Category`, `Awareness Level`, Concept relation, `Client (direct)`) |
+
+Connected-mode rules (hard):
+- **Hypothesis first** — ask which `🗺️ [DB] Roadmap` hypothesis this concept tests. If none exists, create it (Type, `Objective` mandatory, Probability/Impact/Effort scored) BEFORE creating the concept. A creative without a hypothesis cannot be learned from.
+- **1 Concept = 1 Persona × 1 Angle.** N hook variants live INSIDE one brief's page body — never one brief per hook, never the `Hook Type` property for multi-hook briefs.
+- **Never touch `Status`** on Briefs — it is automation-driven (checkboxes + dates).
+- Reuse: search Concepts for an existing Persona × Angle combo before creating a new one (an iteration belongs on the existing concept).
+- Page body = narrative only (brief content, hooks, references); properties are the single source of truth for IDs/status/relations.
 
 ## Before Starting
 
