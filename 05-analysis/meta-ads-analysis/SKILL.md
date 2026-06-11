@@ -25,7 +25,7 @@ On Motion, always anchor on `goalMetric` first — per-creative cost columns can
 
 | Standalone output | Connected-mode target |
 |---|---|
-| 7-section report (file) | Entry in `📚 [DB] Knowledge Base` (Type `Performance Report — Créa` or `Analysis Brief`, Phase `Phase 4 — Analysis`, Block `📊 Analysis`) with `Drive URL` / `Repo Path` to the report |
+| 7-section report | Entry in `📚 [DB] Knowledge Base` (Type `Performance Report — Créa` or `Analysis Brief`, Phase `Phase 4 — Analysis`, Block `📊 Analysis`) — **full report in the page body** (tables, findings, action plan), `Repo Path` pointing to the local copy. Reports are consumed in Notion: never ship a stub that only links out |
 | Strategic findings (personas, angles) | Entries in `🧠 [DB] Business Learnings` — Type `Persona`/`Angle`, Origine `📊 Audit ads`, linked Concept/Persona/Angle |
 | Execution findings (hooks, CTAs, formats…) | Entries in `🖼️ [DB] Creative Learnings` — Type `New Hook`/`New CTA`/…, `Hook Rate` when relevant, linked Brief |
 | Hypothesis verdicts | Update the matching `🗺️ [DB] Roadmap` items: `Status` → Validated/Rejected + `Validated Insight` filled |

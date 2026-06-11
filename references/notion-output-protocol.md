@@ -24,6 +24,7 @@
    - MCP but DB missing → offer: (a) create the DB from the schema file, (b) fall back to local files.
    - No MCP → **standalone mode**, silently. Output local `.md` following the skill's `outputs:` frontmatter.
 4. **Never duplicate the source of truth.** Connected mode writes data to Notion; local files then only hold heavy/working material (briefs for editors, raw footage notes). Standalone mode: local files ARE the source of truth.
+5. **"Meta in Notion, content in Drive" applies to reference docs — NOT to reports.** Analysis deliverables (Performance Reports, Analysis Briefs, audits) are read in Notion: write the FULL content in the page body (tables included), with `Repo Path`/`Drive URL` as the backup copy. A KB stub that only links out is a routing failure.
 
 ## Frontmatter convention
 
