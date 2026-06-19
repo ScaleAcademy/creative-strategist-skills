@@ -29,7 +29,7 @@ Run the routing logic before producing output.
 
 | Standalone output | Connected-mode target |
 |---|---|
-| `launch-plan-[brand]-[date].md` + `launch-report-[brand]-[date].md` (local files) | Update the existing `📝 [DB] Briefs` entries: set `Link` (final ad URL/preview) + `Publish Date`. Read `📋 [DB] Clients` for naming convention + client defaults, `📝 [DB] Briefs` for the approved briefs being launched. |
+| `launch-plan-[brand]-[date].md` + `launch-report-[brand]-[date].md` (local files) | Update the existing `📝 [DB] Briefs` entries: set `Link` (final ad URL/preview) + `Publish Date` (desired go-live date → triggers `📅 Scheduled`). Read `📋 [DB] Clients` for naming convention + client defaults, `📝 [DB] Briefs` for the approved briefs being launched. |
 
 Connected-mode rules (hard):
 - **Never touch `Status`** on Briefs — it is automation-driven (checkboxes + dates). Writing `Publish Date` is what triggers the automation `✅ Approved → 📅 Scheduled` (ads are created PAUSED = scheduled, not live yet — `🚀 Published` comes later, when you manually activate them).
@@ -157,7 +157,7 @@ is ready for activation. Activation remains their call.
 If connected mode is active (see Output Routing), after Phase 4 passes:
 
 1. Find each launched creative's entry in `📝 [DB] Briefs` (by `#NNN-B1` ID from the brief).
-2. Set `Link` → the final ad URL (or ad preview link) and `Publish Date` → launch date.
+2. Set `Link` → the final ad URL (or ad preview link) and `Publish Date` → the desired go-live date (triggers `📅 Scheduled`). Leave `Live Date` EMPTY — it is filled later, at manual activation, and triggers `🚀 Published`.
 3. **Do NOT touch `Status`** — the automations derive it from checkboxes + dates.
 4. Confirm: "Updated [N] briefs in `📝 [DB] Briefs` (Link + Publish Date)."
 
