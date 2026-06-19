@@ -46,7 +46,7 @@ ID convention: `#019-B1` (concept number + brief index).
 |---|---|---|
 | `Status` | Status | `🧠 Draft` → `📝 Scripting` → `🎬 In Production` → `✂️ In Editing` → `✅ Approved` → `📅 Scheduled` → `🚀 Published`. **Driven by automations (checkboxes + dates) — never set by hand or by skills.** |
 | `Script Done` / `Script Approved` / `Filming Done` / `Edit Done` / `Edit Approved` | Checkboxes | these drive the Status automations |
-| `Scripting Due` / `Filming Due` / `Editing Due` / `Delivery Due` / `Filming Delivered` / `Delivered` / `Publish Date` / `Date Creation` | Dates | |
+| `Scripting Due` / `Filming Due` / `Editing Due` / `Delivery Due` / `Filming Delivered` / `Delivered` / `Publish Date` (desired go-live → 📅 Scheduled) / `Live Date` (actual activation → 🚀 Published) / `Date Creation` | Dates | |
 | `Creative Strategist` / `Creator` / `Editor` / `Reviewer` / `Traffic Manager` | Person | |
 | `Talent` | Relation → Creators | human or AI avatar on screen |
 | `Rushs` / `Link` | URL | footage + final asset |
