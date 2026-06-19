@@ -32,8 +32,8 @@ Run the routing logic before producing output.
 | `launch-plan-[brand]-[date].md` + `launch-report-[brand]-[date].md` (local files) | Update the existing `📝 [DB] Briefs` entries: set `Link` (final ad URL/preview) + `Publish Date`. Read `📋 [DB] Clients` for naming convention + client defaults, `📝 [DB] Briefs` for the approved briefs being launched. |
 
 Connected-mode rules (hard):
-- **Never touch `Status`** on Briefs — it is automation-driven (checkboxes + dates). Writing `Publish Date` is what lets the automation move the brief to `🚀 Published`.
-- Update only the Brief entries for ads that **passed Phase 4 verification** — a created-but-diverged ad is not "published".
+- **Never touch `Status`** on Briefs — it is automation-driven (checkboxes + dates). Writing `Publish Date` is what triggers the automation `✅ Approved → 📅 Scheduled` (ads are created PAUSED = scheduled, not live yet — `🚀 Published` comes later, when you manually activate them).
+- Update only the Brief entries for ads that **passed Phase 4 verification** — a created-but-diverged ad is not "scheduled".
 - Never create new Brief entries here — launching is an update to existing briefs, not a creation event.
 
 ---
