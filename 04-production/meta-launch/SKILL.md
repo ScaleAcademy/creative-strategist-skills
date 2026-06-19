@@ -157,9 +157,10 @@ is ready for activation. Activation remains their call.
 If connected mode is active (see Output Routing), after Phase 4 passes:
 
 1. Find each launched creative's entry in `📝 [DB] Briefs` (by `#NNN-B1` ID from the brief).
-2. Set `Link` → the final ad URL (or ad preview link) and `Publish Date` → the desired go-live date (triggers `📅 Scheduled`). Leave `Live Date` EMPTY — it is filled later, at manual activation, and triggers `🚀 Published`.
-3. **Do NOT touch `Status`** — the automations derive it from checkboxes + dates.
-4. Confirm: "Updated [N] briefs in `📝 [DB] Briefs` (Link + Publish Date)."
+2. **Present the planned updates** as a short list (each brief ID → `Publish Date` + `Link`) and ask for ONE confirmation. Then **Claude writes them itself via the Notion MCP** — never hand this back for the user to edit Notion by hand.
+3. On OK, set `Link` → the final ad URL (or ad preview link) and `Publish Date` → the desired go-live date (triggers `📅 Scheduled`). Leave `Live Date` EMPTY — it is filled later, at manual activation, and triggers `🚀 Published`.
+4. **Do NOT touch `Status`** — the automations derive it from checkboxes + dates.
+5. Confirm: "Updated [N] briefs in `📝 [DB] Briefs` (Link + Publish Date)."
 
 Standalone mode: append the launched entity IDs + dates to the local launch report instead.
 
