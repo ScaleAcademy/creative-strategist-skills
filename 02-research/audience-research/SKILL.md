@@ -2,15 +2,32 @@
 name: audience-research
 description: "Builds a 3-layer persona from existing data and research. Use after brand-guidelines to deepen audience understanding before brief writing. Trigger on: 'who is our audience', 'build a persona', 'deep dive audience', 'who are we really talking to'. Produces a complete persona document ready to feed creative-brief and hook-writing."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   status: stable
-  tags: [research, persona, audience, psychology]
+  tags: [research, persona, audience, psychology, notion]
   inputs: [brand-context.md, existing audience data (CRM / interviews / reviews)]
   outputs: [persona-[name].md — full Layer 1/2/3]
+  notion-reads: [db-clients.md, db-real-customers.md, db-knowledge-base.md]
+  notion-writes: [db-personas.md, db-knowledge-base.md]
   depends-on: [brand-guidelines]
 ---
 
 # Audience Research
+
+## Output Routing (Dual-Mode)
+
+This skill follows [references/notion-output-protocol.md](../../references/notion-output-protocol.md).
+Run the routing logic before producing output.
+
+| Standalone output | Connected-mode target |
+|---|---|
+| `persona-[name].md` (full document) | Entry in `👥 [DB] Personas` — Layer 1 selects (Genre, Tranche d'âge, Génération, CSP, Statut familial), `Layer 2 — Ce qu'ils disent`, `Layer 3 — Ce qu'ils veulent vraiment`, `Problématiques`, `Objections`, `Vocabulaire-clé`, `Niveau Awareness`, `Source`, `Client` relation |
+| — | Entry in `📚 [DB] Knowledge Base` (Type `Persona`, Phase `Phase 1 — Research`, Block `👥 Audience Research`) pointing to the full document via `Drive URL` / `Repo Path` — page body holds the doc's role only, content lives in the doc |
+
+Connected-mode rules:
+- If the persona was mined from real interactions, link the `Real Customers` entries used as evidence.
+- Enrich an existing persona entry rather than creating a duplicate (search by name + client first).
+- Persona = a distinctive psycho-behavioral trait, not a demographic sheet — the trait drives the `Name`.
 
 ## Before Starting
 
