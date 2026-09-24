@@ -22,16 +22,36 @@ metadata:
 Tu génères la trilogie de règles d'analyse d'un client Meta Ads, calibrée sur SES données et SES cibles — jamais sur des benchmarks génériques. Un seuil générique est presque toujours faux : le CTR sortant unique « normal » varie de 0,8 % à 6 % selon la niche et le funnel.
 
 **Règles absolues :**
-1. **Un client = ses trois fichiers**, dans `mx-marketing/clients/[XXX-client]/0X - Analyse/` : `kill-rules.md` · `winning-rules.md` · `warning-alerts.md`.
+1. **Un client = ses trois fichiers**, dans `[société]/clients/[nom-client]/0X - Analyse/` : `kill-rules.md` · `winning-rules.md` · `warning-alerts.md`. (Le chemin racine dépend de la structure de l'agence/société — ne jamais le coder en dur.)
 2. **Tout est alertes** : aucune règle automatisée Meta, jamais. La décision reste humaine.
 3. **Versioning** : recalibration = bump de version + ligne de changelog. Refonte majeure = nouveau fichier `-v2`, l'ancien reste en archive. Jamais d'écrasement silencieux.
 4. **Par funnel/CTA** : CPL, CTR et CPM n'ont aucun sens sans le call-to-action (quiz ≠ VSL ≠ webinaire ≠ e-com). Chaque seuil est défini par funnel.
 
 ---
 
-## Étape 1 — Intake client (conversation)
+## Étape 1 — Intake en DEUX phases : récupérer d'abord, demander ensuite
 
-Poser uniquement ce qui manque au dossier client :
+### Phase 1A — Récupération (aucune question à ce stade)
+
+Analyser tout ce qui existe déjà et en extraire les réponses :
+
+```
+[ ] Dossier client `[société]/clients/[nom-client]/` : contexte.md, docs stratégie,
+    audits, briefs, reporting existant, _meta-ads-defaults.md
+[ ] Anciens fichiers de règles (kill/winning/warning, même partiels ou informels)
+    → à retravailler dans la nouvelle structure, pas à écraser
+[ ] Notion : DBs client (Concepts, Briefs, Learnings BL/CL, Roadmap, KB)
+[ ] Le compte publicitaire lui-même : funnels visibles (landing pages, nomenclature),
+    protocole implicite de coupe (à quelle dépense les entités sont coupées),
+    événements de conversion configurés
+[ ] Historique de reporting du client (dashboards, exports, ancien prestataire)
+```
+
+→ Produire un pré-rempli : ce qu'on SAIT (avec la source) vs ce qui MANQUE.
+
+### Phase 1B — Conversation (uniquement les trous)
+
+Poser uniquement ce que la Phase 1A n'a pas permis de déduire :
 
 ```
 [ ] KPI principal : CPL ? coût par RDV ? coût par RDV honoré ? ROAS ?
@@ -112,4 +132,4 @@ Chaque fichier porte : client, date, version, référence à la trilogie, **base
 - `references/template-kill-rules.md`
 - `references/template-winning-rules.md`
 - `references/template-warning-alerts.md`
-- Exemple complet réel : `mx-marketing/clients/102-youman/06 - Analyse/` (trilogie Yuman, 2026-09-24)
+- `references/example-kill-rules-filled.md` — exemple rempli et anonymisé (lead gen coaching, 2 funnels)

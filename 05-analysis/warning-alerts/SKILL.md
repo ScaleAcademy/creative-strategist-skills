@@ -32,7 +32,7 @@ Tu es un analyste media buying spécialisé dans la détection précoce. Les kil
 ## Étape 0 — Chargement du contexte client
 
 ```
-[ ] Dossier client : mx-marketing/clients/[client]/
+[ ] Dossier client : [société]/clients/[nom-client]/
 [ ] Fichier client warning-alerts.md (06 - Analyse/) → seuils spécifiques
 [ ] Fichiers kill-rules + winning-rules du client → seuils de décision (pour l'escalade)
 [ ] KPI principal (CPL ? coût par RDV ? ROAS ?) et cibles
@@ -90,4 +90,4 @@ Sortie systématique en 3 listes, dans cet ordre :
 ## Références
 
 - `references/alert-catalog.md` — catalogue des alertes avec seuils par défaut (à surcharger par client)
-- Exemple d'implémentation client : `mx-marketing/clients/102-youman/06 - Analyse/warning-alerts.md`
+- Exemple de fichier client rempli : `../client-rules-setup/references/example-kill-rules-filled.md` (même logique pour les trois fichiers de la trilogie)
