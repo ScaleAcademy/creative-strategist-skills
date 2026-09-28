@@ -2,13 +2,13 @@
 name: launch-ops
 description: "The traffic-manager operational chain that wraps a Meta launch end to end: takes freshly exported videos (often mis-named), identifies them by CONTENT, renames them to convention, builds the UTM manifest, runs a preflight quality-check report, hands the actual upload to meta-launch (everything PAUSED), then produces a post-upload verification report for the person who activates. Four phases: A Export→Naming→UTM · B Pre-Upload Check · C Upload (via meta-launch) · D Post-Upload Check. Use it as the wrapper around a launch, from raw exports to an activation-ready handoff. Trigger on: 'j'ai exporté les vidéos', 'nomme les exports', 'fais-moi les UTM', 'prépare l'upload Meta', 'vérifie avant d'uploader', 'preflight', 'checklist avant upload', 'on lance les ads', 'rapport post upload', 'rapport des ads lancées', 'document de vérification pour activer'. Produit: fichiers renommés + [ID]_UTM-manifest.md + rapport preflight + [ID]_post-upload-report.md."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   status: beta
   tags: [production, launch, ops, naming, utm, preflight, meta-ads, verification, handoff, mcp]
   inputs: [dossier d'export Premiere (.mp4), contexte client/batch/concept, format UTM du client, destination(s), structure ad set voulue, compte Meta]
   outputs: [vidéos renommées, manifeste UTM ([ID]_UTM-manifest.md), rapport-tableau preflight, ads créées PAUSED (via meta-launch), rapport post-upload ([ID]_post-upload-report.md)]
   notion-reads: [db-concepts.md, db-briefs.md, db-personas.md, db-clients.md]
-  depends-on: [meta-launch, production-ops, ffmpeg/ffprobe, MCP Facebook, MCP Notion]
+  depends-on: [meta-launch, campaign-setup, ffmpeg/ffprobe, MCP Facebook, MCP Notion]
 ---
 
 # Launch Ops
@@ -192,14 +192,26 @@ c'est le point de passation « traffic manager → activateur ». Format `.md`, 
 
 ## Related Skills
 
-- `04-production/production-ops` — amont : setup batch + montage + sync Creative OS (les exports arrivent de là).
 - `04-production/meta-launch` — **la Phase C** : création guardrailée des entités Meta (ce skill l'appelle).
 - `05-analysis/campaign-setup` — architecture / nomenclature / budgets / kill rules (définis là, exécutés ici).
 - `03-strategy/creative-brief` — le brief validé que ce lancement exécute.
-- `creative-os-tasks` — rattacher les actions (client + Réalisé par + Statut).
+- `04-production/video-production` · `ai-video-production` · `static-production` — **amont** : d'où sortent les assets exportés que la Phase A ingère.
 
 ## References
 
+### Propres à ce skill (dans `launch-ops/references/`)
 - `references/nomenclature-and-utm.md` — nomenclature d'export détaillée + tous les slugs UTM + mapping Notion.
 - `references/gen-manifest.py` — script de génération du manifeste UTM (à adapter par batch).
 - Exemple réel de sortie : Yuman `YU-06 / _export/270926/` (`YU-06_UTM-manifest.md` + `YU-06_post-upload-report.md`).
+
+### Utilisées ailleurs dans le repo (à ne PAS dupliquer — brancher dessus)
+Ce skill s'appuie sur la connaissance déjà formalisée dans le repo. Les phases B/C notamment lisent :
+- [`../../05-analysis/campaign-setup/references/meta-ads-parameters.md`](../../05-analysis/campaign-setup/references/meta-ads-parameters.md) — objectifs, ad set, ciblage, bidding, placements Meta (config de référence pour le preflight + l'upload).
+- [`../../05-analysis/campaign-setup/references/kill-rules.md`](../../05-analysis/campaign-setup/references/kill-rules.md) — règles de coupure (à avoir en tête avant d'activer).
+- [`../../references/naming-convention.md`](../../references/naming-convention.md) — nomenclature **campagne / ad set / ad** (complète la nomenclature *fichier* ci-dessus).
+- [`../../references/notion-output-protocol.md`](../../references/notion-output-protocol.md) — protocole dual-mode (standalone ↔ connected Notion), partagé avec `meta-launch`.
+- [`../../references/notion-db-schemas/`](../../references/notion-db-schemas/) — schémas des DBs Creative OS lues en Phase A (`db-concepts`, `db-briefs`, `db-personas`, `db-clients`).
+
+> ⚠️ Sur `utm_style` : la source de vérité est la **🎨 Styles Library Notion** (Creative OS, où Pixar = `S701`).
+> Le fichier repo `03-strategy/creative-brief/references/styles-library.md` est une **autre grille** (S101→S604,
+> catégories Headline/Collage/Lifestyle…) — ne pas le confondre avec les codes Notion utilisés pour l'UTM.
